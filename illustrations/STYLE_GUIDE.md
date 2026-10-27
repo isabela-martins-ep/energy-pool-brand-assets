@@ -54,10 +54,26 @@ Per-file details: [`CATALOG.md`](CATALOG.md). Colors, typography and spacing mus
 - PNG sizes range up to 6227 × 4433 px. Transparency was not verified per file.
 - File naming is inconsistent (capitalization, accents, spaces, French/English mix).
 
+## Detail observations for new visuals (re-checked on `pause-café`, `EP-Women-1`, `Forum`)
+
+All OBSERVED, none official. Check the reference files themselves when you can view images.
+
+| Aspect | Observed | Needs human validation |
+|---|---|---|
+| Proportions | Full-body figures are tall and slim with small heads and long straight trousers; feet are small grey rounded shapes. Half-body groups crop at the torso. | Whether new characters must keep these proportions |
+| Shapes and outlines | No outlines. Rounded corners on objects. Hands are simple rounded shapes without finger detail except raised fists. | Outline/stroke policy |
+| Faces | Dots for eyes, short brows, tiny or no nose, small orange mouth, sometimes teeth in a smile. Glasses are round dark frames. Back-view figures have no face. | Expression range, facial detail limits |
+| Colors and distribution | Orange tops (several tints) and grey/white trousers; orange for the focal subject, grey for context. Skin and hair are the only other colors. | Which orange/grey tokens are allowed (see [`../guidelines/TOKENS.md`](../guidelines/TOKENS.md)) |
+| Shading | Soft linear gradients inside shapes (darker orange on sleeve and fold edges, light grey on trousers). A pale grey ground ellipse under some groups. No cast shadows, textures or highlights. | Whether gradients are permitted for new work |
+| Composition | Isolated subject on white or transparent background; no frame. Props sit beside the figures (coffee machine, plant, desk, stand). Floating icons for conceptual scenes. | Backgrounds, text areas, cropping |
+| Decorative elements | Orange ring and cloud icon (energy), lightbulb with orange stripes, plant with orange leaves, mugs with the pictogram. | Which motifs are brand motifs |
+| Consistency across illustrations | Same flat vector language, orange + grey palette, same simplified face style and recurring characters; two sub-styles never mixed in one file. | Whether adaptation of existing characters is allowed |
+
 ## Using this guide to create new visuals
 - Reuse an existing file when the subject matches; check [`CATALOG.md`](CATALOG.md) first.
 - For new visuals, follow the observed patterns (flat vector, orange + grey, orange outfits, simple rounded shapes, diverse characters) and **verify colors against Design System tokens**.
 - Do not introduce new colors, outlines, 3D or photographic styles. If a need isn't covered by the observations, ask the design team.
+- Step-by-step procedure for agents: [`../.github/skills/energy-pool-visual-design/references/illustration-creation.md`](../.github/skills/energy-pool-visual-design/references/illustration-creation.md).
 
 ## Official rules (to be provided)
 

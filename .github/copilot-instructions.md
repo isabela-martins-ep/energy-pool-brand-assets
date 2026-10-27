@@ -17,14 +17,14 @@ Use this repository as a visual reference library for Energy Pool. Energy Pool a
 
 ## Illustration and visual design skill
 
-For illustration creation, illustration adaptation, visual asset generation or UI design requests, use `.github/skills/energy-pool-visual-design/SKILL.md`. It defines the detailed workflow, reference selection, illustration sub-styles, reuse and adaptation boundaries, and verification steps.
+For illustration creation, illustration adaptation, visual asset generation or UI design requests, use `.github/skills/energy-pool-visual-design/SKILL.md`. It covers posters and other supports, illustrations and UI, with source priority, workflow and verification steps.
 
 The supporting illustration references are:
 
 - `illustrations/CATALOG.md` — subjects and unconfirmed usage suggestions.
 - `illustrations/STYLE_GUIDE.md` — observed characteristics, explicitly not official rules.
 - `illustrations/` — existing SVG and PNG assets.
-- `guidelines/BRAND_RULES.md` and `guidelines/VISUAL_QA.md` — mandatory rules (official vs observed vs `TO BE PROVIDED`) and the pre-delivery checklist.
+- `guidelines/BRAND_RULES.md`, `guidelines/TOKENS.md` and `guidelines/VISUAL_QA.md` — mandatory rules (official vs observed vs `TO BE PROVIDED`, source priority), token method and the pre-delivery checklist.
 - `colors/`, `typography/`, `spacing/` — Figma token exports; `ui-references/`, `brand-examples/` — examples where documented.
 
 ## Communication

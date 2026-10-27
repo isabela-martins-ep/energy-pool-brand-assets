@@ -10,6 +10,17 @@ Mandatory rules for anyone (human or AI) producing Energy Pool visuals from this
 | **OBSERVED** | Seen in existing assets. Describes what exists; **not** a brand rule. |
 | **TO BE PROVIDED** | Not documented. Do not guess: ask the user, or state it as missing. |
 
+## Source priority
+
+When sources conflict, apply in this order:
+
+1. **Explicit human instruction from Energy Pool's design team** for the current request, or an approved item in [`../brand-examples/`](../brand-examples/) (once it exists).
+2. **OFFICIAL Figma exports** (tokens): exact HEX/values always beat colors estimated from images.
+3. **This file** and the medium-specific rules (e.g. the poster workflow), which complete the general rules and never contradict them.
+4. **OBSERVED** traits ([`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md), [`../illustrations/CATALOG.md`](../illustrations/CATALOG.md)): descriptive only.
+
+If two OFFICIAL sources disagree and no priority is documented (for example Synonym vs Noto Sans, or `state` vs `state new` tokens), **stop and ask for human validation**; do not pick one.
+
 Never promote an OBSERVED item to OFFICIAL. Never infer official colors or typography from illustration screenshots.
 
 ## Mandatory rules
@@ -25,17 +36,8 @@ Never promote an OBSERVED item to OFFICIAL. Never infer official colors or typog
 ## Colors
 
 - **OFFICIAL source:** [`../colors/Default.tokens.json`](../colors/Default.tokens.json), a Figma variables export (mode "Default"). It holds `palette` (31 color families, most with `shades` 100-900 and `tints` 100-900, each with a `hex`) and `energy-assets` (chart/icon/background tokens per energy source and sector, referencing the palette). Confirm it is the current published version.
-- **Snapshot of the export** (verify against the file before use):
-
-| Token | HEX |
-|---|---|
-| `palette.orange-popsicle` | `#FF7F19` |
-| `palette.vitamin-c` | `#FF9900` |
-| `palette.white-smoke` | `#F5F5F5` |
-| `palette.grey-russian` | `#8D949A` |
-| `palette.dark-slate-gray` | `#355159` |
-| `palette.white` / `palette.black` | `#FFFFFF` / `#000000` |
-
+- **Component tokens:** [`../colors/Mode 1.tokens 3.json`](../colors/Mode%201.tokens%203.json) (states, borders, focus, shadows; UI only). Tiers, selection method and resolution: [`TOKENS.md`](TOKENS.md). Read values from the files, not from memory.
+- **Never decorative:** state colors (success/valid, danger/invalid, warning, info, link) are for their UI state only. A color existing in the palette is not permission to use it on a poster.
 - **OBSERVED, SVG source colors vs tokens** (exact hex comparison; not a statement of intent): `#FFB84D` = `vitamin-c.tints.700`, `#FFE0B3` = `vitamin-c.tints.300`, `#FF9900` = `vitamin-c`. No token matches `#EA5B0C`, `#F7EAC6`, `#EFEFEF`, `#EDEDED`, `#D0D0D0`, `#B2B2B2`, `#FFC774`, `#FFB342`, `#FFA41E`, `#FF9C08`. Existing illustrations therefore cannot be assumed to use only tokens.
 - **TO BE PROVIDED:**
   - Which palette families are brand colors versus data-visualization or status colors.
@@ -50,13 +52,13 @@ Never promote an OBSERVED item to OFFICIAL. Never infer official colors or typog
 - **TO BE PROVIDED:**
   - Font files, licenses and approved fallbacks for tools that cannot load Chillax or Synonym (many AI image tools and Microsoft 365 apps cannot).
   - Type scale for print and posters (the export targets UI), text case and alignment rules, maximum line length.
-- Rule: if the real font cannot be used in the output, say so and name the fallback requested from the design team; never silently substitute.
+- Rule: never state that a font was used unless the tool can embed or guarantee it. If the real font cannot be used, say so, name what was used instead, and ask the design team for the approved fallback; never silently substitute.
 
 ## Logo
 
 - Nothing official is stored in this repository: no logo files, clear-space, minimum-size, color-variant or forbidden-use rules. **TO BE PROVIDED:** all of the above, plus approved logo files for light/dark backgrounds.
 - **OBSERVED:** a pictogram (black ring, orange dot, orange angle brackets) appears inside several illustrations (mugs, laptops, `SIRH.png`, `Forum.png`), and a wordmark appears in `Forum.png`. These are parts of artwork, not logo assets.
-- Rule: leave a clearly marked placeholder where a logo is needed rather than drawing one.
+- Rule: use an official logo file only if one is supplied. If none is accessible, leave a clearly marked placeholder (e.g. an empty box labelled "LOGO - official file required") and report the absence. Never draw, trace or approximate it, including the pictogram or wordmark seen inside illustrations.
 
 ## Illustration style
 
@@ -81,7 +83,7 @@ None yet. See [`../brand-examples/README.md`](../brand-examples/README.md). Unti
 
 | Area | Missing | Source to supply |
 |---|---|---|
-| Colors | Brand vs data-viz families, roles, contrast pairs, dark mode, gradients | Figma Design System |
+| Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, gradients; `state` vs `state new` precedence | Figma Design System |
 | Typography | Confirmed body font, font files/licenses/fallbacks, print/poster scale | Figma Design System, brand team |
 | Logo | Files, variants, clear space, minimum size, forbidden uses | Brand team |
 | Illustration | Official rules, AI-creation policy, text-in-illustration rules | Design team |

@@ -1,72 +1,64 @@
 ---
 name: energy-pool-visual-design
-description: Create Energy Pool illustrations and user interfaces consistent with the existing visual identity and Design System. Use when asked to create a new Energy Pool illustration, generate a visual asset inspired by existing illustrations, design a UI or components/layouts with Energy Pool's look, or adapt an existing illustration to a new context.
+description: Create Energy Pool visuals consistent with the existing visual identity and Design System - posters (event, internal communication, HR), illustrations, infographics, presentations and user interfaces - or adapt an existing illustration. Use when asked to create or update an Energy Pool poster, illustration, visual asset or UI, or to design with Energy Pool's brand, tokens and illustration style.
 ---
 
 # Energy Pool visual design
 
-Helps produce illustrations and UIs consistent with Energy Pool's identity. The Design System (Figma + coded components) is the source of truth; this skill only points to repository resources and never redefines them.
+The Figma Design System (tokens, components) is the source of truth. This skill points to repository resources and never redefines them. One skill is enough: the medium-specific procedures are in `references/`, loaded only when needed.
 
-## Resources
+## Source priority (when sources conflict)
+
+1. Explicit instruction from Energy Pool's design team for this request, or an approved item in [`brand-examples/`](../../../brand-examples/).
+2. OFFICIAL Figma token exports (exact values beat colors estimated from images).
+3. [`guidelines/BRAND_RULES.md`](../../../guidelines/BRAND_RULES.md) and the medium-specific procedure below.
+4. OBSERVED traits in `illustrations/` docs: descriptive, never rules.
+
+Two official sources in conflict with no documented priority: ask for human validation.
+
+## Route the request
+
+| Request | Read, then follow |
+|---|---|
+| Poster, flyer, infographic, slide, social visual | [`references/poster-workflow.md`](references/poster-workflow.md) |
+| New illustration, adaptation of an existing one | [`references/illustration-creation.md`](references/illustration-creation.md) |
+| UI / components / layouts | "UI design" below |
+
+## Sources (read in the current session before generating)
 
 | Need | File |
 |---|---|
-| Rules for agents | [`.github/copilot-instructions.md`](../../copilot-instructions.md) |
-| What each illustration shows | [`illustrations/CATALOG.md`](../../../illustrations/CATALOG.md) |
-| Observed illustration traits (not official rules) | [`illustrations/STYLE_GUIDE.md`](../../../illustrations/STYLE_GUIDE.md) |
-| Illustration files (SVG, PNG) | [`illustrations/`](../../../illustrations/) |
-| Mandatory rules; official vs observed vs `TO BE PROVIDED` | [`guidelines/BRAND_RULES.md`](../../../guidelines/BRAND_RULES.md) |
+| Mandatory rules, OFFICIAL / OBSERVED / `TO BE PROVIDED`, missing info | [`guidelines/BRAND_RULES.md`](../../../guidelines/BRAND_RULES.md) |
+| Token tiers, selection and resolution method | [`guidelines/TOKENS.md`](../../../guidelines/TOKENS.md) |
+| Colors (primitive, `energy-assets`) / component tokens | [`colors/Default.tokens.json`](../../../colors/Default.tokens.json) / [`colors/Mode 1.tokens 3.json`](../../../colors/Mode%201.tokens%203.json) |
+| Typography / spacing | [`typography/Mode 1.tokens.json`](../../../typography/Mode%201.tokens.json) / [`spacing/Mode 1.tokens 2.json`](../../../spacing/Mode%201.tokens%202.json) |
+| Illustration subjects / observed style | [`illustrations/CATALOG.md`](../../../illustrations/CATALOG.md) / [`illustrations/STYLE_GUIDE.md`](../../../illustrations/STYLE_GUIDE.md) |
+| Illustration files | [`illustrations/`](../../../illustrations/) |
+| Approved examples (empty until supplied), UI examples | [`brand-examples/`](../../../brand-examples/), [`ui-references/`](../../../ui-references/) |
 | Pre-delivery checklist | [`guidelines/VISUAL_QA.md`](../../../guidelines/VISUAL_QA.md) |
-| Color tokens | [`colors/Default.tokens.json`](../../../colors/Default.tokens.json) |
-| Typography tokens | [`typography/Mode 1.tokens.json`](../../../typography/Mode%201.tokens.json) |
-| Spacing tokens | [`spacing/Mode 1.tokens 2.json`](../../../spacing/Mode%201.tokens%202.json) |
-| UI examples | [`ui-references/`](../../../ui-references/) |
-| Approved visual examples (empty until supplied) | [`brand-examples/`](../../../brand-examples/) |
-| Using this repo in Microsoft 365 Copilot | [`guidelines/M365_COPILOT.md`](../../../guidelines/M365_COPILOT.md) |
+| Token resolver (optional) | [`scripts/resolve_token.py`](scripts/resolve_token.py) |
 
-## Required before producing a result
-
-You must read these files in the current session before generating, not rely on memory:
-
-1. `guidelines/BRAND_RULES.md` always.
-2. The token file for each of colors, typography and spacing you use. Quote token names and values from the file.
-3. For illustrations: `illustrations/CATALOG.md` and `illustrations/STYLE_GUIDE.md`, then the 2-3 closest illustration files.
-4. `brand-examples/` for an approved model of the same format (posters, slides, screens). If none exists, say so.
-
-If a file cannot be read, say so and do not answer as if it had been. Anything marked `TO BE PROVIDED` must be reported and asked for, not filled in.
+Say which files you could not read. Do not answer as if you had.
 
 ## Workflow
 
-1. **Classify** the request: illustration, UI design, or adaptation of an existing asset.
-2. **Consult** the relevant docs above. Read the files fully before generating.
-3. **Select** existing assets: for illustrations, match the subject in `CATALOG.md`, then open the 2–3 closest files.
-4. **Apply the Design System** for colors, typography, spacing and components, using token/component names rather than raw values.
-5. **Reuse** existing components and assets whenever possible; only create what is missing.
-6. **Generate** using what the current environment offers (see below).
-7. **Verify** by going through `guidelines/VISUAL_QA.md` item by item. Do not deliver a final result before this check, and fix failures first.
-8. **Report** the QA result (Pass / Fail / Not verifiable per item), the files and tokens relied on, limitations, and `TO BE PROVIDED` items hit. Label the output AI-generated or AI-assisted and as a draft pending human approval.
-
-## Illustrations
-
-- Choose the sub-style as defined in `.github/copilot-instructions.md`: **energy/technology** (objects only, orange ring) or **people/workplace** (characters). Do not mix them unless a reference does.
-- Reuse as is when a catalog file fits; link the path.
-- Adaptation: work on a **copy** outside `illustrations/`. SVGs can be edited as text (recolor, hide/move elements, crop viewBox), but embedded base64 PNGs are not editable as vectors. PNGs: only scaling, cropping or format conversion with command-line tools.
-- New scenes, characters or compositions need an image-generation tool or a designer. If none is available, say so and provide a brief/prompt listing the reference files instead. Hand-written SVG suits only simple shapes.
-- Do not add text to illustrations without asking (existing text is French, typeface unidentified).
+1. **Classify** the request (illustration, poster/other support, UI, adaptation) and clarify missing inputs (format, text, assets).
+2. **Consult** the sources above; pick tokens with the method in `TOKENS.md` (semantic before primitive, no decorative use of state colors, report unresolved references).
+3. **Select** existing assets first (catalog, approved examples, coded components).
+4. **Produce** with what the environment offers; do not assume image generation, font embedding or Figma access.
+5. **Verify** with `VISUAL_QA.md` and fix failures before answering.
+6. **Present**: result, QA status, tokens and files used, limits, items for human validation.
 
 ## UI design
 
-- Prefer existing coded Design System components when accessible (repository, package or docs available to you). Do not copy their code here or rebuild them.
-- Use Figma only if a Figma connection is actually available; otherwise say so.
-- Take colors, fonts and spacing from the token files, never from illustrations. `ui-references/` may contain only placeholders. If a needed token, component or reference is not documented (see `TO BE PROVIDED` in `BRAND_RULES.md`), **ask the user** rather than guessing.
-- Never redraw or generate the logo or pictogram; use a supplied file or a marked placeholder.
+Prefer existing coded Design System components when accessible; do not copy or rebuild them here. Use Figma only if a connection exists. Take colors, type and spacing from the token files, with component tokens only for component states. Missing component or token: ask.
 
-## Constraints
+## Hard constraints
 
-- Never invent brand colors, typography, spacing values, or official design rules.
-- `STYLE_GUIDE.md` is observational: never present its patterns as official brand rules. Its hex values are not verified tokens.
-- Never modify originals in `illustrations/`.
-- Label every visual generated or materially altered with AI as AI-generated or AI-assisted, and require human review and approval before publication or distribution.
-- Only claim to have looked at an image if its content was actually accessible (image input supported); otherwise rely on catalog text/SVG source and state that.
-- Do not assume image generation is available.
-- Generated visuals are drafts that need designer review.
+- Never invent colors, fonts, spacing, logo variants or rules; never infer official values from images.
+- Never draw, trace or approximate the logo, wordmark or pictogram: use an official file or a marked placeholder.
+- Never claim a font was used unless the tool guarantees it; flag the Synonym / Noto Sans conflict.
+- Never modify originals in `illustrations/` or the token exports; adapt copies.
+- Never present OBSERVED traits as official, or a result as compliant if a check was not performed. "Not verifiable" is not "compliant".
+- Only say you looked at an image if its content was accessible.
+- Label every AI-generated or AI-assisted visual as such; it is a draft until a human approves it before publication.
