@@ -48,12 +48,19 @@ Never promote an OBSERVED item to OFFICIAL. Never infer official colors or typog
 
 ## Typography
 
-- **OFFICIAL source:** [`../typography/Mode 1.tokens.json`](../typography/Mode%201.tokens.json), a Figma variables export. It lists: heading and display font `Chillax`; body, base, monospace and code font `Synonym`; `Yu Gothic` (Japanese) and `Alexandria` (Arabic) variants; weights 300/400/500/600/700; base size 16, line heights 24/20/32; heading sizes h1-h6; display sizes 1-6; heading color `#181818`, muted text `#939393`. Headings use weight 500 and display uses weight 400 per the export. Units are not stated in the export.
-- **Body font, open decision:** the export lists `Synonym`. "Noto Sans" appears only in an external Design System description that is not part of this repository; do not use it as a source. Use the export's fonts, and ask the design team to confirm that `Synonym` is current.
-- **TO BE PROVIDED:**
-  - Font files, licenses and approved fallbacks for tools that cannot load Chillax or Synonym (many AI image tools and Microsoft 365 apps cannot).
-  - Type scale for print and posters (the export targets UI), text case and alignment rules, maximum line length.
-- Rule: never state that a font was used unless the tool can embed or guarantee it. If the real font cannot be used, say so, name what was used instead, and ask the design team for the approved fallback; never silently substitute.
+Single source for typography rules. Official source: Energy Pool brand charter, p. 13 "Typography - Chillax & Synonym" (supplied by the design team, 2026-10-27).
+
+- **Chillax:** all titles.
+- **Synonym:** subtitles and body text.
+- Both apply to web and print.
+- Available weights, both families: SemiBold, Medium, Regular, Light. No other weight, and no other family, is official for these roles.
+- **Export check:** [`../typography/Mode 1.tokens.json`](../typography/Mode%201.tokens.json) (Figma export, unmodified) is consistent: heading/display `Chillax`, body `Synonym`. It also lists `Yu Gothic` and `Alexandria` variants, numeric weights, sizes, line heights and colors, with units not stated; use those values only by token name, and do not turn them into mandatory sizes, line heights or weights for posters.
+- **Noto Sans** is not an Energy Pool font in any source of this repository. Do not use it as the main font or as a fallback.
+- **Fallback fonts:** `TO BE PROVIDED` (the "Backup fonts" documentation has not been supplied). Until then, do not name any fallback as approved.
+- **Image generators** do not necessarily render the exact official fonts. Do not state that Chillax or Synonym was used unless the real fonts were embedded or the rendering was checked. Prefer composing text in an editable layout with the real fonts.
+- **If the fonts are unavailable:** say so, name the font actually used, and ask for the approved fallback; never substitute silently.
+- **Status:** typography is `Compliant` only if the fonts actually used were verified as Chillax for titles and Synonym for subtitles/body. Fonts that cannot be verified: `Not verifiable`. A different font actually used: `Non-compliant`.
+- **TO BE PROVIDED:** font files and licenses, backup fonts, type scale for posters and print, text case, alignment and line-length rules.
 
 ## Logo
 
@@ -112,7 +119,7 @@ Only the logo files are supplied. No approved poster, slide or UI example exists
 | Area | Missing | Source to supply |
 |---|---|---|
 | Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, gradients; `state` vs `state new` precedence | Figma Design System |
-| Typography | Confirmed body font, font files/licenses/fallbacks, print/poster scale | Figma Design System, brand team |
+| Typography | Font files/licenses, backup fonts, print/poster scale | Brand charter, brand team |
 | Logo | Negative logo files, authorized colored backgrounds, large vs small rule | Brand team |
 | Illustration | Official rules, AI-creation policy, text-in-illustration rules | Design team |
 | Layout | Grids, formats, poster/slide templates, placement rules | Figma Design System |
