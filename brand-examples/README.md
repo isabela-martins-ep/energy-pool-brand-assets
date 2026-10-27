@@ -1,8 +1,19 @@
 # brand-examples
 
-Approved visual references (posters, slides, UI screens, illustrations in context) that AI tools can use as models.
+Official logo files, plus approved visual references (posters, slides, UI screens, illustrations in context) that AI tools can use as models.
 
-**Status: empty.** No approved example has been supplied yet. Do not add generated or invented examples here, and do not present anything in this folder as official unless it appears in the register below.
+## Official logo files
+
+Supplied by the design team. Never modify, recolor, stretch, redraw or regenerate them. Usage rules: [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md#logo).
+
+| File | Content |
+|---|---|
+| `Logo-large.svg`, `Logo-large.pdf` | Wordmark, pictogram and tagline "Smart Energy Management" |
+| `Logo-small.svg`, `Logo-small.pdf` | Wordmark and pictogram only |
+
+## Approved examples
+
+**Status: none supplied yet.** Do not add generated or invented examples here, and do not present anything as an approved example unless it appears in the register below.
 
 ## Add an example
 

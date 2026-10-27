@@ -6,28 +6,18 @@ Use this repository as a visual reference library for Energy Pool. Energy Pool a
 
 ## Global rules
 
-- Prioritize existing Design System components, tokens and guidelines.
-- Do not invent brand colors, typography, spacing, illustration styles or official design rules.
-- If required information is missing, ask for clarification instead of guessing.
-- Do not modify original assets in this repository. Work on copies when adaptation is explicitly requested.
-- State which repository references and Design System resources were used.
-- Respect accessibility, contrast and legibility requirements from the available guidelines.
-- Clearly state limitations, especially when visual input, Figma access or image generation is unavailable.
-- Every visual generated or materially altered with AI must be explicitly labelled as AI-generated or AI-assisted and must receive human review and approval before publication or distribution.
-- Before creating or modifying a visual, provide a source manifest and confirm which required files were actually read or viewed. A repository URL, path, filename or prompt is not proof of consultation.
-- Never claim visual or Design System compliance when a required check is `Not verifiable`; use the real status and stop at an exploratory draft when a blocking check fails.
+- The Design System and the Figma exports in this repository are the source of truth; do not invent brand colors, typography, spacing, logo variants, illustration styles or rules. Missing information: ask.
+- Do not modify original assets (illustrations, logo files, token exports); work on copies.
+- Before creating or modifying a visual, give a source manifest (files read, viewed, inaccessible). A path or URL is not proof of consultation.
+- Use only the official logo files in `brand-examples/`; never recreate the logo.
+- Label every AI-generated or AI-assisted visual as such; it is a draft until a human approves it before publication.
+- Never claim compliance when a required check is `Not verifiable`; state the real status and limitations (no image input, no Figma access, no image generation, no font embedding).
 
-## Illustration and visual design skill
+Detailed rules live in `guidelines/BRAND_RULES.md`, the method in `guidelines/TOKENS.md`, the checks in `guidelines/VISUAL_QA.md`.
 
-For illustration creation, illustration adaptation, visual asset generation or UI design requests, use `.github/skills/energy-pool-visual-design/SKILL.md`. It covers posters and other supports, illustrations and UI, with source priority, workflow and verification steps.
+## Skill
 
-The supporting illustration references are:
-
-- `illustrations/CATALOG.md` — subjects and unconfirmed usage suggestions.
-- `illustrations/STYLE_GUIDE.md` — observed characteristics, explicitly not official rules.
-- `illustrations/` — existing SVG and PNG assets.
-- `guidelines/BRAND_RULES.md`, `guidelines/TOKENS.md` and `guidelines/VISUAL_QA.md` — mandatory rules (official vs observed vs `TO BE PROVIDED`, source priority), token method and the pre-delivery checklist.
-- `colors/`, `typography/`, `spacing/` — Figma token exports; `ui-references/`, `brand-examples/` — examples where documented.
+For posters, illustrations, HR visuals, infographics and other brand visuals, follow `.github/skills/energy-pool-visual-design/SKILL.md` (process, procedures, source files).
 
 ## Communication
 

@@ -75,15 +75,6 @@ All OBSERVED, none official. Check the reference files themselves when you can v
 - Do not introduce new colors, outlines, 3D or photographic styles. If a need isn't covered by the observations, ask the design team.
 - Step-by-step procedure for agents: [`../.github/skills/energy-pool-visual-design/references/illustration-creation.md`](../.github/skills/energy-pool-visual-design/references/illustration-creation.md).
 
-## Official rules (to be provided)
+## Official rules
 
-Not documented in this repository yet. Please fill in:
-
-- **Figma source:** <link>
-- **Official color tokens used for illustrations:** <token names>
-- **Allowed / forbidden usages (do / don't):** <...>
-- **Minimum sizes, clear space, backgrounds (dark mode, colored backgrounds):** <...>
-- **Character guidelines (diversity, poses, outfit colors):** <...>
-- **Use of the Energy Pool pictogram/wordmark and third-party logos in illustrations:** <...>
-- **Preferred formats and naming convention:** <...> (proposal: SVG, lowercase kebab-case without accents)
-- **Owner / license / creation tool:** <...>
+Not part of this file. Official rules and the list of missing information (illustration do/don't, AI-creation policy, logo use in illustrations, minimum sizes, naming, owner) are in [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md). Everything above is observed, not official.
