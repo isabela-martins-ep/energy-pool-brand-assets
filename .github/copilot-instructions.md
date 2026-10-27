@@ -14,6 +14,8 @@ Use this repository as a visual reference library for Energy Pool. Energy Pool a
 - Respect accessibility, contrast and legibility requirements from the available guidelines.
 - Clearly state limitations, especially when visual input, Figma access or image generation is unavailable.
 - Every visual generated or materially altered with AI must be explicitly labelled as AI-generated or AI-assisted and must receive human review and approval before publication or distribution.
+- Before creating or modifying a visual, provide a source manifest and confirm which required files were actually read or viewed. A repository URL, path, filename or prompt is not proof of consultation.
+- Never claim visual or Design System compliance when a required check is `Not verifiable`; use the real status and stop at an exploratory draft when a blocking check fails.
 
 ## Illustration and visual design skill
 

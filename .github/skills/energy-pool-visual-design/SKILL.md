@@ -43,11 +43,12 @@ Say which files you could not read. Do not answer as if you had.
 ## Workflow
 
 1. **Classify** the request (illustration, poster/other support, UI, adaptation) and clarify missing inputs (format, text, assets).
-2. **Consult** the sources above; pick tokens with the method in `TOKENS.md` (semantic before primitive, no decorative use of state colors, report unresolved references).
-3. **Select** existing assets first (catalog, approved examples, coded components).
-4. **Produce** with what the environment offers; do not assume image generation, font embedding or Figma access.
-5. **Verify** with `VISUAL_QA.md` and fix failures before answering.
-6. **Present**: result, QA status, tokens and files used, limits, items for human validation.
+2. **Prepare a source manifest before producing anything**: list the files that must be consulted, check that each is readable in the current environment, and record the files actually read or viewed. A repository URL, a filename, or a prompt claiming that a reference was used is not evidence of consultation.
+3. **Consult** the manifest sources; pick tokens with the method in `TOKENS.md` (semantic before primitive, no decorative use of state colors, report unresolved references). If a required source is inaccessible, stop production or downgrade the result to an explicitly non-compliant exploration.
+4. **Select** existing assets first (catalog, approved examples, coded components). Do not reconstruct an existing asset from memory or from a textual description when the original accessible resource is required.
+5. **Produce** with what the environment offers; do not assume image generation, font embedding or Figma access.
+6. **Verify the produced file, not just the prompt or plan**, with `VISUAL_QA.md`. Fix failures before answering. A blocking failure or `Not verifiable` required criterion prevents a “ready to publish” status.
+7. **Present** the result, source manifest, QA report, tokens and files used, limits, items for human validation, and the real status: `Exploration`, `Not verifiable`, `Non-compliant`, or `Ready for human approval`. Never claim full compliance when a required check was not performed.
 
 ## UI design
 
@@ -56,9 +57,11 @@ Prefer existing coded Design System components when accessible; do not copy or r
 ## Hard constraints
 
 - Never invent colors, fonts, spacing, logo variants or rules; never infer official values from images.
-- Never draw, trace or approximate the logo, wordmark or pictogram: use an official file or a marked placeholder.
+- Never draw, trace, approximate, repeat as a decorative motif, or generate the logo, wordmark or pictogram, including logos shown on cups, laptops, clothing or background screens. Use an official file or a marked placeholder.
+- For an existing visual, preserve the original logo, mandatory text, layout and official resources unless the user explicitly requests that exact element to change and the tool can preserve the other elements.
 - Never claim a font was used unless the tool guarantees it; flag the Synonym / Noto Sans conflict.
 - Never modify originals in `illustrations/` or the token exports; adapt copies.
 - Never present OBSERVED traits as official, or a result as compliant if a check was not performed. "Not verifiable" is not "compliant".
+- Blocking failures in `VISUAL_QA.md` must be reported and prevent `Ready for human approval` / `Ready to publish` status.
 - Only say you looked at an image if its content was accessible.
 - Label every AI-generated or AI-assisted visual as such; it is a draft until a human approves it before publication.

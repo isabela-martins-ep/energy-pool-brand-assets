@@ -4,36 +4,39 @@ Run before delivering any generated or adapted visual. Definitions (OFFICIAL / O
 
 **Statuses:** `Compliant`, `Non-compliant`, `Not verifiable` (say why). `Not verifiable` is never treated as compliant. If a rule is `TO BE PROVIDED`, the item is `Not verifiable`.
 
+**Blocking rule:** a `Non-compliant` or `Not verifiable` result on a criterion marked **Blocking = Yes** prevents `Ready for human approval` and `Ready to publish`. It may be delivered only as an explicitly labelled `Exploration` or `Not verifiable` draft.
+
 **Automatable:** Yes = a script or file read can check it; Partly = tool-assisted, then confirm; No = human only. Every visual still needs human approval before publication.
 
-| # | Criterion | What to check | Source | Automatable | Human validation |
-|---|---|---|---|---|---|
-| 1 | Sources read | Listed files were actually read in this session; unreadable ones named | `BRAND_RULES.md`, token files, catalog | Yes (self-report) | Reviewer confirms the list |
-| 2 | Color tokens | Each color maps to a token and its exact HEX (`resolve_token.py` or JSON); none estimated from images | `colors/*.json`, `TOKENS.md` | Yes (source file/HTML/SVG); Partly (raster) | Role of each color for this medium (`TO BE PROVIDED`) |
-| 3 | Color usage | No state colors (success, danger, warning, info, link) or component tokens used decoratively; `energy-assets` only for their source | `TOKENS.md` | Partly | Yes |
-| 4 | Contrast / legibility | Text/background contrast measured and stated; required level is `TO BE PROVIDED` | Output file | Partly (ratio from HEX) | Yes (print/projection legibility) |
-| 5 | Fonts | Declared families are the documented ones; embedded or substituted is stated; Synonym/Noto Sans conflict flagged | `typography/Mode 1.tokens.json` | Partly (inspect file fonts) | Yes (rendering) |
-| 6 | Type scale and weights | Sizes and weights from tokens; hierarchy clear | typography tokens | Partly | Yes (poster scale `TO BE PROVIDED`) |
-| 7 | Text content | Text equals the user's text; spelling, accents and language right; nothing added or rewritten | User request | Yes (string comparison on source) | Yes (proofreading) |
-| 8 | Logo | Official file used, or marked placeholder; nothing redrawn, recolored, stretched or generated; clear space and minimum size `TO BE PROVIDED` | `BRAND_RULES.md` Logo | Partly | Yes |
-| 9 | Illustration reuse | Catalog checked first; existing file reused when suitable; originals untouched (`git status`) | `CATALOG.md` | Yes (git status, file hash) | Suitability of usage |
-| 10 | Illustration style | One sub-style; compared with closest references and "Detail observations"; deviations listed; observed traits not presented as official | `STYLE_GUIDE.md` | No (needs image viewing) | Yes |
-| 11 | Illustration content | No third-party logos, flags, new recurring characters or text added without confirmation | `STYLE_GUIDE.md` | Partly | Yes |
-| 12 | Layout and spacing | Spacings use spacing tokens; format/grid follow an approved example, else flagged | `spacing/*.json`, `brand-examples/` | Partly | Yes (no grid is documented) |
-| 13 | Composition | One focal element; text not over busy areas; nothing cropped or overlapping | Output | No | Yes |
-| 14 | Governance | Labelled AI-generated or AI-assisted; stated as draft pending human approval | `BRAND_RULES.md` | Yes | Approver signs off |
-| 15 | Honesty about checks | Only performed checks reported; output inspected or marked not verifiable; if no image tool, a brief was delivered instead | This list | Yes (self-report) | Reviewer |
+| # | Criterion | What to check | Source | Automatable | Human validation | Blocking |
+|---|---|---|---|---|---|---|
+| 1 | Source manifest and consultation | Required files are listed, actually read/viewed, and inaccessible files are named; a URL/path alone is not evidence | `SKILL.md`, creation dossier | Partly | Reviewer confirms the list | Yes |
+| 2 | Color tokens | Each color maps to a token and its exact HEX (`resolve_token.py` or JSON); none estimated from images | `colors/*.json`, `TOKENS.md` | Yes for source/HTML/SVG; Partly for raster | Role of each color for this medium (`TO BE PROVIDED`) | Yes |
+| 3 | Color usage | No state colors (success, danger, warning, info, link) or component tokens used decoratively; `energy-assets` only for their source | `TOKENS.md` | Partly | Yes | Yes |
+| 4 | Contrast / legibility | Text/background contrast measured and stated; required level is `TO BE PROVIDED` | Output file | Partly | Yes (print/projection legibility) | Yes |
+| 5 | Fonts | Declared families are documented; actual embedded/rendered font is identified; substitutions and Synonym/Noto Sans conflict are explicit | `typography/Mode 1.tokens.json` | Partly | Yes (rendering) | Yes |
+| 6 | Type scale and weights | Sizes and weights come from tokens; hierarchy is clear | Typography tokens | Partly | Yes (poster scale `TO BE PROVIDED`) | No |
+| 7 | Text content | Text equals the user's text; spelling, accents and language are right; nothing added or rewritten | User request / original asset | Partly | Yes (proofreading) | Yes |
+| 8 | Logo integrity | Official file used, or marked placeholder; nothing redrawn, recolored, stretched, repeated as a motif or generated | `BRAND_RULES.md` Logo | Partly | Yes | Yes |
+| 9 | Existing asset preservation | Existing poster/logo/text/official resources are preserved unless the requested change names the element; originals untouched | User request / `CATALOG.md` | Partly (git status, hashes) | Yes | Yes |
+| 10 | Illustration consultation | Catalog checked first; closest files actually viewed where possible; one sub-style selected; deviations listed | `CATALOG.md`, `STYLE_GUIDE.md` | No (needs image viewing) | Yes | Yes |
+| 11 | Illustration content | No third-party logos, flags, new recurring characters or text added without confirmation | `STYLE_GUIDE.md` | Partly | Yes | Yes |
+| 12 | Layout and spacing | Spacings use tokens; format/grid follow an approved example, else flagged | `spacing/*.json`, `brand-examples/` | Partly | Yes (no grid is documented) | Yes |
+| 13 | Composition | Focal hierarchy, clear text areas, no crop/overlap errors | Output | No | Yes | No |
+| 14 | Governance | Labelled AI-generated/AI-assisted; stated as draft pending human approval | `BRAND_RULES.md` | Yes | Approver signs off | Yes |
+| 15 | Output inspection and honesty | Actual output was inspected; otherwise checks are `Not verifiable`; no prompt-only compliance claim | This list | Partly | Reviewer | Yes |
 
-## Report template
+## Standard report
 
-```
-Overall: Compliant / Non-compliant / Not verifiable (partial)
+```text
+Overall: Ready for human approval / Exploration / Non-compliant / Not verifiable
 Per item: <#> <status> <evidence or reason>
+Blocking criteria: <# and status>
 Tokens used: <role -> token -> HEX>
-Sources read / not read: <files>
+Sources read / viewed / inaccessible: <files>
 TO BE PROVIDED hit: <list>
 Awaiting human validation: <decisions>
 Label: AI-generated / AI-assisted. Draft pending human approval.
 ```
 
-The overall status can be `Compliant` only if every item is `Compliant` or `N/A`.
+The overall status can be `Ready for human approval` only if every blocking item is `Compliant` or `N/A`, the produced output was inspected, and human approval remains pending. `Ready to publish` is not an agent status; it requires documented human approval outside this checklist.
