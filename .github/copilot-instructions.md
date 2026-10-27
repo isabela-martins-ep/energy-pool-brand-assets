@@ -24,7 +24,8 @@ The supporting illustration references are:
 - `illustrations/CATALOG.md` — subjects and unconfirmed usage suggestions.
 - `illustrations/STYLE_GUIDE.md` — observed characteristics, explicitly not official rules.
 - `illustrations/` — existing SVG and PNG assets.
-- `colors/`, `typography/`, `spacing/`, `ui-references/`, `guidelines/` — Design System references and visual guidance where documented.
+- `guidelines/BRAND_RULES.md` and `guidelines/VISUAL_QA.md` — mandatory rules (official vs observed vs `TO BE PROVIDED`) and the pre-delivery checklist.
+- `colors/`, `typography/`, `spacing/` — Figma token exports; `ui-references/`, `brand-examples/` — examples where documented.
 
 ## Communication
 
