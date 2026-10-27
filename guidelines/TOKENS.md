@@ -20,7 +20,7 @@ The file `colors/Mode 1.tokens 3.json` holds component tokens even though it sit
 4. **Component tokens are for UI components only.** Do not use `state`, `border` or `focus-ring` colors for decoration.
 5. **State colors are not decoration.** Never use success/valid (`#3EBE90` family), danger/invalid, warning, info or link colors as decorative or brand colors in posters, illustrations or infographics. Use them only for the state they mean (validation, alerts), as the component tokens do.
 6. **`energy-assets` colors** are for the energy source or sector they name (chart, icon, background). Use them only for content about that source, for example in an infographic; do not use them as general brand colors.
-7. **Typography and spacing:** take families, weights, sizes and spacers from the typography and spacing exports; the "Units not stated" and font questions in `BRAND_RULES.md` still apply.
+7. **Typography and spacing:** take families, weights, sizes and spacers from the typography and spacing exports; the typography rules and the "units not stated" caveat in `BRAND_RULES.md` still apply.
 8. **Record each choice** as `token name -> resolved HEX` in the answer.
 
 ## 3. Resolving references
