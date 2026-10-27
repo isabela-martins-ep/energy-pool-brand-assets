@@ -59,13 +59,14 @@ Single source for typography rules. Official source: Energy Pool brand charter, 
 - **Image generators** do not necessarily render the exact official fonts. Do not state that Chillax or Synonym was used unless the real fonts were embedded or the rendering was checked. Prefer composing text in an editable layout with the real fonts.
 - **If the fonts are unavailable:** do not substitute silently. Say so, name any font actually used, and ask the user to supply the real fonts or finalize the text in a tool that has them.
 - **Status:** typography is `Compliant` only if the fonts actually used were verified as Chillax for titles and Synonym for subtitles/body. Fonts that cannot be verified: `Not verifiable`. A different font actually used: `Non-compliant`.
-- **TO BE PROVIDED:** font files and licenses, text case, alignment and line-length rules.
+- **Font files** (Fontshare, ITF Free Font License, copy in each folder): [`../typography/fonts/Chillax/`](../typography/fonts/Chillax/) and [`../typography/fonts/Synonym/`](../typography/fonts/Synonym/), OTF for print/design tools and WOFF2 for web. The packages also contain Bold and Extralight, which are **not** official weights: do not use them. Install the OTF files to render posters; check the license terms before redistributing them outside Energy Pool.
+- **TO BE PROVIDED:** text case, alignment and line-length rules.
 
 ## Logo
 
 Source: Energy Pool brand charter (rules below supplied by the design team, 2026-10-27). This is the only place where logo rules are defined.
 
-**Files** in [`../brand-examples/`](../brand-examples/README.md): `Logo-large.svg|pdf` (wordmark, pictogram and tagline "Smart Energy Management") and `Logo-small.svg|pdf` (wordmark and pictogram only). Large/small is a size/content choice; it is not the positive/negative choice.
+**Files** in [`../brand-examples/`](../brand-examples/README.md): `Logo-large.svg|pdf|png` (wordmark, pictogram and tagline "Smart Energy Management") and `Logo-small.svg|pdf|png` (wordmark and pictogram only). Large/small is a size/content choice; it is not the positive/negative choice.
 
 **Variants**
 
@@ -81,7 +82,7 @@ Source: Energy Pool brand charter (rules below supplied by the design team, 2026
 - Redrawing, tracing, recoloring, stretching, cropping, adding effects, generating it with an image tool, repeating it as a motif, or copying the pictogram/wordmark seen inside illustrations or on objects.
 
 **Size and protection**
-- Minimum width: 100 px on screen, 36 mm in print.
+- Minimum width: 100 px on screen, 36 mm in print. Prefer SVG/PDF. `Logo-large.png` is 280 px and `Logo-small.png` 62 px wide: never upscale a PNG; `Logo-small.png` is below the 100 px digital minimum, so use the SVG on screen.
 - Clear space: all around the logo, equal to the height of the capital "E" of "Energy" in the logo. No typographic element may enter it.
 - Keep the original proportions and colors.
 
@@ -118,7 +119,7 @@ Only the logo files are supplied. No approved poster, slide or UI example exists
 | Area | Missing | Source to supply |
 |---|---|---|
 | Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, gradients; `state` vs `state new` precedence | Figma Design System |
-| Typography | Font files/licenses | Brand charter, brand team |
+| Typography | Text case, alignment and line-length rules | Brand charter, brand team |
 | Logo | Negative logo files, authorized colored backgrounds, large vs small rule | Brand team |
 | Illustration | Official rules, AI-creation policy, text-in-illustration rules | Design team |
 | Layout | Grids, formats, poster/slide templates, placement rules | Figma Design System |
