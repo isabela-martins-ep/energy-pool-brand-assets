@@ -20,7 +20,7 @@ Energy Pool's Design System lives in **Figma** and is implemented in **code**. T
 | `illustrations/` | Illustrations exported from Figma, plus style guide template |
 | `ui-references/` | Examples of existing interfaces, layouts and components |
 | `guidelines/` | Brand rules, visual QA checklist, Microsoft 365 Copilot reuse guide |
-| `brand-examples/` | Approved visual references (empty until supplied) |
+| `brand-examples/` | Official logo files; approved visual references (none supplied yet) |
 | `.github/` | Instructions for GitHub Copilot |
 
 ## Contributing

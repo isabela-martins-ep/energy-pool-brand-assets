@@ -5,63 +5,28 @@ description: Create Energy Pool visuals consistent with the existing visual iden
 
 # Energy Pool visual design
 
-The Figma Design System (tokens, components) is the source of truth. This skill points to repository resources and never redefines them. One skill is enough: the medium-specific procedures are in `references/`, loaded only when needed.
-
-## Source priority (when sources conflict)
-
-1. Explicit instruction from Energy Pool's design team for this request, or an approved item in [`brand-examples/`](../../../brand-examples/).
-2. OFFICIAL Figma token exports (exact values beat colors estimated from images).
-3. [`guidelines/BRAND_RULES.md`](../../../guidelines/BRAND_RULES.md) and the medium-specific procedure below.
-4. OBSERVED traits in `illustrations/` docs: descriptive, never rules.
-
-Two official sources in conflict with no documented priority: ask for human validation.
+Entry point for creating or modifying Energy Pool brand visuals (posters, illustrations, HR visuals, infographics, slides). The Figma exports and [`guidelines/BRAND_RULES.md`](../../../guidelines/BRAND_RULES.md) hold the rules; this file only gives the order of actions and where to read. Web UI components are out of scope: use the coded Design System.
 
 ## Route the request
 
-| Request | Read, then follow |
+| Request | Procedure to follow |
 |---|---|
-| Poster, flyer, infographic, slide, social visual | [`references/poster-workflow.md`](references/poster-workflow.md) |
-| New illustration, adaptation of an existing one | [`references/illustration-creation.md`](references/illustration-creation.md) |
-| UI / components / layouts | "UI design" below |
+| Poster, flyer, infographic, slide, social visual, HR visual | [`references/poster-workflow.md`](references/poster-workflow.md) |
+| New illustration or adaptation of an existing one | [`references/illustration-creation.md`](references/illustration-creation.md) |
 
-## Sources (read in the current session before generating)
+## Process (all requests)
 
-| Need | File |
-|---|---|
-| Mandatory rules, OFFICIAL / OBSERVED / `TO BE PROVIDED`, missing info | [`guidelines/BRAND_RULES.md`](../../../guidelines/BRAND_RULES.md) |
-| Token tiers, selection and resolution method | [`guidelines/TOKENS.md`](../../../guidelines/TOKENS.md) |
-| Colors (primitive, `energy-assets`) / component tokens | [`colors/Default.tokens.json`](../../../colors/Default.tokens.json) / [`colors/Mode 1.tokens 3.json`](../../../colors/Mode%201.tokens%203.json) |
-| Typography / spacing | [`typography/Mode 1.tokens.json`](../../../typography/Mode%201.tokens.json) / [`spacing/Mode 1.tokens 2.json`](../../../spacing/Mode%201.tokens%202.json) |
-| Illustration subjects / observed style | [`illustrations/CATALOG.md`](../../../illustrations/CATALOG.md) / [`illustrations/STYLE_GUIDE.md`](../../../illustrations/STYLE_GUIDE.md) |
-| Illustration files | [`illustrations/`](../../../illustrations/) |
-| Approved examples (empty until supplied), UI examples | [`brand-examples/`](../../../brand-examples/), [`ui-references/`](../../../ui-references/) |
-| Pre-delivery checklist | [`guidelines/VISUAL_QA.md`](../../../guidelines/VISUAL_QA.md) |
-| Token resolver (optional) | [`scripts/resolve_token.py`](scripts/resolve_token.py) |
+1. **Consult.** Read, in this session: `BRAND_RULES.md` (rules, source priority, official vs observed vs `TO BE PROVIDED`), [`TOKENS.md`](../../../guidelines/TOKENS.md) (method) and the token files it names, [`brand-examples/`](../../../brand-examples/README.md) (logo files, approved examples), and for illustrations [`CATALOG.md`](../../../illustrations/CATALOG.md) and [`STYLE_GUIDE.md`](../../../illustrations/STYLE_GUIDE.md). Write a source manifest: each file, and whether it was read, viewed or inaccessible. A path or URL is not proof of consultation.
+2. **Select.** Colors, fonts and spacing: tokens per `TOKENS.md`. Logo: the official files only (`BRAND_RULES.md` Logo). Illustration: an existing catalogued file first. If a required source is inaccessible or a rule is `TO BE PROVIDED`, report it and ask; do not fill the gap.
+3. **Create or modify** with the tools available. Prefer composing existing resources over generating images. Never assume image generation, font embedding or Figma access. Work on copies; never alter originals, logo files or token exports. When modifying an existing visual, change only what was requested.
+4. **Verify the produced output** (not the prompt) with [`VISUAL_QA.md`](../../../guidelines/VISUAL_QA.md). Fix failures. Say what you could not inspect.
+5. **Deliver** with the QA report, the manifest, tokens and files used, limits, decisions awaiting human validation, the AI label and the overall status defined in `VISUAL_QA.md`.
 
-Say which files you could not read. Do not answer as if you had.
+Optional helper: [`scripts/resolve_token.py`](scripts/resolve_token.py) (read-only token lookup; not available in Microsoft 365 Copilot).
 
-## Workflow
+## Always
 
-1. **Classify** the request (illustration, poster/other support, UI, adaptation) and clarify missing inputs (format, text, assets).
-2. **Prepare a source manifest before producing anything**: list the files that must be consulted, check that each is readable in the current environment, and record the files actually read or viewed. A repository URL, a filename, or a prompt claiming that a reference was used is not evidence of consultation.
-3. **Consult** the manifest sources; pick tokens with the method in `TOKENS.md` (semantic before primitive, no decorative use of state colors, report unresolved references). If a required source is inaccessible, stop production or downgrade the result to an explicitly non-compliant exploration.
-4. **Select** existing assets first (catalog, approved examples, coded components). Do not reconstruct an existing asset from memory or from a textual description when the original accessible resource is required.
-5. **Produce** with what the environment offers; do not assume image generation, font embedding or Figma access.
-6. **Verify the produced file, not just the prompt or plan**, with `VISUAL_QA.md`. Fix failures before answering. A blocking failure or `Not verifiable` required criterion prevents a “ready to publish” status.
-7. **Present** the result, source manifest, QA report, tokens and files used, limits, items for human validation, and the real status: `Exploration`, `Not verifiable`, `Non-compliant`, or `Ready for human approval`. Never claim full compliance when a required check was not performed.
-
-## UI design
-
-Prefer existing coded Design System components when accessible; do not copy or rebuild them here. Use Figma only if a connection exists. Take colors, type and spacing from the token files, with component tokens only for component states. Missing component or token: ask.
-
-## Hard constraints
-
-- Never invent colors, fonts, spacing, logo variants or rules; never infer official values from images.
-- Never draw, trace, approximate, repeat as a decorative motif, or generate the logo, wordmark or pictogram, including logos shown on cups, laptops, clothing or background screens. Use an official file or a marked placeholder.
-- For an existing visual, preserve the original logo, mandatory text, layout and official resources unless the user explicitly requests that exact element to change and the tool can preserve the other elements.
-- Never claim a font was used unless the tool guarantees it; flag the Synonym / Noto Sans conflict.
-- Never modify originals in `illustrations/` or the token exports; adapt copies.
-- Never present OBSERVED traits as official, or a result as compliant if a check was not performed. "Not verifiable" is not "compliant".
-- Blocking failures in `VISUAL_QA.md` must be reported and prevent `Ready for human approval` / `Ready to publish` status.
-- Only say you looked at an image if its content was accessible.
-- Label every AI-generated or AI-assisted visual as such; it is a draft until a human approves it before publication.
+- Do not invent brand colors, fonts, spacing, logo variants or rules, and do not take official values from images.
+- Do not present OBSERVED traits as official, or a result as compliant when a check was not performed.
+- Say you looked at an image only if its content was accessible.
+- Label every AI-generated or AI-assisted visual and treat it as a draft until a human approves it.

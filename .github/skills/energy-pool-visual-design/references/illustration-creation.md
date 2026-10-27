@@ -1,15 +1,13 @@
 # Illustration creation procedure
 
-Used by the skill for new illustrations and adaptations. Facts about the existing artwork live in [`illustrations/STYLE_GUIDE.md`](../../../../illustrations/STYLE_GUIDE.md) and [`illustrations/CATALOG.md`](../../../../illustrations/CATALOG.md); this file does not repeat them.
+Details the five steps of [`SKILL.md`](../SKILL.md) for illustrations. Facts about existing artwork are in [`STYLE_GUIDE.md`](../../../../illustrations/STYLE_GUIDE.md) (observed, not official) and [`CATALOG.md`](../../../../illustrations/CATALOG.md); rules are in [`BRAND_RULES.md`](../../../../guidelines/BRAND_RULES.md).
 
-1. **Classify the sub-style:** energy/technology (SVG, objects, orange ring) or people/workplace (PNG, characters). Do not mix them unless a reference does.
-2. **Reuse first.** Search `CATALOG.md` by subject. If a file fits as is, use it and cite the path. Not every suggested usage is approved; flag it for confirmation.
-3. **Create a reference manifest before producing:** list `CATALOG.md`, `STYLE_GUIDE.md`, the 2–3 closest files, and any token or approved-example files required. Check that each is accessible and record whether it was read or visually viewed. A path or URL alone is not evidence.
-4. **Open the 2-3 closest reference files** and look at them if your environment can display images (state clearly whether you did). If not, work only from the catalog text and SVG source, and say that visual comparison was not possible. Do not claim exact style compliance when visual inspection was unavailable.
-5. **Adapt only on a copy outside `illustrations/`.**
-   - SVG: edit as text (recolor to documented tokens, hide or move elements, crop the viewBox). Embedded base64 PNGs are not vector-editable.
+1. **Consult.** Classify the sub-style: energy/technology (SVG, objects, orange ring) or people/workplace (PNG, characters); do not mix them unless a reference does. Write the manifest: `CATALOG.md`, `STYLE_GUIDE.md`, the 2-3 closest files, token files. Open the closest files and look at them if the environment can display images; state whether you did. Without image viewing, work from the catalog text and SVG source and say visual comparison was not possible.
+2. **Select.** Reuse first: search `CATALOG.md` by subject; if a file fits, use it and cite the path (catalog usage suggestions are not approved uses: flag them). Colors come from tokens per [`TOKENS.md`](../../../../guidelines/TOKENS.md), not from existing artwork, which mostly does not match tokens (see `BRAND_RULES.md`). Illustration color roles and the AI-creation policy are `TO BE PROVIDED`: say so.
+3. **Create or modify**, on a copy outside `illustrations/`.
+   - SVG: edit as text (recolor to tokens, hide or move elements, crop the viewBox). Embedded base64 PNGs are not vector-editable.
    - PNG: scale, crop or convert only.
-6. **New scenes or characters** need an image-generation tool or a designer. Use the "Detail observations" table in `STYLE_GUIDE.md` as the brief (proportions, shapes, faces, colors, shading, composition). If no generator is available, deliver the brief and the reference file list, not an imitation. Hand-written SVG is acceptable for simple shapes only.
-7. **Colors:** the illustrations use hex values that mostly do not match tokens. For new work, choose tokens per [`guidelines/TOKENS.md`](../../../../guidelines/TOKENS.md); do not copy colors from screenshots. If the orange/grey roles for illustrations are `TO BE PROVIDED`, say it.
-8. **Do not add** text, third-party logos, flags, new recurring characters, the logo or the pictogram without confirmation.
-9. **Check consistency** with the references (same sub-style, outline-free, face simplicity, orange focal / grey context, gradients no stronger than references), list deviations, then run the QA gate. Any deviation from OBSERVED traits needs human validation; none of these traits is official.
+   - New scene or character: needs an image-generation tool or a designer. Use the "Detail observations" table in `STYLE_GUIDE.md` as the brief. Without a generator, deliver the brief and the reference list, not an imitation. Hand-written SVG only for simple shapes.
+   - Do not add text, third-party logos, flags or new recurring characters without confirmation. Logo and pictogram: `BRAND_RULES.md` Logo.
+4. **Verify** against the references (same sub-style, face simplicity, orange focal / grey context, gradients no stronger than references) and list deviations; deviations from OBSERVED traits need human validation. Then run [`VISUAL_QA.md`](../../../../guidelines/VISUAL_QA.md).
+5. **Deliver** as in `SKILL.md` step 5.

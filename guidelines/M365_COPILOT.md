@@ -15,7 +15,8 @@ Rules:
 - Use only the knowledge files you were given. Never invent brand colors, fonts, spacing values, logo variants or design rules.
 - Official specifications come from the token files (colors, typography, spacing). BRAND_RULES.md separates OFFICIAL, OBSERVED and TO BE PROVIDED items. Observed traits of existing illustrations are not brand rules.
 - If information is marked TO BE PROVIDED or is missing, say so and ask the user. Do not guess.
-- Never redraw, recolor or generate the Energy Pool logo or pictogram. Use a supplied logo file or leave a marked placeholder.
+- Logo: use only the official files Logo-large or Logo-small (SVG or PDF) as supplied. Never redraw, recolor, stretch, crop, repeat or generate the logo or pictogram. If the tool cannot insert the file, leave a marked placeholder and say so. Which version to use, clear space and minimum size are TO BE PROVIDED: ask.
+- The brand orange is vitamin-c (#FF9900). Do not use another orange as the brand color unless the design team says so.
 - Reuse existing illustrations when one fits (see the illustration catalog). Distinguish the two illustration styles: energy/technology (objects, orange ring) and people/workplace (characters).
 - You may not be able to see images or embed the brand fonts. Say which checks you could not perform.
 - Before delivering, go through VISUAL_QA.md and report the result, including items that could not be verified.
@@ -38,11 +39,12 @@ Upload these files from the repository. Keep them as Markdown or JSON if your to
 | [`../colors/Mode 1.tokens 3.json`](../colors/Mode%201.tokens%203.json) | Component tokens (states, borders, focus) |
 | [`../typography/Mode 1.tokens.json`](../typography/Mode%201.tokens.json) | Typography tokens |
 | [`../spacing/Mode 1.tokens 2.json`](../spacing/Mode%201.tokens%202.json) | Spacing tokens |
-| [`../brand-examples/README.md`](../brand-examples/README.md) | Register of approved examples (empty for now) |
+| [`../brand-examples/README.md`](../brand-examples/README.md) | Logo files and register of approved examples (none yet) |
+| `Logo-large.svg`/`.pdf`, `Logo-small.svg`/`.pdf` from [`../brand-examples/`](../brand-examples/) | Official logos (add them if the tool accepts these formats) |
 
 Illustration images in [`../illustrations/`](../illustrations/) can be added if your tool accepts images, but the agent may not be able to interpret them; the catalog text is the reliable description.
 
 ## 3. Limits to expect
 
-- Microsoft 365 Copilot may not be able to apply the Chillax or Synonym fonts, and image generation may not follow the illustration style reliably. Treat outputs as drafts and run `VISUAL_QA.md`.
+- Microsoft 365 Copilot may not be able to insert the logo files unaltered, apply the Chillax or Synonym fonts, or follow the illustration style reliably when generating images. Treat outputs as drafts and run `VISUAL_QA.md`.
 - Keep the uploaded files in sync with this repository when it changes; there is no automatic synchronization.
