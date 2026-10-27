@@ -49,6 +49,7 @@ Helps produce illustrations and UIs consistent with Energy Pool's identity. The 
 - Never invent brand colors, typography, spacing values, or official design rules.
 - `STYLE_GUIDE.md` is observational: never present its patterns as official brand rules. Its hex values are not verified tokens.
 - Never modify originals in `illustrations/`.
+- Label every visual generated or materially altered with AI as AI-generated or AI-assisted, and require human review and approval before publication or distribution.
 - Only claim to have looked at an image if its content was actually accessible (image input supported); otherwise rely on catalog text/SVG source and state that.
 - Do not assume image generation is available.
 - Generated visuals are drafts that need designer review.
