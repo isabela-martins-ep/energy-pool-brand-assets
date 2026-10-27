@@ -54,12 +54,12 @@ Single source for typography rules. Official source: Energy Pool brand charter, 
 - **Synonym:** subtitles and body text.
 - Both apply to web and print.
 - Available weights, both families: SemiBold, Medium, Regular, Light. No other weight, and no other family, is official for these roles.
-- **Export check:** [`../typography/Mode 1.tokens.json`](../typography/Mode%201.tokens.json) (Figma export, unmodified) is consistent: heading/display `Chillax`, body `Synonym`. It also lists `Yu Gothic` and `Alexandria` variants, numeric weights, sizes, line heights and colors, with units not stated; use those values only by token name, and do not turn them into mandatory sizes, line heights or weights for posters.
+- **Export check:** [`../typography/Mode 1.tokens.json`](../typography/Mode%201.tokens.json) (Figma export, unmodified) is consistent: heading/display `Chillax`, body `Synonym`. It also lists `Yu Gothic` and `Alexandria` variants, numeric weights, sizes, line heights and colors, with units not stated; use those values only by token name, and do not turn them into mandatory sizes, line heights or weights for posters. No poster type scale is required or defined: do not invent one.
 - **No fallback fonts:** none is needed or defined. Noto Sans is not an Energy Pool font; do not use it or any other font as a substitute.
 - **Image generators** do not necessarily render the exact official fonts. Do not state that Chillax or Synonym was used unless the real fonts were embedded or the rendering was checked. Prefer composing text in an editable layout with the real fonts.
 - **If the fonts are unavailable:** do not substitute silently. Say so, name any font actually used, and ask the user to supply the real fonts or finalize the text in a tool that has them.
 - **Status:** typography is `Compliant` only if the fonts actually used were verified as Chillax for titles and Synonym for subtitles/body. Fonts that cannot be verified: `Not verifiable`. A different font actually used: `Non-compliant`.
-- **TO BE PROVIDED:** font files and licenses, type scale for posters and print, text case, alignment and line-length rules.
+- **TO BE PROVIDED:** font files and licenses, text case, alignment and line-length rules.
 
 ## Logo
 
@@ -118,7 +118,7 @@ Only the logo files are supplied. No approved poster, slide or UI example exists
 | Area | Missing | Source to supply |
 |---|---|---|
 | Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, gradients; `state` vs `state new` precedence | Figma Design System |
-| Typography | Font files/licenses, print/poster scale | Brand charter, brand team |
+| Typography | Font files/licenses | Brand charter, brand team |
 | Logo | Negative logo files, authorized colored backgrounds, large vs small rule | Brand team |
 | Illustration | Official rules, AI-creation policy, text-in-illustration rules | Design team |
 | Layout | Grids, formats, poster/slide templates, placement rules | Figma Design System |
