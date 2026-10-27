@@ -42,6 +42,7 @@ Open a pull request for any change, focused on one topic.
 
 - **Use:** compatible agents can discover it from `.github/skills/` when a request matches its description (e.g. "create an Energy Pool illustration"), or you can point the agent to the file.
 - **Dependencies:** it relies on the resources in this repository (`illustrations/CATALOG.md`, `illustrations/STYLE_GUIDE.md`, `.github/copilot-instructions.md`, etc.) and does not duplicate them.
+- **Structure:** `SKILL.md` routes requests to [`references/poster-workflow.md`](.github/skills/energy-pool-visual-design/references/poster-workflow.md) and [`references/illustration-creation.md`](.github/skills/energy-pool-visual-design/references/illustration-creation.md); [`guidelines/TOKENS.md`](guidelines/TOKENS.md) explains token tiers, and an optional read-only script ([`scripts/resolve_token.py`](.github/skills/energy-pool-visual-design/scripts/resolve_token.py)) resolves token references.
 - **Verification:** before delivering a visual, agents run [`guidelines/VISUAL_QA.md`](guidelines/VISUAL_QA.md); missing official information is marked `TO BE PROVIDED` in [`guidelines/BRAND_RULES.md`](guidelines/BRAND_RULES.md).
 - **Microsoft 365 Copilot:** it cannot read this repository or run `SKILL.md` automatically; see [`guidelines/M365_COPILOT.md`](guidelines/M365_COPILOT.md) to copy instructions and upload knowledge files manually.
 - **Availability:** discovery, installation and image-generation capabilities depend on the AI tool used.
