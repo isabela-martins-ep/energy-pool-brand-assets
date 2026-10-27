@@ -16,7 +16,7 @@ Fill this dossier before producing; each line names its source or says "TO BE PR
 |---|---|
 | Colors | Role -> token -> HEX, per [`TOKENS.md`](../../../../guidelines/TOKENS.md). Brand orange: see `BRAND_RULES.md` Colors. Poster roles are `TO BE PROVIDED`: propose and flag. |
 | Typography | Documented families and weights ([`BRAND_RULES.md`](../../../../guidelines/BRAND_RULES.md) Typography), and the font the tool can actually render. |
-| Logo | `Logo-large` or `Logo-small` from `brand-examples/` (selection rule: `BRAND_RULES.md` Logo), or a marked placeholder if the tool cannot embed it. |
+| Logo | Follow the selection procedure in [`BRAND_RULES.md`](../../../../guidelines/BRAND_RULES.md#logo): variant by background, size and clear space checked. Record the file, the background and the placed width in the dossier. |
 | Illustration | A catalogued file when one fits (people scenes: people/workplace PNGs); otherwise [`illustration-creation.md`](illustration-creation.md). |
 | Composition | Hierarchy and placement proposed and labelled as a proposal (no official grid). Text only over clear areas. |
 | Method | **Composition from existing resources (preferred):** exact text, logo, tokens. **Image generation:** exploration only; it is never evidence of compliance. |

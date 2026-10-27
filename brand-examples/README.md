@@ -6,10 +6,12 @@ Official logo files, plus approved visual references (posters, slides, UI screen
 
 Supplied by the design team. Never modify, recolor, stretch, redraw or regenerate them. Usage rules: [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md#logo).
 
-| File | Content |
-|---|---|
-| `Logo-large.svg`, `Logo-large.pdf` | Wordmark, pictogram and tagline "Smart Energy Management" |
-| `Logo-small.svg`, `Logo-small.pdf` | Wordmark and pictogram only |
+| File | Content | Variant |
+|---|---|---|
+| `Logo-large.svg`, `Logo-large.pdf` | Wordmark, pictogram and tagline "Smart Energy Management" | Positive |
+| `Logo-small.svg`, `Logo-small.pdf` | Wordmark and pictogram only | Positive |
+
+No negative (dark-background) logo is supplied yet.
 
 ## Approved examples
 
