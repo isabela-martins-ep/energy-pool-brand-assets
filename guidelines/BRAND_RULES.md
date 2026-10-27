@@ -57,12 +57,36 @@ Never promote an OBSERVED item to OFFICIAL. Never infer official colors or typog
 
 ## Logo
 
-- **OFFICIAL files (supplied by the design team):** [`Logo-large.svg`](../brand-examples/Logo-large.svg), [`Logo-large.pdf`](../brand-examples/Logo-large.pdf), [`Logo-small.svg`](../brand-examples/Logo-small.svg), [`Logo-small.pdf`](../brand-examples/Logo-small.pdf). Both versions use black and `#FF9900`, with no background.
-- **Verified file characteristics:** `large` (viewBox 280x191) includes the tagline "Smart Energy Management"; `small` (viewBox 62x37) is the wordmark with pictogram only.
-- **Do:** place the file as supplied (prefer SVG, else PDF) with its proportions and colors unchanged; on an existing visual, keep the logo already there.
-- **Do not:** redraw, trace, recolor, stretch, crop, add effects, generate it with an image tool, repeat it as a decorative motif, or copy the pictogram/wordmark seen inside illustrations (mugs, laptops, `SIRH.png`, `Forum.png`, other artwork).
-- **If the tool cannot embed SVG/PDF:** say so, leave a marked placeholder ("LOGO - official file required") and mark the logo criterion `Not verifiable`.
-- **TO BE PROVIDED:** rule for choosing large vs small (until then, use the version the user requests, or ask), minimum size, clear space, permitted backgrounds (the files are black and orange, so legibility on dark or colored backgrounds is unverified), forbidden uses.
+Source: Energy Pool brand charter (rules below supplied by the design team, 2026-10-27). This is the only place where logo rules are defined.
+
+**Files** in [`../brand-examples/`](../brand-examples/README.md): `Logo-large.svg|pdf` (wordmark, pictogram and tagline "Smart Energy Management") and `Logo-small.svg|pdf` (wordmark and pictogram only). Large/small is a size/content choice; it is not the positive/negative choice.
+
+**Variants**
+
+| Variant | Use on | Available file |
+|---|---|---|
+| Positive | White background, or a light photograph that is sufficiently uniform | Both files, large and small. Verified in the SVG source: black (`black`) and `#FF9900` fills, no background. |
+| Negative | Dark background, or a dark photograph that is sufficiently uniform | **Missing.** No negative file is in the repository. |
+
+**Prohibited**
+- Any orange background, and any colored background not explicitly authorized (no authorization list exists: ask).
+- An all-black or all-white version.
+- A photographic background mixing light and dark areas that harms legibility.
+- Redrawing, tracing, recoloring, stretching, cropping, adding effects, generating it with an image tool, repeating it as a motif, or copying the pictogram/wordmark seen inside illustrations or on objects.
+
+**Size and protection**
+- Minimum width: 100 px on screen, 36 mm in print.
+- Clear space: all around the logo, equal to the height of the capital "E" of "Energy" in the logo. No typographic element may enter it.
+- Keep the original proportions and colors.
+
+**Selection procedure**
+1. Identify the background (white, light uniform photo, dark, colored).
+2. Light background: use the positive file. Dark background: the negative file is missing, so do not invert or recolor the positive one; report the missing resource and ask the design team for it, or change the background.
+3. Large vs small: `TO BE PROVIDED`. Use the version the user requests, otherwise ask. Check that the placed width meets the minimum for the chosen file.
+4. If the tool cannot embed SVG/PDF, say so, leave a marked placeholder ("LOGO - official file required") and mark the logo criterion `Not verifiable`.
+5. On an existing visual, keep the logo already present.
+
+**TO BE PROVIDED:** negative logo files, list of authorized colored backgrounds, large vs small rule.
 
 ## Illustration style
 
@@ -89,7 +113,7 @@ Only the logo files are supplied. No approved poster, slide or UI example exists
 |---|---|---|
 | Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, gradients; `state` vs `state new` precedence | Figma Design System |
 | Typography | Confirmed body font, font files/licenses/fallbacks, print/poster scale | Figma Design System, brand team |
-| Logo | Large/small selection rule, clear space, minimum size, permitted backgrounds, forbidden uses (files are supplied) | Brand team |
+| Logo | Negative logo files, authorized colored backgrounds, large vs small rule | Brand team |
 | Illustration | Official rules, AI-creation policy, text-in-illustration rules | Design team |
 | Layout | Grids, formats, poster/slide templates, placement rules | Figma Design System |
 | Examples | Approved posters, slides, illustrations in context | Design team |
