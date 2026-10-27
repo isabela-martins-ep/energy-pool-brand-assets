@@ -8,8 +8,8 @@ Supplied by the design team. Never modify, recolor, stretch, redraw or regenerat
 
 | File | Content | Variant |
 |---|---|---|
-| `Logo-large.svg`, `Logo-large.pdf` | Wordmark, pictogram and tagline "Smart Energy Management" | Positive |
-| `Logo-small.svg`, `Logo-small.pdf` | Wordmark and pictogram only | Positive |
+| `Logo-large.svg`, `.pdf`, `.png` (280x191 px) | Wordmark, pictogram and tagline "Smart Energy Management" | Positive |
+| `Logo-small.svg`, `.pdf`, `.png` (62x37 px) | Wordmark and pictogram only | Positive |
 
 No negative (dark-background) logo is supplied yet.
 
