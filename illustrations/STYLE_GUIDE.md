@@ -5,7 +5,7 @@ How to read this document:
 - **Observed** = visible in the existing files in this folder (31 files, all reviewed visually). It describes what is there; it is **not** an official rule.
 - **Official** = documented brand rule. **None is documented yet**; see [Official rules (to be provided)](#official-rules-to-be-provided).
 
-Per-file details: [`CATALOG.md`](CATALOG.md). Colors, typography and spacing must come from the Design System tokens (see `../colors/`, `../typography/`, `../spacing/`), not from this document.
+Per-file details: [`CATALOG.md`](CATALOG.md). Colors, typography and spacing must come from the Design System tokens (see `../colors/`, `../typography/`, `../spacing/`, and [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md)), not from this document.
 
 ## Observed characteristics
 
@@ -21,7 +21,7 @@ Per-file details: [`CATALOG.md`](CATALOG.md). Colors, typography and spacing mus
   - Oranges: `#ea5b0c`, `#ffb84d`, `#ffe0b3`; also `#ffc774`, `#ffb342`, `#ffa41e`, `#ff9c08` in `DR Program.svg`
   - Beige: `#f7eac6` (`Agregation.svg`)
   - Greys: `#efefef`, `#ededed`, `#d0d0d0`, `#b2b2b2`
-- Whether these match Design System tokens is **not verified**; map them to tokens before reuse.
+- Token comparison (exact hex only): `#FFB84D`, `#FFE0B3` and `#FF9900` match `vitamin-c` tokens; the other values above have no matching token. See [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md#colors). Map colors to tokens before reuse.
 - Exceptions: `Compétences` and `Formation` include third-party tool logos (Python, Jira, Excel, AWS) in their own colors; `Equipe internationale` includes small flag icons.
 
 ### Two sub-styles

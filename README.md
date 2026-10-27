@@ -19,7 +19,8 @@ Energy Pool's Design System lives in **Figma** and is implemented in **code**. T
 | `spacing/` | Spacing and layout guidelines (Design System values) |
 | `illustrations/` | Illustrations exported from Figma, plus style guide template |
 | `ui-references/` | Examples of existing interfaces, layouts and components |
-| `guidelines/` | Visual principles, brand consistency rules, usage recommendations |
+| `guidelines/` | Brand rules, visual QA checklist, Microsoft 365 Copilot reuse guide |
+| `brand-examples/` | Approved visual references (empty until supplied) |
 | `.github/` | Instructions for GitHub Copilot |
 
 ## Contributing
@@ -41,6 +42,8 @@ Open a pull request for any change, focused on one topic.
 
 - **Use:** compatible agents can discover it from `.github/skills/` when a request matches its description (e.g. "create an Energy Pool illustration"), or you can point the agent to the file.
 - **Dependencies:** it relies on the resources in this repository (`illustrations/CATALOG.md`, `illustrations/STYLE_GUIDE.md`, `.github/copilot-instructions.md`, etc.) and does not duplicate them.
+- **Verification:** before delivering a visual, agents run [`guidelines/VISUAL_QA.md`](guidelines/VISUAL_QA.md); missing official information is marked `TO BE PROVIDED` in [`guidelines/BRAND_RULES.md`](guidelines/BRAND_RULES.md).
+- **Microsoft 365 Copilot:** it cannot read this repository or run `SKILL.md` automatically; see [`guidelines/M365_COPILOT.md`](guidelines/M365_COPILOT.md) to copy instructions and upload knowledge files manually.
 - **Availability:** discovery, installation and image-generation capabilities depend on the AI tool used.
 
 ## How Copilot uses these resources
