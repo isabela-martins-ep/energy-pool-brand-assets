@@ -1,6 +1,6 @@
 # energy-pool-brand-assets
 
-Centralized visual reference library for Energy Pool, helping team members use GitHub Copilot to generate interfaces, prototypes and illustrations consistent with our brand identity.
+Centralized library of graphic resources for **all Energy Pool employees** creating visual materials: illustrations, posters, flyers, presentations, internal communications, HR visuals and more. It also serves as a reference for AI tools (such as GitHub Copilot) so that what they generate stays consistent with our brand identity.
 
 ## Purpose
 
