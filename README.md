@@ -35,6 +35,14 @@ Energy Pool's Design System lives in **Figma** and is implemented in **code**. T
 
 Open a pull request for any change, focused on one topic.
 
+## Visual design skill
+
+[`.github/skills/energy-pool-visual-design/SKILL.md`](.github/skills/energy-pool-visual-design/SKILL.md) is an Agent Skill that guides AI agents when creating or adapting Energy Pool illustrations and UIs: it defines a workflow (classify, consult references, reuse assets, follow the Design System, verify, report limitations) and the constraints to respect.
+
+- **Use:** compatible agents can discover it from `.github/skills/` when a request matches its description (e.g. "create an Energy Pool illustration"), or you can point the agent to the file.
+- **Dependencies:** it relies on the resources in this repository (`illustrations/CATALOG.md`, `illustrations/STYLE_GUIDE.md`, `.github/copilot-instructions.md`, etc.) and does not duplicate them.
+- **Availability:** discovery, installation and image-generation capabilities depend on the AI tool used.
+
 ## How Copilot uses these resources
 
 Copilot follows [`.github/copilot-instructions.md`](.github/copilot-instructions.md): it prioritizes the Design System, reads the references in this repository, never invents colors, typography, spacing or styles, and asks for clarification when information is missing.
