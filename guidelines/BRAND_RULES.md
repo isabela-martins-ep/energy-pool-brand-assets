@@ -73,7 +73,8 @@ Single source for typography rules. Official source: Energy Pool brand charter, 
 - **If the fonts are unavailable:** do not substitute silently. Say so, name any font actually used, and ask the user to supply the real fonts or finalize the text in a tool that has them.
 - **Status:** typography is `Compliant` only if the fonts actually used were verified as Chillax for titles and Synonym for subtitles/body. Fonts that cannot be verified: `Not verifiable`. A different font actually used: `Non-compliant`.
 - **Font files** (Fontshare, ITF Free Font License, copy in each folder): [`../typography/fonts/Chillax/`](../typography/fonts/Chillax/) and [`../typography/fonts/Synonym/`](../typography/fonts/Synonym/), OTF for print/design tools and WOFF2 for web. The packages also contain Bold and Extralight, which are **not** official weights: do not use them. Install the OTF files to render posters; check the license terms before redistributing them outside Energy Pool.
-- **TO BE PROVIDED:** text case, alignment and line-length rules.
+- **Text composition (no official rule; typographic good practice, a proposed convention, not a charter rule and never a blocker):** natural sentence case by default; capitals where they serve the graphic hierarchy (short titles, labels); left alignment for long text; centered alignment allowed for short titles or compositions that suit it; line length adapted to the format and legibility, with no numeric value imposed.
+- **TO BE PROVIDED:** official text case, alignment and line-length rules, if the charter defines any.
 
 ## Logo
 
@@ -134,7 +135,7 @@ Only the logo files are supplied. No approved poster, slide or UI example exists
 | Area | Missing | Source to supply |
 |---|---|---|
 | Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, non-illustration gradients; `state` vs `state new` precedence | Figma Design System |
-| Typography | Text case, alignment and line-length rules | Brand charter, brand team |
+| Typography | Official text case, alignment and line-length rules (if any) | Brand charter, brand team |
 | Logo | Negative logo files, authorized colored backgrounds, large vs small rule | Brand team |
 | Illustration | File naming, owner | Design team |
 | Layout | Grids, formats, poster/slide templates, placement rules | Figma Design System |

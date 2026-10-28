@@ -18,7 +18,7 @@ Read the sources in `SKILL.md` step 2. Use approved examples from `brand-example
 | Item | Rule |
 |---|---|
 | Colors | Brand colors from tokens (role -> token -> HEX, [`TOKENS.md`](../../../../guidelines/TOKENS.md)); brand orange per `BRAND_RULES.md` Colors. Choose the roles yourself (no official role mapping exists; do not present your choice as one); other palette families only as reported accents; no state colors used decoratively. |
-| Typography | Chillax for titles, Synonym for other text, per `BRAND_RULES.md` Typography. Only the official weights; hierarchy, sizes and alignment are your choice (no official scale). Say which font was actually rendered; an image generator does not guarantee them. |
+| Typography | Chillax for titles, Synonym for other text, per `BRAND_RULES.md` Typography. Only the official weights; hierarchy, sizes, case and alignment follow the text-composition convention in `BRAND_RULES.md` Typography (no official scale). Say which font was actually rendered; an image generator does not guarantee them. |
 | Logo | Follow the selection procedure in [`BRAND_RULES.md`](../../../../guidelines/BRAND_RULES.md#logo): variant by background, size and clear space checked. Record the file, background and placed width internally. |
 | Illustration and pictograms | Catalogued files, new illustrations or pictograms, coherent with `STYLE_GUIDE.md`. Text in an illustration is allowed when it helps (same fonts rule). |
 | Layout | Composition, hierarchy, whitespace, framing and background are creative choices adapted to the medium. Text over clear areas, legible. |
