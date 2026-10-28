@@ -16,7 +16,7 @@ These nine decisions are **OFFICIAL** and apply to everything below. The rest of
 8. **Text, third-party logos, flags.**
    - Text is allowed in an illustration when it is relevant (screen, poster, signage, title). Chillax for titles, Synonym for other text (`BRAND_RULES.md` Typography). Keep it short and check spelling and the rendered font; where a generator is unreliable with text, adding it as live text at final composition is a practical option, not a requirement.
    - Never invent slogans, data or messages attributed to Energy Pool.
-   - Third-party logos and flags may appear when the context needs them. Use official files when available; never invent, distort or alter them. If the official file is missing, report it instead of generating an imitation.
+   - Third-party logos and flags may appear when the context needs them. Use official files when available (supplied ones: [`brand-examples/third-party-logos/`](../brand-examples/third-party-logos/)); never invent, distort or alter them. If the official file is missing, report it instead of generating an imitation.
 9. **Backgrounds and framing.** Prefer transparent or white background. Simplified backgrounds are allowed when they help understand the scene; avoid realistic, busy or over-detailed settings. Adapt the framing to the use (full figure, close-up, group, full scene); keep the scene readable and do not crop essential elements by accident.
 
 Status of every rule below: **OBSERVED** = measured or seen in the 31 reference files of this folder (all viewed; colors measured on the 23 PNG and read from the 8 SVG sources). It is **not** an official brand rule. Official rules and missing decisions: [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md). Per-file inventory: [`CATALOG.md`](CATALOG.md). Procedure: [`illustration-creation.md`](../.github/skills/energy-pool-visual-design/references/illustration-creation.md). Checklist: [`VISUAL_QA.md`](../guidelines/VISUAL_QA.md#illustration-checklist).
@@ -101,4 +101,4 @@ Head-to-body ratio, exact line widths, gradient angles and stops, minimum size, 
 
 ## 8. Official rules
 
-Beyond §0, not in this file. The remaining missing official information (naming, owner) is in [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md).
+Beyond §0, not in this file. The remaining missing official information (none; naming convention for new files and the absence of an official owner: BRAND_RULES.md) is in [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md).

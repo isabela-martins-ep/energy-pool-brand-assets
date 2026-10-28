@@ -11,7 +11,20 @@ Supplied by the design team. Never modify, recolor, stretch, redraw or regenerat
 | `Logo-large.svg`, `.pdf`, `.png` (280x191 px) | Wordmark, pictogram and tagline "Smart Energy Management" | Positive |
 | `Logo-small.svg`, `.pdf`, `.png` (62x37 px) | Wordmark and pictogram only | Positive |
 
-No negative (dark-background) logo is supplied yet.
+| `Logo-small-negative.svg` (661x391 px) | Wordmark and pictogram only (same composition as Logo-small, no tagline); white text, orange elements | Negative |
+
+The negative file was supplied as `Logo-negatif.svg` and renamed on import (file content unchanged). There is no negative version of the large logo (with tagline), and none exists; no negative PDF/PNG is supplied yet.
+
+## Third-party logos
+
+Supplied by the design team, in [`third-party-logos/`](third-party-logos/). Noemys (also written Noēmys) is Energy Pool's energy management software platform (Energy Management Platform, EMP). Authorized backgrounds follow the same rules as the Energy Pool logo (light or white background: light version; plain dark or dark uniform photo: negative version; no orange, strongly colored or mixed light/dark area; procedure in [`BRAND_RULES.md`](../guidelines/BRAND_RULES.md#logo)). Use only these files, never redrawn, recolored or distorted (see `illustrations/STYLE_GUIDE.md` §0.8).
+
+| File | Content | Variant |
+|---|---|---|
+| `logo-noemys.svg` (285x59 px) | Noemys logo (SVG source: dark grey `#3C3C3C` fills, a gradient mark) | For light backgrounds |
+| `logo-noemys-negative.svg` (285x59 px) | Noemys logo (SVG source: white fills, a gradient mark) | For dark backgrounds |
+
+The Noemys logo has no official minimum size and no official clear space. Keep it legible and uncluttered; do not apply the Energy Pool values.
 
 ## Approved examples
 
