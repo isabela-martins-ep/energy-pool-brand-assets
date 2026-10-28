@@ -86,13 +86,13 @@ Source: Energy Pool brand charter (rules below supplied by the design team, 2026
 
 | Variant | Use on | Available file |
 |---|---|---|
-| Positive | White background, or a light photograph that is sufficiently uniform | Both files, large and small. Verified in the SVG source: black (`black`) and `#FF9900` fills, no background. |
-| Negative | Dark background, or a dark photograph that is sufficiently uniform | **Missing.** No negative file is in the repository. |
+| Positive (dark text, orange elements) | White background, or a light photograph where the area behind the logo is light and uniform enough for legibility | Both files, large and small. Verified in the SVG source: black (`black`) and `#FF9900` fills, no background. |
+| Negative (white text, orange elements) | Plain dark background, or a dark photograph where the area behind the logo is dark and uniform enough for legibility | **Missing.** No negative file is in the repository. |
 
 **Prohibited**
-- Any orange background, and any colored background not explicitly authorized (no authorization list exists: ask).
+- Any orange background, and any strongly colored background, even if the contrast seems sufficient. The only authorized backgrounds are those in the table above.
 - An all-black or all-white version.
-- A photographic background mixing light and dark areas that harms legibility.
+- An area behind the logo mixing light and dark parts, notably on a photograph.
 - Redrawing, tracing, recoloring, stretching, cropping, adding effects, generating it with an image tool, repeating it as a motif, or copying the pictogram/wordmark seen inside illustrations or on objects.
 
 **Size and protection**
@@ -101,13 +101,15 @@ Source: Energy Pool brand charter (rules below supplied by the design team, 2026
 - Keep the original proportions and colors.
 
 **Selection procedure**
-1. Identify the background (white, light uniform photo, dark, colored).
-2. Light background: use the positive file. Dark background: the negative file is missing, so do not invert or recolor the positive one; report the missing resource and ask the design team for it, or change the background.
-3. Large vs small: no official rule (`TO BE PROVIDED`). Use the version the user requests; otherwise choose by layout (proposed convention: small for compact or tight spaces, large for signature or prominent placement) and note the choice in the delivery. Check that the placed width meets the minimum for the chosen file.
-4. If the tool cannot embed SVG/PDF, say so, leave a marked placeholder ("LOGO - official file required") and mark the logo criterion `Not verifiable`.
-5. On an existing visual, keep the logo already present.
+1. Decide whether the area behind the logo is light or dark.
+2. Check that it is visually uniform (no mix of light and dark, not strongly colored, not orange).
+3. Use only the official file for that background: positive on light, negative on dark. The negative file is missing: do not invert or recolor the positive one; report the missing resource, or change the composition.
+4. If no version guarantees legibility or the background is prohibited, change the composition or add a dedicated white area for the positive logo (a white panel behind the logo is allowed; the logo itself is never altered).
+5. Large vs small: no official rule (`TO BE PROVIDED`). Use the version the user requests; otherwise choose by layout (proposed convention: small for compact or tight spaces, large for signature or prominent placement) and note the choice in the delivery. Check that the placed width meets the minimum for the chosen file.
+6. If the tool cannot embed SVG/PDF, say so, leave a marked placeholder ("LOGO - official file required") and mark the logo criterion `Not verifiable`.
+7. On an existing visual, keep the logo already present.
 
-**TO BE PROVIDED:** negative logo files, list of authorized colored backgrounds, official large vs small rule.
+**TO BE PROVIDED:** negative logo files, official large vs small rule.
 
 ## Illustration style
 
@@ -137,7 +139,7 @@ Only the logo files are supplied. No approved poster, slide or UI example exists
 |---|---|---|
 | Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, non-illustration gradients; `state` vs `state new` precedence | Figma Design System |
 | Typography | Official text case, alignment and line-length rules (if any) | Brand charter, brand team |
-| Logo | Negative logo files, authorized colored backgrounds, large vs small rule | Brand team |
+| Logo | Negative logo files, official large vs small rule | Brand team |
 | Layout | Grids, formats, poster/slide templates, placement rules | Figma Design System |
 | Examples | Approved posters, slides, illustrations in context | Design team |
 | Restrictions | Explicit visual do-not list | Brand team |
