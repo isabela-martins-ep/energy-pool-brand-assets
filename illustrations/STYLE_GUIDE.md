@@ -101,4 +101,4 @@ Head-to-body ratio, exact line widths, gradient angles and stops, minimum size, 
 
 ## 8. Official rules
 
-Beyond §0, not in this file. The remaining missing official information (owner; the naming convention for new files is in BRAND_RULES.md) is in [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md).
+Beyond §0, not in this file. The remaining missing official information (none; naming convention for new files and the absence of an official owner: BRAND_RULES.md) is in [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md).
