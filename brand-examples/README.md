@@ -15,6 +15,17 @@ Supplied by the design team. Never modify, recolor, stretch, redraw or regenerat
 
 The negative file was supplied as `Logo-negatif.svg` and renamed on import (file content unchanged). There is no negative version of the large logo (with tagline), and none exists; no negative PDF/PNG is supplied yet.
 
+## Third-party logos
+
+Supplied by the design team, in [`third-party-logos/`](third-party-logos/). These are not Energy Pool logos: the Energy Pool logo rules do not apply to them, and their own usage rules are `TO BE PROVIDED`. Use only these files, never redrawn, recolored or distorted (see `illustrations/STYLE_GUIDE.md` §0.8).
+
+| File | Content | Variant |
+|---|---|---|
+| `logo-noemys.svg` (285x59 px) | Noemys logo (SVG source: dark grey `#3C3C3C` fills, a gradient mark) | For light backgrounds |
+| `logo-noemys-negative.svg` (285x59 px) | Noemys logo (SVG source: white fills, a gradient mark) | For dark backgrounds |
+
+Noemys's relationship to Energy Pool, its minimum size, clear space and authorized backgrounds are `TO BE PROVIDED`; do not assume them from the Energy Pool rules.
+
 ## Approved examples
 
 **Status: none supplied yet.** Do not add generated or invented examples here, and do not present anything as an approved example unless it appears in the register below.
