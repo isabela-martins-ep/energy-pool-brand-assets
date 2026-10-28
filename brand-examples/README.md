@@ -11,7 +11,9 @@ Supplied by the design team. Never modify, recolor, stretch, redraw or regenerat
 | `Logo-large.svg`, `.pdf`, `.png` (280x191 px) | Wordmark, pictogram and tagline "Smart Energy Management" | Positive |
 | `Logo-small.svg`, `.pdf`, `.png` (62x37 px) | Wordmark and pictogram only | Positive |
 
-No negative (dark-background) logo is supplied yet.
+| `Logo-small-negative.svg` (661x391 px) | Wordmark and pictogram only (same composition as Logo-small, no tagline); white text, orange elements | Negative |
+
+The negative file was supplied as `Logo-negatif.svg` and renamed on import (file content unchanged). No negative version of the large logo (with tagline) and no negative PDF/PNG are supplied yet.
 
 ## Approved examples
 
