@@ -2,6 +2,16 @@
 
 **Single source for illustration style.** Other files point here; they do not copy it.
 
+## 0. Official decisions (design team, 2026-10-28)
+
+These five decisions are **OFFICIAL** and apply to everything below. The rest of the file is OBSERVED.
+
+1. **Colors.** Brand colors come from the tokens. Colors needed to depict people and objects (skin, hair, secondary clothing, greys, shading) may be used if consistent with the existing official illustrations (§5). They are not brand colors and must not be used for backgrounds, titles or other communication elements.
+2. **Gradients.** Subtle gradients are allowed when they reproduce the treatment observed in the references (§2). Avoid complex gradients, realistic lighting, pronounced shadows and 3D effects.
+3. **AI creation.** AI agents may create new Energy Pool illustrations following the references and this Skill. Each new creation needs a compliance check (`VISUAL_QA.md`) and human validation before official distribution.
+4. **Reuse.** Recurring characters, poses, objects and graphic motifs may be reused or adapted for new coherent scenes. Official logos and symbols must be placed from the source files, never redrawn, distorted or reinterpreted (`BRAND_RULES.md` Logo).
+5. **Proportions.** No fixed numeric proportions. The official illustrations are the reference for heads, bodies, limbs and faces; consistency with the existing graphic family has priority.
+
 Status of every rule below: **OBSERVED** = measured or seen in the 31 reference files of this folder (all viewed; colors measured on the 23 PNG and read from the 8 SVG sources). It is **not** an official brand rule. Official rules and missing decisions: [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md). Per-file inventory: [`CATALOG.md`](CATALOG.md). Procedure: [`illustration-creation.md`](../.github/skills/energy-pool-visual-design/references/illustration-creation.md). Checklist: [`VISUAL_QA.md`](../guidelines/VISUAL_QA.md#illustration-checklist).
 
 Classes used: **F** = fundamental (present in nearly all references of the sub-style), **V** = acceptable variation (seen in some, same family), **S** = specific to one file; never turn an S into a rule.
@@ -35,7 +45,7 @@ The agent must compare against the reference images themselves, not only this te
 - **F Clothing:** tops in orange tints (light to saturated), trousers light grey to white with a vertical gradient, shirts or jackets with a collar or lapel shown by a lighter line or a lighter orange shape; folds as thin darker-orange lines. Dark trousers and a white shirt exist (`EP-Women-1`, `Forum`) as **V**.
 - **F Poses:** relaxed and active (waving, fist raised, arms crossed, hand on hip, cross-legged, holding a device or a document); body orientation toward the interaction; groups overlap slightly or sit side by side.
 - **F Diversity:** skin tones, hair, ages, glasses, a bald bearded man, a wheelchair user (`Forum`, **S**).
-- **V** Recurring characters (bearded man, blond woman in a blazer): use only with confirmation.
+- **V** Recurring characters (bearded man, blond woman in a blazer) may be reused or adapted (decision 4).
 
 ## 4. Objects and scenes
 
@@ -45,7 +55,7 @@ The agent must compare against the reference images themselves, not only this te
 - **V** Conceptual scenes: small floating icons around a central figure (`QVT`, `Compétences`, `Formation`); a dashed trail of circles (`Formation`).
 - **Energy / technology (F in the 8 SVG):** wind turbines, panels, battery with + and −, pylons, factory, dams, dashboards; mostly grey objects with orange parts in several tints (pale to saturated) to show repetition or depth; a thick orange gradient ring or line linking them, often with a cloud icon holding sync arrows. Some orange shapes have a thin white edge (**V**). The 8 SVG embed base64 PNGs and are not fully vector.
 - **S** Third-party logos (`Compétences`, `Formation`), flags (`Equipe internationale`), product names in text (`Empowill`, `SIRH`).
-- The Energy Pool pictogram appears on mugs, laptops, screens as existing artwork (**V**). New illustrations must follow the logo rules in `BRAND_RULES.md`; the agent must not redraw it.
+- The Energy Pool pictogram appears on mugs, laptops, screens as existing artwork (**V**). In new illustrations, place it from the official files per `BRAND_RULES.md` Logo; never redraw it (decision 4).
 
 ## 5. Colors (measured; compare with tokens)
 
@@ -64,7 +74,7 @@ Measured on 1.16 M opaque pixels of the 23 PNG; only **18.2 %** equal a token ex
 
 - Observed distribution: light greys about 30 % of pixels, orange family about 15 %, white about 4 %, remainder skin, hair and gradient intermediates.
 - A color close to a token is **not** a match. Token selection: [`../guidelines/TOKENS.md`](../guidelines/TOKENS.md).
-- Whether new illustrations may use non-token colors (greys, skin, hair) is an open decision in `BRAND_RULES.md`. Until answered, use token colors for orange, white and any available grey, and report greys, skin and hair colors as unverified against tokens.
+- Orange and white: tokens. Greys, skin, hair, secondary clothing and shading: take the values from the closest references (decision 1); list them in the report as non-token, reference-derived colors. Never use them for backgrounds, titles or other communication elements.
 
 ## 6. Composition and legibility
 
@@ -77,8 +87,8 @@ Measured on 1.16 M opaque pixels of the 23 PNG; only **18.2 %** equal a token ex
 
 ## 7. Not determinable from the references
 
-Head-to-body ratio, exact stroke or line widths for inner lines, gradient angles and stops, minimum size, corner radii. Do not invent them; copy them from the closest reference by viewing it.
+Head-to-body ratio, exact line widths, gradient angles and stops, minimum size, corner radii. Do not invent numbers (decision 5); match the closest references by viewing them.
 
 ## 8. Official rules
 
-Not in this file. The list of missing official information (do/don't, AI-creation policy, color roles, naming, owner) is in [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md).
+Beyond §0, not in this file. The remaining missing official information (do/don't list, text in illustrations, third-party logos and flags, naming, owner) is in [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md).

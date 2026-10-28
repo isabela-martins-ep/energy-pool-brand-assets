@@ -22,7 +22,7 @@ Run before delivering any generated or adapted visual. Definitions (OFFICIAL / O
 | 8 | Logo integrity | Only `brand-examples/Logo-large.*` or `Logo-small.*` used, unaltered (proportions, colors); or marked placeholder with status `Not verifiable`; nothing redrawn, recolored, stretched, cropped, repeated as a motif or generated; no logo recreated on objects | `BRAND_RULES.md` Logo | Partly | Yes | Yes |
 | 9 | Existing asset preservation | Existing poster/logo/text/official resources are preserved unless the requested change names the element; originals untouched | User request / `CATALOG.md` | Partly (git status, hashes) | Yes | Yes |
 | 10 | Illustration consultation | Catalog checked first; closest files actually viewed where possible; one sub-style selected; deviations listed; checklist a-i below | `CATALOG.md`, `STYLE_GUIDE.md` | No (needs image viewing) | Yes | Yes |
-| 11 | Illustration content | No third-party logos, flags, new recurring characters or text added without confirmation | `STYLE_GUIDE.md` | Partly | Yes | Yes |
+| 11 | Illustration content | No third-party logos, flags or text added without confirmation; official logos placed from source files; AI-created work labelled and pending human validation | `STYLE_GUIDE.md` | Partly | Yes | Yes |
 | 12 | Layout and spacing | Spacings use tokens; format/grid follow an approved example, else flagged | `spacing/*.json`, `brand-examples/` | Partly | Yes (no grid is documented) | Yes |
 | 13 | Composition | Focal hierarchy, clear text areas, no crop/overlap errors | Output | No | Yes | No |
 | 14 | Governance | Labelled AI-generated/AI-assisted; stated as draft pending human approval | `BRAND_RULES.md` | Yes | Approver signs off | Yes |
@@ -37,12 +37,12 @@ Details criteria #10 and #11. Traits and F/V/S classes are in [`STYLE_GUIDE.md`]
 | a | One sub-style only (people/workplace or energy/technology) | `STYLE_GUIDE.md` §1 |
 | b | Faces: dot eyes, thin brows, no or tiny nose, small orange mouth, no lashes or face shading | §3, references |
 | c | Hair, skin, clothing and hands built as in the references (flat masses with gentle gradient, simple hands, orange tops, light grey trousers) | §3, references |
-| d | Proportions and shapes: slim figures, rounded forms, no outlines | §2, §3, references |
-| e | Palette: orange, white and greys from tokens or listed as unverified; no new hues | §5, `TOKENS.md` |
-| f | Shading: soft linear gradients only; no hard shadows, textures, highlights | §2 |
+| d | Proportions and shapes match the references visually (no numeric ratio is checked); rounded forms, no outlines | §2, §3, references |
+| e | Palette: brand orange and white from tokens; greys, skin, hair, shading consistent with references and listed as non-token; none used for backgrounds or titles | §5, `TOKENS.md` |
+| f | Shading: subtle gradients as in the references; no complex gradients, realistic lighting, pronounced shadows, 3D | §2 |
 | g | Detail level: objects reduced to identifiable parts; one idea; 1 to 4 people | §4, §6 |
 | h | Composition: centered, isolated, empty space, orange on focal subject, readable when small | §6 |
-| i | No S trait copied as a rule; no composition or character copied from a reference | §1 to §6 |
+| i | No S trait copied as a rule; no composition copied from a reference (reused characters, poses and motifs are allowed) | §1 to §6 |
 
 A line cannot be `pass` for the palette (e), proportions (d) or any style resemblance without the images being viewed. Orange plus a vector look does not make an illustration `Compliant`.
 

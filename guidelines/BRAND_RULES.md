@@ -44,7 +44,7 @@ Never promote an OBSERVED item to OFFICIAL. Never infer official colors or typog
   - Which palette families are brand colors versus data-visualization or status colors.
   - Primary/secondary roles, allowed combinations, text/background pairs and contrast requirements.
   - Dark-mode or other modes (the export has only "Default").
-  - Gradient rules (existing illustrations use gradients).
+  - Gradient rules outside illustrations (illustration gradients: `STYLE_GUIDE.md` §0).
 
 ## Typography
 
@@ -66,8 +66,9 @@ Never promote an OBSERVED item to OFFICIAL. Never infer official colors or typog
 
 ## Illustration style
 
+- **OFFICIAL decisions** (colors outside tokens, gradients, AI creation, reuse, proportions): [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) §0. Brand colors still come only from tokens.
 - **OBSERVED only:** see [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) (single source for illustration traits: fundamentals, variations, specifics) and [`../illustrations/CATALOG.md`](../illustrations/CATALOG.md) (what each file shows). Two sub-styles exist: energy/technology (SVG, objects only, orange ring) and people/workplace (PNG, characters). Do not mix them unless a reference does.
-- **TO BE PROVIDED:** official do/don't rules, permitted character and pose guidelines, rules for text in illustrations, backgrounds and cropping, and whether new illustrations may be created by AI at all.
+- **TO BE PROVIDED:** official do/don't list, rules for text in illustrations, third-party logos and flags in illustrations, backgrounds and cropping.
 
 ## Layout and spacing
 
@@ -87,10 +88,10 @@ Only the logo files are supplied. No approved poster, slide or UI example exists
 
 | Area | Missing | Source to supply |
 |---|---|---|
-| Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, gradients; `state` vs `state new` precedence | Figma Design System |
+| Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, non-illustration gradients; `state` vs `state new` precedence | Figma Design System |
 | Typography | Confirmed body font, font files/licenses/fallbacks, print/poster scale | Figma Design System, brand team |
 | Logo | Large/small selection rule, clear space, minimum size, permitted backgrounds, forbidden uses (files are supplied) | Brand team |
-| Illustration | Official rules, AI-creation policy, text-in-illustration rules | Design team |
+| Illustration | Do/don't list, text-in-illustration and third-party logo rules | Design team |
 | Layout | Grids, formats, poster/slide templates, placement rules | Figma Design System |
 | Examples | Approved posters, slides, illustrations in context | Design team |
 | Restrictions | Explicit visual do-not list | Brand team |
