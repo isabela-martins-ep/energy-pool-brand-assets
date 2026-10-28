@@ -101,11 +101,11 @@ Source: Energy Pool brand charter (rules below supplied by the design team, 2026
 **Selection procedure**
 1. Identify the background (white, light uniform photo, dark, colored).
 2. Light background: use the positive file. Dark background: the negative file is missing, so do not invert or recolor the positive one; report the missing resource and ask the design team for it, or change the background.
-3. Large vs small: `TO BE PROVIDED`. Use the version the user requests, otherwise ask. Check that the placed width meets the minimum for the chosen file.
+3. Large vs small: no official rule (`TO BE PROVIDED`). Use the version the user requests; otherwise choose by layout (proposed convention: small for compact or tight spaces, large for signature or prominent placement) and note the choice in the delivery. Check that the placed width meets the minimum for the chosen file.
 4. If the tool cannot embed SVG/PDF, say so, leave a marked placeholder ("LOGO - official file required") and mark the logo criterion `Not verifiable`.
 5. On an existing visual, keep the logo already present.
 
-**TO BE PROVIDED:** negative logo files, list of authorized colored backgrounds, large vs small rule.
+**TO BE PROVIDED:** negative logo files, list of authorized colored backgrounds, official large vs small rule.
 
 ## Illustration style
 
