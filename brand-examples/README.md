@@ -24,7 +24,7 @@ Supplied by the design team, in [`third-party-logos/`](third-party-logos/). Noem
 | `logo-noemys.svg` (285x59 px) | Noemys logo (SVG source: dark grey `#3C3C3C` fills, a gradient mark) | For light backgrounds |
 | `logo-noemys-negative.svg` (285x59 px) | Noemys logo (SVG source: white fills, a gradient mark) | For dark backgrounds |
 
-The Noemys logo has no minimum size. Its clear space is `TO BE PROVIDED`; keep it legible and do not assume the Energy Pool value.
+The Noemys logo has no official minimum size and no official clear space. Keep it legible and uncluttered; do not apply the Energy Pool values.
 
 ## Approved examples
 
