@@ -35,7 +35,7 @@ Upload these files from the repository. Keep them as Markdown or JSON if your to
 | [`VISUAL_QA.md`](VISUAL_QA.md) | Pre-delivery checklist |
 | [`../.github/skills/energy-pool-visual-design/references/poster-workflow.md`](../.github/skills/energy-pool-visual-design/references/poster-workflow.md) | Poster workflow |
 | [`../illustrations/CATALOG.md`](../illustrations/CATALOG.md) | What each illustration shows |
-| [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) | Observed illustration traits |
+| [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) | Observed illustration traits (single source for illustration style; view the images) |
 | [`../colors/Default.tokens.json`](../colors/Default.tokens.json) | Color tokens (large, about 300 KB; may exceed upload limits, in which case split or summarize it without changing values) |
 | [`../colors/Mode 1.tokens 3.json`](../colors/Mode%201.tokens%203.json) | Component tokens (states, borders, focus) |
 | [`../typography/Mode 1.tokens.json`](../typography/Mode%201.tokens.json) | Typography tokens |

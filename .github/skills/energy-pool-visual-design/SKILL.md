@@ -12,7 +12,7 @@ Entry point for creating or modifying Energy Pool brand visuals (posters, illust
 | Request | Procedure to follow |
 |---|---|
 | Poster, flyer, infographic, slide, social visual, HR visual | [`references/poster-workflow.md`](references/poster-workflow.md) |
-| New illustration or adaptation of an existing one | [`references/illustration-creation.md`](references/illustration-creation.md) |
+| New illustration or adaptation of an existing one (7-step process; style rules in `illustrations/STYLE_GUIDE.md`) | [`references/illustration-creation.md`](references/illustration-creation.md) |
 
 ## Process (all requests)
 
