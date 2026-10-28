@@ -23,11 +23,11 @@ Defined once in [`BRAND_RULES.md`](../../../guidelines/BRAND_RULES.md#rule-level
 1. **Understand** the request and the constraints supplied (text, format, audience, assets). Act on aesthetic choices; ask, in one message, only for missing essential information or when a choice might break a level A rule.
 2. **Consult** the relevant rules and resources: `BRAND_RULES.md`, [`TOKENS.md`](../../../guidelines/TOKENS.md) and the token files it names, [`brand-examples/`](../../../brand-examples/README.md) (logos, approved examples), and for illustrations [`CATALOG.md`](../../../illustrations/CATALOG.md) and `STYLE_GUIDE.md`. Keep an internal source manifest (each file: read, viewed or inaccessible). A path or URL is not proof of consultation.
 3. **Select references**: the closest approved example or catalogued illustrations (same sub-style), and open the actual images. Reuse an existing file when it fits.
-4. **Define a graphic direction** coherent with Energy Pool: colors (tokens), fonts, logo, illustration approach, layout idea. Keep it short.
+4. **Define a graphic direction** coherent with Energy Pool: colors (confirmed brand tokens; you pick the roles), fonts, logo, illustration approach, layout idea. Keep it short. Consider two or three compositions and keep the strongest; deliver one file unless the user asks for options, and do not ask for validation between them.
 5. **Create an original proposal** with the available tools. Never assume image generation, font embedding or Figma access. Work on copies; never alter originals, logos or token exports. When modifying an existing visual, change only what was requested.
-6. **Verify the produced output**, not the prompt, with [`VISUAL_QA.md`](../../../guidelines/VISUAL_QA.md). Say what you could not inspect.
+6. **Verify the produced output**, not the prompt, with [`VISUAL_QA.md`](../../../guidelines/VISUAL_QA.md); mark non-applicable criteria `N/A`. Say what you could not inspect.
 7. **Correct** blocking non-compliances and style gaps; re-verify.
-8. **Deliver** the requested file, a few lines on the main design decisions, and limits or points needing human validation, labelled AI-generated / AI-assisted, draft pending approval. A detailed report only if the user asks or a compliance problem requires it (`VISUAL_QA.md`).
+8. **Deliver** the requested file, a few lines on the main design decisions, and limits or points needing human validation, labelled AI-generated / AI-assisted, draft pending approval. A draft is deliverable even when official validations are pending. A detailed report only if the user asks or a compliance problem requires it (`VISUAL_QA.md`).
 
 Optional helper: [`scripts/resolve_token.py`](scripts/resolve_token.py) (read-only token lookup; not available in Microsoft 365 Copilot).
 

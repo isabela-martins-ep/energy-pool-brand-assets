@@ -41,7 +41,7 @@ Permissions are not obligations: an illustration may have no text, no scenery or
 2. Reference colors, spacing and type by **token name** (with the value from the token file), not by eyeballed values.
 3. Logo: use only the official files in `brand-examples/` and never redraw, recolor, stretch, crop, repeat or generate the logo or pictogram (see [Logo](#logo)).
 4. Never modify or overwrite files in `illustrations/` or other original assets. Work on copies outside the original folders.
-5. If a level A rule or fact you need is `TO BE PROVIDED`, say so and ask; do not fill the gap. For level B and C items, decide and, if it matters, mention the choice.
+5. If a level A rule or fact you need is `TO BE PROVIDED`, say so and ask; do not fill the gap (exception: the color-to-role mapping, see Colors). For level B and C items, decide and, if it matters, mention the choice.
 6. Label every AI-generated or AI-assisted visual as such. It is a draft until a human reviews and approves it before publication.
 7. Before delivery, run [`VISUAL_QA.md`](VISUAL_QA.md) and report the result, including anything you could not verify. Visual resemblance to Energy Pool is not proof of compliance.
 
@@ -50,11 +50,12 @@ Permissions are not obligations: an illustration may have no text, no scenery or
 - **OFFICIAL source:** [`../colors/Default.tokens.json`](../colors/Default.tokens.json), a Figma variables export (mode "Default"). It holds `palette` (31 color families, most with `shades` 100-900 and `tints` 100-900, each with a `hex`) and `energy-assets` (chart/icon/background tokens per energy source and sector, referencing the palette). Confirm it is the current published version.
 - **Component tokens:** [`../colors/Mode 1.tokens 3.json`](../colors/Mode%201.tokens%203.json) (states, borders, focus, shadows; UI only). Tiers, selection method and resolution: [`TOKENS.md`](TOKENS.md). Read values from the files, not from memory.
 - **Brand orange (confirmed by the design team, 2026-10-27):** `palette.vitamin-c` = `#FF9900`, the same value as the orange in the official logo files. `palette.orange-popsicle` (`#FF7F19`) is in the palette but is not designated as the brand orange; do not use it as such unless the design team says so.
+- **Choosing colors for a medium:** with no semantic token for a role, the agent may choose confirmed brand colors itself: `vitamin-c` and its shades and tints, plus white and neutral palette tokens, using the exact token hex. Other palette families may be used as accents only from the token files, and the choice is reported as a point for validation; it is never presented as an official rule or palette. The role-to-color mapping stays undocumented (below) and is a creative choice, not a fact about the charter.
 - **Never decorative:** state colors (success/valid, danger/invalid, warning, info, link) are for their UI state only. A color existing in the palette is not permission to use it on a poster.
 - **OBSERVED, SVG source colors vs tokens** (exact hex comparison; not a statement of intent): (PNG measurement: only 18.2 % of opaque pixels equal a token; details in `STYLE_GUIDE.md` §5) `#FFB84D` = `vitamin-c.tints.700`, `#FFE0B3` = `vitamin-c.tints.300`, `#FF9900` = `vitamin-c` (brand orange). No token matches `#EA5B0C`, `#F7EAC6`, `#EFEFEF`, `#EDEDED`, `#D0D0D0`, `#B2B2B2`, `#FFC774`, `#FFB342`, `#FFA41E`, `#FF9C08`. Existing illustrations therefore cannot be assumed to use only tokens.
 - **TO BE PROVIDED:**
   - Which palette families are brand colors versus data-visualization or status colors.
-  - Primary/secondary roles, allowed combinations, text/background pairs and contrast requirements.
+  - Official primary/secondary roles, allowed combinations, text/background pairs and contrast requirements.
   - Dark-mode or other modes (the export has only "Default").
   - Gradient rules outside illustrations (illustration gradients: `STYLE_GUIDE.md` §0).
 

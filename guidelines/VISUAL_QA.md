@@ -4,16 +4,16 @@ Run on the produced output before delivering any generated or adapted visual. Ke
 
 **Three kinds of resource, never confused:** an *officially validated resource* (logo files, token exports), a *creation inspired by references* (any AI output), and a *creation verified as compliant* (every criterion below checked `Compliant`). Visual resemblance to Energy Pool is not evidence of compliance.
 
-**Statuses:** `Compliant`, `Non-compliant`, `Not verifiable` (say why). `Not verifiable` is never treated as compliant. If a level A rule is `TO BE PROVIDED`, the item is `Not verifiable`; for level B or C items it is not a blocker.
+**Statuses:** `Compliant`, `Non-compliant`, `Not verifiable` (say why), `N/A` (criterion does not apply, e.g. no logo, no text, no illustration; say so in one line). `Not verifiable` is never treated as compliant; `N/A` is not a failure. If a level A rule is `TO BE PROVIDED`, the item is `Not verifiable`; for level B or C items it is not a blocker.
 
-**Blocking rule:** a `Non-compliant` or `Not verifiable` result on a criterion marked **Blocking = Yes** prevents `Ready for human approval` and `Ready to publish`. It may be delivered only as an explicitly labelled `Exploration` or `Not verifiable` draft.
+**Blocking rule:** a `Non-compliant` or `Not verifiable` result on a criterion marked **Blocking = Yes** prevents `Ready for human approval` and `Ready to publish`. The visual can still be delivered as a draft, labelled `Exploration` or `Not verifiable` with the pending validations listed; only the approval-ready status is withheld.
 
 **Automatable:** Yes = a script or file read can check it; Partly = tool-assisted, then confirm; No = human only. Every visual still needs human approval before publication.
 
 | # | Criterion | What to check | Source | Automatable | Human validation | Blocking |
 |---|---|---|---|---|---|---|
 | 1 | Source manifest and consultation | Required files are listed, actually read/viewed, and inaccessible files are named; a URL/path alone is not evidence | `SKILL.md` step 2 | Partly | Reviewer confirms the list | Yes |
-| 2 | Color tokens | Each color maps to a token and its exact HEX (`resolve_token.py` or JSON); none estimated from images | `colors/*.json`, `TOKENS.md` | Yes for source/HTML/SVG; Partly for raster | Role of each color for this medium (`TO BE PROVIDED`) | Yes |
+| 2 | Color tokens | Each color maps to a token and its exact HEX (`resolve_token.py` or JSON); none estimated from images | `colors/*.json`, `TOKENS.md` | Yes for source/HTML/SVG; Partly for raster | Role of each color for this medium (no official mapping: agent's choice, reported) | Yes |
 | 3 | Color usage | No state colors (success, danger, warning, info, link) or component tokens used decoratively; `energy-assets` only for their source | `TOKENS.md` | Partly | Yes | Yes |
 | 4 | Contrast / legibility | Text is legible on its background; contrast measured and stated (no official threshold exists) | Output file | Partly | Yes (print/projection legibility) | No |
 | 5 | Fonts | Titles in Chillax, subtitles/body in Synonym, verified on the produced file (rules: `BRAND_RULES.md` Typography). Fonts not verifiable: `Not verifiable`; a different font used: `Non-compliant` | `typography/Mode 1.tokens.json` | Partly | Yes (rendering) | Yes |
@@ -67,7 +67,7 @@ Criteria 1, 2, 3, 5, 7, 8, 9, 11, 14 and 15 (Blocking = Yes). Any of them `Non-c
 
 ## Delivery
 
-By default give the user only: the file, a few lines on the main design decisions, and the limits or points for human validation, with the label "AI-generated / AI-assisted, draft pending human approval". Give the detailed report below only if the user asks or a blocking non-compliance, or an unverifiable blocking criterion, must be explained.
+A proposal with pending official validations is delivered as a draft, not withheld. By default give the user only: the file, a few lines on the main design decisions, and the limits or points for human validation, with the label "AI-generated / AI-assisted, draft pending human approval". Give the detailed report below only if the user asks or a blocking non-compliance, or an unverifiable blocking criterion, must be explained.
 
 ## Detailed report (on request or when a compliance problem requires it)
 

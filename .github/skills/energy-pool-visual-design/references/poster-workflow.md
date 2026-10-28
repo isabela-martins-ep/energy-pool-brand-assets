@@ -17,7 +17,7 @@ Read the sources in `SKILL.md` step 2. Use approved examples from `brand-example
 
 | Item | Rule |
 |---|---|
-| Colors | Brand colors from tokens (role -> token -> HEX, [`TOKENS.md`](../../../../guidelines/TOKENS.md)); brand orange per `BRAND_RULES.md` Colors. Choose the roles yourself; no state colors used decoratively. |
+| Colors | Brand colors from tokens (role -> token -> HEX, [`TOKENS.md`](../../../../guidelines/TOKENS.md)); brand orange per `BRAND_RULES.md` Colors. Choose the roles yourself (no official role mapping exists; do not present your choice as one); other palette families only as reported accents; no state colors used decoratively. |
 | Typography | Chillax for titles, Synonym for other text, per `BRAND_RULES.md` Typography. Only the official weights; hierarchy, sizes and alignment are your choice (no official scale). Say which font was actually rendered; an image generator does not guarantee them. |
 | Logo | Follow the selection procedure in [`BRAND_RULES.md`](../../../../guidelines/BRAND_RULES.md#logo): variant by background, size and clear space checked. Record the file, background and placed width internally. |
 | Illustration and pictograms | Catalogued files, new illustrations or pictograms, coherent with `STYLE_GUIDE.md`. Text in an illustration is allowed when it helps (same fonts rule). |
@@ -26,7 +26,7 @@ Read the sources in `SKILL.md` step 2. Use approved examples from `brand-example
 
 ## 5. Create, 6. Verify, 7. Correct
 
-Build the visual from the direction without altering brand values. For an existing poster, keep its content, structure, logo and resources unless the user named the element to change; never reconstitute an element from memory. Run [`VISUAL_QA.md`](../../../../guidelines/VISUAL_QA.md) on the produced file (if the environment cannot display it, visual checks are `Not verifiable`), then correct blocking non-compliances and style gaps.
+Sketch two or three compositions mentally or briefly, keep the strongest, and deliver one file unless options are requested. Build the visual from the direction without altering brand values. For an existing poster, keep its content, structure, logo and resources unless the user named the element to change; never reconstitute an element from memory. Run [`VISUAL_QA.md`](../../../../guidelines/VISUAL_QA.md) on the produced file (if the environment cannot display it, visual checks are `Not verifiable`), marking non-applicable criteria `N/A`, then correct blocking non-compliances and style gaps.
 
 ## Infographics
 
