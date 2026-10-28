@@ -23,13 +23,25 @@ If two OFFICIAL sources disagree and no priority is documented (for example `sta
 
 Never promote an OBSERVED item to OFFICIAL. Never infer official colors or typography from illustration screenshots.
 
-## Mandatory rules
+## Rule levels
+
+Single definition; other files point here.
+
+| Level | Content | How to apply |
+|---|---|---|
+| **A. Mandatory** | Official logos and their rules ([Logo](#logo)); Chillax for titles and Synonym for other text ([Typography](#typography)); brand colors from the tokens ([Colors](#colors)); content supplied by the user; prohibitions the charter defines | Strictly. A violation blocks delivery as approved. |
+| **B. Visual coherence** | Illustration style and construction, characters, faces, clothing, objects, color balance, detail level, subtle shading, legibility, hierarchy ([`STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md)) | As guidance with judgment: reproduce the graphic language, not the references' composition. |
+| **C. Creative freedom** | Composition and layout, framing, page format and proportions, poses and interactions, scenery and objects, content hierarchy, adaptation to the medium | The agent decides alone; no confirmation needed. |
+
+Permissions are not obligations: an illustration may have no text, no scenery or no gradient. Ask the user only when essential information is missing or a choice might break a level A rule. Where this file says `TO BE PROVIDED` for a level C item (grid, poster format), that is not a blocker: choose, label it a proposal, and never present it as an official rule. Types of QA findings: [`VISUAL_QA.md`](VISUAL_QA.md#types-of-findings).
+
+## Mandatory rules (level A and honesty)
 
 1. Use only documented tokens, fonts and components. Never invent colors, fonts, spacing values, logo variants or design rules.
 2. Reference colors, spacing and type by **token name** (with the value from the token file), not by eyeballed values.
 3. Logo: use only the official files in `brand-examples/` and never redraw, recolor, stretch, crop, repeat or generate the logo or pictogram (see [Logo](#logo)).
 4. Never modify or overwrite files in `illustrations/` or other original assets. Work on copies outside the original folders.
-5. If a rule you need is `TO BE PROVIDED`, say so in the answer and ask for it; do not fill the gap.
+5. If a level A rule or fact you need is `TO BE PROVIDED`, say so and ask; do not fill the gap. For level B and C items, decide and, if it matters, mention the choice.
 6. Label every AI-generated or AI-assisted visual as such. It is a draft until a human reviews and approves it before publication.
 7. Before delivery, run [`VISUAL_QA.md`](VISUAL_QA.md) and report the result, including anything you could not verify. Visual resemblance to Energy Pool is not proof of compliance.
 
@@ -44,35 +56,68 @@ Never promote an OBSERVED item to OFFICIAL. Never infer official colors or typog
   - Which palette families are brand colors versus data-visualization or status colors.
   - Primary/secondary roles, allowed combinations, text/background pairs and contrast requirements.
   - Dark-mode or other modes (the export has only "Default").
-  - Gradient rules (existing illustrations use gradients).
+  - Gradient rules outside illustrations (illustration gradients: `STYLE_GUIDE.md` §0).
 
 ## Typography
 
-- **OFFICIAL source:** [`../typography/Mode 1.tokens.json`](../typography/Mode%201.tokens.json), a Figma variables export. It lists: heading and display font `Chillax`; body, base, monospace and code font `Synonym`; `Yu Gothic` (Japanese) and `Alexandria` (Arabic) variants; weights 300/400/500/600/700; base size 16, line heights 24/20/32; heading sizes h1-h6; display sizes 1-6; heading color `#181818`, muted text `#939393`. Headings use weight 500 and display uses weight 400 per the export. Units are not stated in the export.
-- **Body font, open decision:** the export lists `Synonym`. "Noto Sans" appears only in an external Design System description that is not part of this repository; do not use it as a source. Use the export's fonts, and ask the design team to confirm that `Synonym` is current.
-- **TO BE PROVIDED:**
-  - Font files, licenses and approved fallbacks for tools that cannot load Chillax or Synonym (many AI image tools and Microsoft 365 apps cannot).
-  - Type scale for print and posters (the export targets UI), text case and alignment rules, maximum line length.
-- Rule: never state that a font was used unless the tool can embed or guarantee it. If the real font cannot be used, say so, name what was used instead, and ask the design team for the approved fallback; never silently substitute.
+Single source for typography rules. Official source: Energy Pool brand charter, p. 13 "Typography - Chillax & Synonym" (supplied by the design team, 2026-10-27).
+
+- **Chillax:** all titles.
+- **Synonym:** subtitles and body text.
+- Both apply to web and print.
+- Available weights, both families: SemiBold, Medium, Regular, Light. No other weight, and no other family, is official for these roles.
+- **Export check:** [`../typography/Mode 1.tokens.json`](../typography/Mode%201.tokens.json) (Figma export, unmodified) is consistent: heading/display `Chillax`, body `Synonym`. It also lists `Yu Gothic` and `Alexandria` variants, numeric weights, sizes, line heights and colors, with units not stated; use those values only by token name, and do not turn them into mandatory sizes, line heights or weights for posters. No poster type scale is required or defined: do not invent one.
+- **No fallback fonts:** none is needed or defined. Noto Sans is not an Energy Pool font; do not use it or any other font as a substitute.
+- **Image generators** do not necessarily render the exact official fonts. Do not state that Chillax or Synonym was used unless the real fonts were embedded or the rendering was checked. Prefer composing text in an editable layout with the real fonts.
+- **If the fonts are unavailable:** do not substitute silently. Say so, name any font actually used, and ask the user to supply the real fonts or finalize the text in a tool that has them.
+- **Status:** typography is `Compliant` only if the fonts actually used were verified as Chillax for titles and Synonym for subtitles/body. Fonts that cannot be verified: `Not verifiable`. A different font actually used: `Non-compliant`.
+- **Font files** (Fontshare, ITF Free Font License, copy in each folder): [`../typography/fonts/Chillax/`](../typography/fonts/Chillax/) and [`../typography/fonts/Synonym/`](../typography/fonts/Synonym/), OTF for print/design tools and WOFF2 for web. The packages also contain Bold and Extralight, which are **not** official weights: do not use them. Install the OTF files to render posters; check the license terms before redistributing them outside Energy Pool.
+- **TO BE PROVIDED:** text case, alignment and line-length rules.
 
 ## Logo
 
-- **OFFICIAL files (supplied by the design team):** [`Logo-large.svg`](../brand-examples/Logo-large.svg), [`Logo-large.pdf`](../brand-examples/Logo-large.pdf), [`Logo-small.svg`](../brand-examples/Logo-small.svg), [`Logo-small.pdf`](../brand-examples/Logo-small.pdf). Both versions use black and `#FF9900`, with no background.
-- **Verified file characteristics:** `large` (viewBox 280x191) includes the tagline "Smart Energy Management"; `small` (viewBox 62x37) is the wordmark with pictogram only.
-- **Do:** place the file as supplied (prefer SVG, else PDF) with its proportions and colors unchanged; on an existing visual, keep the logo already there.
-- **Do not:** redraw, trace, recolor, stretch, crop, add effects, generate it with an image tool, repeat it as a decorative motif, or copy the pictogram/wordmark seen inside illustrations (mugs, laptops, `SIRH.png`, `Forum.png`, other artwork).
-- **If the tool cannot embed SVG/PDF:** say so, leave a marked placeholder ("LOGO - official file required") and mark the logo criterion `Not verifiable`.
-- **TO BE PROVIDED:** rule for choosing large vs small (until then, use the version the user requests, or ask), minimum size, clear space, permitted backgrounds (the files are black and orange, so legibility on dark or colored backgrounds is unverified), forbidden uses.
+Source: Energy Pool brand charter (rules below supplied by the design team, 2026-10-27). This is the only place where logo rules are defined.
+
+**Files** in [`../brand-examples/`](../brand-examples/README.md): `Logo-large.svg|pdf|png` (wordmark, pictogram and tagline "Smart Energy Management") and `Logo-small.svg|pdf|png` (wordmark and pictogram only). Large/small is a size/content choice; it is not the positive/negative choice.
+
+**Variants**
+
+| Variant | Use on | Available file |
+|---|---|---|
+| Positive | White background, or a light photograph that is sufficiently uniform | Both files, large and small. Verified in the SVG source: black (`black`) and `#FF9900` fills, no background. |
+| Negative | Dark background, or a dark photograph that is sufficiently uniform | **Missing.** No negative file is in the repository. |
+
+**Prohibited**
+- Any orange background, and any colored background not explicitly authorized (no authorization list exists: ask).
+- An all-black or all-white version.
+- A photographic background mixing light and dark areas that harms legibility.
+- Redrawing, tracing, recoloring, stretching, cropping, adding effects, generating it with an image tool, repeating it as a motif, or copying the pictogram/wordmark seen inside illustrations or on objects.
+
+**Size and protection**
+- Minimum width: 100 px on screen, 36 mm in print. Prefer SVG/PDF. `Logo-large.png` is 280 px and `Logo-small.png` 62 px wide: never upscale a PNG; `Logo-small.png` is below the 100 px digital minimum, so use the SVG on screen.
+- Clear space: all around the logo, equal to the height of the capital "E" of "Energy" in the logo. No typographic element may enter it.
+- Keep the original proportions and colors.
+
+**Selection procedure**
+1. Identify the background (white, light uniform photo, dark, colored).
+2. Light background: use the positive file. Dark background: the negative file is missing, so do not invert or recolor the positive one; report the missing resource and ask the design team for it, or change the background.
+3. Large vs small: no official rule (`TO BE PROVIDED`). Use the version the user requests; otherwise choose by layout (proposed convention: small for compact or tight spaces, large for signature or prominent placement) and note the choice in the delivery. Check that the placed width meets the minimum for the chosen file.
+4. If the tool cannot embed SVG/PDF, say so, leave a marked placeholder ("LOGO - official file required") and mark the logo criterion `Not verifiable`.
+5. On an existing visual, keep the logo already present.
+
+**TO BE PROVIDED:** negative logo files, list of authorized colored backgrounds, official large vs small rule.
 
 ## Illustration style
 
+- **OFFICIAL decisions** (colors outside tokens, gradients, AI creation, reuse, proportions): [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) §0. Brand colors still come only from tokens.
 - **OBSERVED only:** see [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) (single source for illustration traits: fundamentals, variations, specifics) and [`../illustrations/CATALOG.md`](../illustrations/CATALOG.md) (what each file shows). Two sub-styles exist: energy/technology (SVG, objects only, orange ring) and people/workplace (PNG, characters). Do not mix them unless a reference does.
-- **TO BE PROVIDED:** official do/don't rules, permitted character and pose guidelines, rules for text in illustrations, backgrounds and cropping, and whether new illustrations may be created by AI at all.
+- **OFFICIAL decisions** also cover do/don't, text, third-party logos and flags, backgrounds and framing: `STYLE_GUIDE.md` §0.
+- **TO BE PROVIDED:** illustration file naming and owner.
 
 ## Layout and spacing
 
 - **OFFICIAL source:** [`../spacing/Mode 1.tokens 2.json`](../spacing/Mode%201.tokens%202.json), a Figma variables export with `rem`, `em` and `spacer` scales (e.g. `spacer.spacers.1` to `6`, resolving to 4, 8, 12, 16, 24, 48 as numbers; units not stated). Use token names.
-- **TO BE PROVIDED:** grid, margins and safe areas, formats and sizes for posters, slides and social media, hierarchy and composition rules, and how illustrations are placed relative to text.
+- **No official layout rules exist** (grid, margins, safe areas, formats and sizes for posters, slides and social media, hierarchy and composition, placement of illustrations relative to text). This is level C: the agent decides and labels the result a proposal; it is not a blocker and not an official rule.
 
 ## Approved visual examples
 
@@ -81,16 +126,16 @@ Only the logo files are supplied. No approved poster, slide or UI example exists
 ## Visual restrictions
 
 - Process restrictions are the mandatory rules above.
-- **TO BE PROVIDED:** explicit visual do-not rules (forbidden colors, effects, imagery, tone, representation of people, third-party logos in visuals, use of stock or photographic imagery). The existing illustrations include third-party tool logos and flags; whether that is allowed is not documented.
+- **TO BE PROVIDED:** explicit visual do-not rules (forbidden colors, effects, imagery, tone, representation of people, third-party logos in visuals, use of stock or photographic imagery). Illustrations: see `STYLE_GUIDE.md` §0.
 
 ## Missing information register
 
 | Area | Missing | Source to supply |
 |---|---|---|
-| Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, gradients; `state` vs `state new` precedence | Figma Design System |
-| Typography | Confirmed body font, font files/licenses/fallbacks, print/poster scale | Figma Design System, brand team |
-| Logo | Large/small selection rule, clear space, minimum size, permitted backgrounds, forbidden uses (files are supplied) | Brand team |
-| Illustration | Official rules, AI-creation policy, text-in-illustration rules | Design team |
+| Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, non-illustration gradients; `state` vs `state new` precedence | Figma Design System |
+| Typography | Text case, alignment and line-length rules | Brand charter, brand team |
+| Logo | Negative logo files, authorized colored backgrounds, large vs small rule | Brand team |
+| Illustration | File naming, owner | Design team |
 | Layout | Grids, formats, poster/slide templates, placement rules | Figma Design System |
 | Examples | Approved posters, slides, illustrations in context | Design team |
 | Restrictions | Explicit visual do-not list | Brand team |
