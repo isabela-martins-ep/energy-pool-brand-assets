@@ -4,13 +4,21 @@
 
 ## 0. Official decisions (design team, 2026-10-28)
 
-These five decisions are **OFFICIAL** and apply to everything below. The rest of the file is OBSERVED.
+These nine decisions are **OFFICIAL** and apply to everything below. The rest of the file is OBSERVED.
 
 1. **Colors.** Brand colors come from the tokens. Colors needed to depict people and objects (skin, hair, secondary clothing, greys, shading) may be used if consistent with the existing official illustrations (§5). They are not brand colors and must not be used for backgrounds, titles or other communication elements.
 2. **Gradients.** Subtle gradients are allowed when they reproduce the treatment observed in the references (§2). Avoid complex gradients, realistic lighting, pronounced shadows and 3D effects.
 3. **AI creation.** AI agents may create new Energy Pool illustrations following the references and this Skill. Each new creation needs a compliance check (`VISUAL_QA.md`) and human validation before official distribution.
 4. **Reuse.** Recurring characters, poses, objects and graphic motifs may be reused or adapted for new coherent scenes. Official logos and symbols must be placed from the source files, never redrawn, distorted or reinterpreted (`BRAND_RULES.md` Logo).
 5. **Proportions.** No fixed numeric proportions. The official illustrations are the reference for heads, bodies, limbs and faces; consistency with the existing graphic family has priority.
+6. **Do.** Flat-design vector illustrations; simple, geometric, slightly rounded shapes; stylized, expressive, inclusive characters with simplified faces; palette consistent with the official illustrations, orange and greys dominant; limited detail and readable compositions; subtle gradients only when consistent with the references.
+7. **Don't.** Photorealism and 3D; complex textures and material effects; strong shadows, dramatic lighting, metallic effects; thick black outlines; characters with realistic proportions or exaggerated cartoon style; decorative elements with no visual or narrative function.
+8. **Text, third-party logos, flags.**
+   - Prefer illustrations without embedded text. Short text is allowed when needed to understand the scene (on a screen, poster or signage).
+   - For communication material, add text separately at final composition, with the official typefaces (`BRAND_RULES.md` Typography), to avoid AI text errors.
+   - Never invent slogans, data or messages attributed to Energy Pool.
+   - Third-party logos and flags may appear when the context needs them. Use official files when available; never invent, distort or alter them. If the official file is missing, report it instead of generating an imitation.
+9. **Backgrounds and framing.** Prefer transparent or white background. Simplified backgrounds are allowed when they help understand the scene; avoid realistic, busy or over-detailed settings. Adapt the framing to the use (full figure, close-up, group, full scene); keep the scene readable and do not crop essential elements by accident.
 
 Status of every rule below: **OBSERVED** = measured or seen in the 31 reference files of this folder (all viewed; colors measured on the 23 PNG and read from the 8 SVG sources). It is **not** an official brand rule. Official rules and missing decisions: [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md). Per-file inventory: [`CATALOG.md`](CATALOG.md). Procedure: [`illustration-creation.md`](../.github/skills/energy-pool-visual-design/references/illustration-creation.md). Checklist: [`VISUAL_QA.md`](../guidelines/VISUAL_QA.md#illustration-checklist).
 
@@ -83,7 +91,8 @@ Measured on 1.16 M opaque pixels of the 23 PNG; only **18.2 %** equal a token ex
 - **F** Orange area concentrated on the people or the key object; context stays grey.
 - **V** Seated scenes around a table seen from the front; back-view figures have no face (`Forum`).
 - **F** Remains readable when small because shapes are large and simple; no fine detail is needed to read the scene.
-- No fixed canvas ratio is observed (see `CATALOG.md`). Text inside the artwork is rare, in French, and not part of the style.
+- Reference backgrounds are white or transparent with at most a ground ellipse, a table or a stand; simplified backgrounds (decision 9) go beyond what the 31 files show: keep them as minimal as those objects.
+- No fixed canvas ratio is observed (see `CATALOG.md`). Text inside the artwork is rare and in French; decision 8 governs new text.
 
 ## 7. Not determinable from the references
 
@@ -91,4 +100,4 @@ Head-to-body ratio, exact line widths, gradient angles and stops, minimum size, 
 
 ## 8. Official rules
 
-Beyond §0, not in this file. The remaining missing official information (do/don't list, text in illustrations, third-party logos and flags, naming, owner) is in [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md).
+Beyond §0, not in this file. The remaining missing official information (naming, owner) is in [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md).

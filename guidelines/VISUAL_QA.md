@@ -21,8 +21,8 @@ Run before delivering any generated or adapted visual. Definitions (OFFICIAL / O
 | 7 | Text content | Text equals the user's text; spelling, accents and language are right; nothing added or rewritten | User request / original asset | Partly | Yes (proofreading) | Yes |
 | 8 | Logo integrity | Only `brand-examples/Logo-large.*` or `Logo-small.*` used, unaltered (proportions, colors); or marked placeholder with status `Not verifiable`; nothing redrawn, recolored, stretched, cropped, repeated as a motif or generated; no logo recreated on objects | `BRAND_RULES.md` Logo | Partly | Yes | Yes |
 | 9 | Existing asset preservation | Existing poster/logo/text/official resources are preserved unless the requested change names the element; originals untouched | User request / `CATALOG.md` | Partly (git status, hashes) | Yes | Yes |
-| 10 | Illustration consultation | Catalog checked first; closest files actually viewed where possible; one sub-style selected; deviations listed; checklist a-i below | `CATALOG.md`, `STYLE_GUIDE.md` | No (needs image viewing) | Yes | Yes |
-| 11 | Illustration content | No third-party logos, flags or text added without confirmation; official logos placed from source files; AI-created work labelled and pending human validation | `STYLE_GUIDE.md` | Partly | Yes | Yes |
+| 10 | Illustration consultation | Catalog checked first; closest files actually viewed where possible; one sub-style selected; deviations listed; checklist a-l below | `CATALOG.md`, `STYLE_GUIDE.md` | No (needs image viewing) | Yes | Yes |
+| 11 | Illustration content | No invented slogans, data or messages; text short and necessary (or absent); third-party logos and flags from official files or their absence reported; Energy Pool logos from source files; AI-created work labelled and pending human validation | `STYLE_GUIDE.md` | Partly | Yes | Yes |
 | 12 | Layout and spacing | Spacings use tokens; format/grid follow an approved example, else flagged | `spacing/*.json`, `brand-examples/` | Partly | Yes (no grid is documented) | Yes |
 | 13 | Composition | Focal hierarchy, clear text areas, no crop/overlap errors | Output | No | Yes | No |
 | 14 | Governance | Labelled AI-generated/AI-assisted; stated as draft pending human approval | `BRAND_RULES.md` | Yes | Approver signs off | Yes |
@@ -40,9 +40,11 @@ Details criteria #10 and #11. Traits and F/V/S classes are in [`STYLE_GUIDE.md`]
 | d | Proportions and shapes match the references visually (no numeric ratio is checked); rounded forms, no outlines | §2, §3, references |
 | e | Palette: brand orange and white from tokens; greys, skin, hair, shading consistent with references and listed as non-token; none used for backgrounds or titles | §5, `TOKENS.md` |
 | f | Shading: subtle gradients as in the references; no complex gradients, realistic lighting, pronounced shadows, 3D | §2 |
-| g | Detail level: objects reduced to identifiable parts; one idea; 1 to 4 people | §4, §6 |
+| g | Detail level: objects reduced to identifiable parts; one idea; 1 to 4 people; no decorative element without function | §4, §6 |
 | h | Composition: centered, isolated, empty space, orange on focal subject, readable when small | §6 |
-| i | No S trait copied as a rule; no composition copied from a reference (reused characters, poses and motifs are allowed) | §1 to §6 |
+| j | Do/Don't (§0.6, §0.7): flat vector, no photorealism, 3D, texture, strong shadow, metallic effect, thick black outline, realistic or exaggerated-cartoon proportions | §0 |
+| k | Background transparent or white (or minimal and useful); framing suits the use; essential elements not cropped | §0.9, §6 |
+| l | No S trait copied as a rule; no composition copied from a reference (reused characters, poses and motifs are allowed) | §1 to §6 |
 
 A line cannot be `pass` for the palette (e), proportions (d) or any style resemblance without the images being viewed. Orange plus a vector look does not make an illustration `Compliant`.
 

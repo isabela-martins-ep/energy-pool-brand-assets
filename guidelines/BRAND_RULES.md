@@ -68,7 +68,8 @@ Never promote an OBSERVED item to OFFICIAL. Never infer official colors or typog
 
 - **OFFICIAL decisions** (colors outside tokens, gradients, AI creation, reuse, proportions): [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) §0. Brand colors still come only from tokens.
 - **OBSERVED only:** see [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) (single source for illustration traits: fundamentals, variations, specifics) and [`../illustrations/CATALOG.md`](../illustrations/CATALOG.md) (what each file shows). Two sub-styles exist: energy/technology (SVG, objects only, orange ring) and people/workplace (PNG, characters). Do not mix them unless a reference does.
-- **TO BE PROVIDED:** official do/don't list, rules for text in illustrations, third-party logos and flags in illustrations, backgrounds and cropping.
+- **OFFICIAL decisions** also cover do/don't, text, third-party logos and flags, backgrounds and framing: `STYLE_GUIDE.md` §0.
+- **TO BE PROVIDED:** illustration file naming and owner.
 
 ## Layout and spacing
 
@@ -82,7 +83,7 @@ Only the logo files are supplied. No approved poster, slide or UI example exists
 ## Visual restrictions
 
 - Process restrictions are the mandatory rules above.
-- **TO BE PROVIDED:** explicit visual do-not rules (forbidden colors, effects, imagery, tone, representation of people, third-party logos in visuals, use of stock or photographic imagery). The existing illustrations include third-party tool logos and flags; whether that is allowed is not documented.
+- **TO BE PROVIDED:** explicit visual do-not rules (forbidden colors, effects, imagery, tone, representation of people, third-party logos in visuals, use of stock or photographic imagery). Illustrations: see `STYLE_GUIDE.md` §0.
 
 ## Missing information register
 
@@ -91,7 +92,7 @@ Only the logo files are supplied. No approved poster, slide or UI example exists
 | Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, non-illustration gradients; `state` vs `state new` precedence | Figma Design System |
 | Typography | Confirmed body font, font files/licenses/fallbacks, print/poster scale | Figma Design System, brand team |
 | Logo | Large/small selection rule, clear space, minimum size, permitted backgrounds, forbidden uses (files are supplied) | Brand team |
-| Illustration | Do/don't list, text-in-illustration and third-party logo rules | Design team |
+| Illustration | File naming, owner | Design team |
 | Layout | Grids, formats, poster/slide templates, placement rules | Figma Design System |
 | Examples | Approved posters, slides, illustrations in context | Design team |
 | Restrictions | Explicit visual do-not list | Brand team |
