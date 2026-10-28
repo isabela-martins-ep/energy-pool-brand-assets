@@ -17,7 +17,7 @@ The negative file was supplied as `Logo-negatif.svg` and renamed on import (file
 
 ## Third-party logos
 
-Supplied by the design team, in [`third-party-logos/`](third-party-logos/). Noemys is the name of an Energy Pool offer. Authorized backgrounds follow the same rules as the Energy Pool logo (light or white background: light version; plain dark or dark uniform photo: negative version; no orange, strongly colored or mixed light/dark area; procedure in [`BRAND_RULES.md`](../guidelines/BRAND_RULES.md#logo)). Use only these files, never redrawn, recolored or distorted (see `illustrations/STYLE_GUIDE.md` §0.8).
+Supplied by the design team, in [`third-party-logos/`](third-party-logos/). Noemys (also written Noēmys) is Energy Pool's energy management software platform (Energy Management Platform, EMP). Authorized backgrounds follow the same rules as the Energy Pool logo (light or white background: light version; plain dark or dark uniform photo: negative version; no orange, strongly colored or mixed light/dark area; procedure in [`BRAND_RULES.md`](../guidelines/BRAND_RULES.md#logo)). Use only these files, never redrawn, recolored or distorted (see `illustrations/STYLE_GUIDE.md` §0.8).
 
 | File | Content | Variant |
 |---|---|---|
