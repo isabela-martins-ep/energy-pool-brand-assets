@@ -1,80 +1,84 @@
 # Illustration style guide
 
-How to read this document:
+**Single source for illustration style.** Other files point here; they do not copy it.
 
-- **Observed** = visible in the existing files in this folder (31 files, all reviewed visually). It describes what is there; it is **not** an official rule.
-- **Official** = documented brand rule. **None is documented yet**; see [Official rules (to be provided)](#official-rules-to-be-provided).
+Status of every rule below: **OBSERVED** = measured or seen in the 31 reference files of this folder (all viewed; colors measured on the 23 PNG and read from the 8 SVG sources). It is **not** an official brand rule. Official rules and missing decisions: [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md). Per-file inventory: [`CATALOG.md`](CATALOG.md). Procedure: [`illustration-creation.md`](../.github/skills/energy-pool-visual-design/references/illustration-creation.md). Checklist: [`VISUAL_QA.md`](../guidelines/VISUAL_QA.md#illustration-checklist).
 
-Per-file details: [`CATALOG.md`](CATALOG.md). Colors, typography and spacing must come from the Design System tokens (see `../colors/`, `../typography/`, `../spacing/`, and [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md)), not from this document.
+Classes used: **F** = fundamental (present in nearly all references of the sub-style), **V** = acceptable variation (seen in some, same family), **S** = specific to one file; never turn an S into a rule.
 
-## Observed characteristics
+The agent must compare against the reference images themselves, not only this text. Proportions are described qualitatively; exact ratios were **not determinable** and must not be invented.
 
-### Overall style
-- Flat vector look with no outlines around shapes. Soft linear gradients on some shapes (orange, grey) give slight volume; no hard shadows, textures or photographic detail.
-- Simplified, rounded forms. Faces are reduced to dots or short strokes for eyes and brows and a small orange mouth.
-- Backgrounds are transparent or white. Several people illustrations stand on a pale grey ground ellipse (e.g. `EP-Women-3`, `pause-café`, `Pause-café-plante`).
+## 1. Two sub-styles (do not mix in one file)
 
-### Colors (visual observation; PNG values were not measured)
-- Two families: **orange** (tints from pale peach to saturated orange) and **neutral greys** (very light to mid grey). Orange marks the focal subject (clothing, key object); grey is used for context (furniture, buildings, pylons, trousers, bubbles).
-- Skin and hair tones are the only other colors (browns, tan, blond, dark brown/black), with varied skin tones.
-- Hex values found in the source of the 8 SVG files (factual for these files only):
-  - Oranges: `#ea5b0c`, `#ffb84d`, `#ffe0b3`; also `#ffc774`, `#ffb342`, `#ffa41e`, `#ff9c08` in `DR Program.svg`
-  - Beige: `#f7eac6` (`Agregation.svg`)
-  - Greys: `#efefef`, `#ededed`, `#d0d0d0`, `#b2b2b2`
-- Token comparison (exact hex only): `#FFB84D`, `#FFE0B3` and `#FF9900` match `vitamin-c` tokens; the other values above have no matching token. See [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md#colors). Map colors to tokens before reuse.
-- Exceptions: `Compétences` and `Formation` include third-party tool logos (Python, Jira, Excel, AWS) in their own colors; `Equipe internationale` includes small flag icons.
-
-### Two sub-styles
-1. **Energy / technology (SVG, 8 files):** objects only (wind turbines, solar panels, pylons, battery, factory, dam, house, dashboards, circuit-board device). A thick **orange gradient ring or curved line** encircles or links the elements; in several files a **cloud icon with sync arrows** sits on it. Objects are mostly grey with orange accents, and orange tint varies from pale to strong to suggest depth or repetition. Some orange shapes have a thin white edge.
-2. **People / workplace (PNG, 23 files):** characters wearing **orange tops** in several tints, with light grey or white trousers (dark trousers in one case). Props and furniture are grey, with occasional orange or brown (desk legs in `EP-Women-3`).
-
-### Characters
-- Simplified full-body or half-body figures with soft, darker-orange shapes for clothing folds.
-- Visible diversity: skin tones, hair colors and styles, a bald bearded man, glasses, a wheelchair user (`Forum`).
-- Friendly, active poses: waving, high-five, pointing, running, meditating, holding mugs.
-- The same characters recur across scenes (bearded man, blond woman in a blazer, man in an open orange shirt over a white tee), which helps continuity.
-
-### Brand elements inside illustrations
-- The Energy Pool pictogram (black ring, orange dot, orange angle brackets) appears on mugs, laptops, a car, a wall screen and large in `SIRH` and `Forum`. The wordmark appears in `Forum`.
-- Recurring props: lightbulb with orange stripes, plant with orange leaves, mugs with the pictogram.
-- Speech or thought bubbles (`Compétences`, `EP-Women-2`, `entretien individuel-v2`) and a grey dashed trail (`Formation`) express dialogue and movement.
-
-### Composition and proportions
-- Mostly centred, isolated compositions without frame or border.
-- Groups of 2–4 people shown side by side, standing or seated at a table.
-- Conceptual scenes use floating icons around the subject (circles in `Compétences`, objects around the meditating man in `QVT`, a trail of circles in `Formation`).
-- Aspect ratios vary widely (about 1:8 for `EP-Women-logo` to roughly square or portrait); no fixed canvas size is observed. See the catalog for pixel sizes.
-
-### Level of detail
-- Low to medium. Technology objects show only identifiable features (blades, panel grid, chimneys, +/- on battery, circuit lines).
-- Text inside illustrations is rare and in French (`EP WOMEN`, `MÉTÉO DES ÉQUIPES`, `SIRH`, `Empowill`, `Energy Pool`). Typefaces were not identified.
-
-### Technical observations
-- The 8 SVG files contain embedded base64 PNG images in addition to vector shapes, so they are not fully editable vectors. Gradients are widely used (31 gradient references in `Agregation.svg`).
-- PNG sizes range up to 6227 × 4433 px. Transparency was not verified per file.
-- File naming is inconsistent (capitalization, accents, spaces, French/English mix).
-
-## Detail observations for new visuals (re-checked on `pause-café`, `EP-Women-1`, `Forum`)
-
-All OBSERVED, none official. Check the reference files themselves when you can view images.
-
-| Aspect | Observed | Needs human validation |
+| Sub-style | Files | Content |
 |---|---|---|
-| Proportions | Full-body figures are tall and slim with small heads and long straight trousers; feet are small grey rounded shapes. Half-body groups crop at the torso. | Whether new characters must keep these proportions |
-| Shapes and outlines | No outlines. Rounded corners on objects. Hands are simple rounded shapes without finger detail except raised fists. | Outline/stroke policy |
-| Faces | Dots for eyes, short brows, tiny or no nose, small orange mouth, sometimes teeth in a smile. Glasses are round dark frames. Back-view figures have no face. | Expression range, facial detail limits |
-| Colors and distribution | Orange tops (several tints) and grey/white trousers; orange for the focal subject, grey for context. Skin and hair are the only other colors. | Which orange/grey tokens are allowed (see [`../guidelines/TOKENS.md`](../guidelines/TOKENS.md)) |
-| Shading | Soft linear gradients inside shapes (darker orange on sleeve and fold edges, light grey on trousers). A pale grey ground ellipse under some groups. No cast shadows, textures or highlights. | Whether gradients are permitted for new work |
-| Composition | Isolated subject on white or transparent background; no frame. Props sit beside the figures (coffee machine, plant, desk, stand). Floating icons for conceptual scenes. | Backgrounds, text areas, cropping |
-| Decorative elements | Orange ring and cloud icon (energy), lightbulb with orange stripes, plant with orange leaves, mugs with the pictogram. | Which motifs are brand motifs |
-| Consistency across illustrations | Same flat vector language, orange + grey palette, same simplified face style and recurring characters; two sub-styles never mixed in one file. | Whether adaptation of existing characters is allowed |
+| People / workplace | 23 PNG | Characters in orange tops, grey context objects |
+| Energy / technology | 8 SVG | Objects only, orange ring, cloud with sync arrows |
 
-## Using this guide to create new visuals
-- Reuse an existing file when the subject matches; check [`CATALOG.md`](CATALOG.md) first.
-- For new visuals, follow the observed patterns (flat vector, orange + grey, orange outfits, simple rounded shapes, diverse characters) and **verify colors against Design System tokens**.
-- Do not introduce new colors, outlines, 3D or photographic styles. If a need isn't covered by the observations, ask the design team.
-- Step-by-step procedure for agents: [`../.github/skills/energy-pool-visual-design/references/illustration-creation.md`](../.github/skills/energy-pool-visual-design/references/illustration-creation.md).
+## 2. Graphic treatment (both sub-styles)
 
-## Official rules
+- **F** No outlines or strokes around shapes; shapes are filled areas with rounded corners.
+- **F** Soft linear gradients inside shapes (orange: lighter to darker left to right or top to bottom; grey: near-white to light grey top to bottom). No hard shadows, textures, highlights or photographic detail.
+- **F** Orange marks the focal subject; light greys are context (furniture, trousers, devices, buildings).
+- **F** White or transparent background; no frame or border.
+- **V** Fade-out: a shape dissolves to transparent at its edge (thought-bubble figure in `QVT`, translucent pale leaves).
+- **V** Thin lighter or darker lines inside a shape to show folds, hair strands, hands, seams (grey lines on a white shirt in `EP-Women-1`, orange fold lines on sleeves).
+- **S** Detailed gradients with white edges and a darker orange `#EA5B0C` appear in the SVG energy files only.
 
-Not part of this file. Official rules and the list of missing information (illustration do/don't, AI-creation policy, logo use in illustrations, minimum sizes, naming, owner) are in [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md). Everything above is observed, not official.
+## 3. People / workplace characters
+
+- **F Body:** simplified, slim, long limbs; torso and sleeves as single smooth shapes; hands as simple rounded shapes (thumb and finger groups, no joints); full-body figures end in small grey rounded shoes or are cropped at the torso. Head size relative to the body: small to medium, ratio not determinable.
+- **F Face:** oval or round head, two dark dot eyes, thin dark brows, no or almost no nose (a tiny line at most), one small mouth in orange (smile, filled when open), small ear shapes at the sides. No eyelashes, no cheeks, no shading on the face other than a soft skin gradient.
+- **V Face:** closed eyes as short arcs (`QVT`); teeth shown in a broad smile (`EP-Women-1`); round dark glasses (`EP-Women-1`); beard in dark brown (`entretien individuel-v2`).
+- **F Hair:** one or two flat masses with a gentle gradient; strand details only as a few lighter or darker lines (bangs, ponytail, curls). Hair colors seen: dark brown, black, grey-brown, blond, light orange-blond.
+- **F Skin:** a range of light peach to dark brown, filled with a subtle gradient; the same skin tone is used for face, neck and hands. Skin tones do not match any token.
+- **F Clothing:** tops in orange tints (light to saturated), trousers light grey to white with a vertical gradient, shirts or jackets with a collar or lapel shown by a lighter line or a lighter orange shape; folds as thin darker-orange lines. Dark trousers and a white shirt exist (`EP-Women-1`, `Forum`) as **V**.
+- **F Poses:** relaxed and active (waving, fist raised, arms crossed, hand on hip, cross-legged, holding a device or a document); body orientation toward the interaction; groups overlap slightly or sit side by side.
+- **F Diversity:** skin tones, hair, ages, glasses, a bald bearded man, a wheelchair user (`Forum`, **S**).
+- **V** Recurring characters (bearded man, blond woman in a blazer): use only with confirmation.
+
+## 4. Objects and scenes
+
+- **F** Objects are reduced to identifiable parts: laptop (grey screen, base), mug, plant (pale orange leaves, white or grey pot), table (large pale grey plane), chairs (grey back), bubbles (orange or grey with a short tail and a few lines or one icon).
+- **F** Context objects in `#EFEFEF`-like light grey with a slightly darker grey edge or side; orange used for one or two accents (stripes on a lightbulb, a stripe, an arrow).
+- **F** A pale grey ground ellipse under standing groups (`EP-Women-3`, `pause-café`, `Pause-café-plante`).
+- **V** Conceptual scenes: small floating icons around a central figure (`QVT`, `Compétences`, `Formation`); a dashed trail of circles (`Formation`).
+- **Energy / technology (F in the 8 SVG):** wind turbines, panels, battery with + and −, pylons, factory, dams, dashboards; mostly grey objects with orange parts in several tints (pale to saturated) to show repetition or depth; a thick orange gradient ring or line linking them, often with a cloud icon holding sync arrows. Some orange shapes have a thin white edge (**V**). The 8 SVG embed base64 PNGs and are not fully vector.
+- **S** Third-party logos (`Compétences`, `Formation`), flags (`Equipe internationale`), product names in text (`Empowill`, `SIRH`).
+- The Energy Pool pictogram appears on mugs, laptops, screens as existing artwork (**V**). New illustrations must follow the logo rules in `BRAND_RULES.md`; the agent must not redraw it.
+
+## 5. Colors (measured; compare with tokens)
+
+Measured on 1.16 M opaque pixels of the 23 PNG; only **18.2 %** equal a token exactly.
+
+| Role | Observed values | Token match |
+|---|---|---|
+| Brand orange | `#FF9900` | `vitamin-c` |
+| Mid orange | `#FFB84D` | `vitamin-c` tint 700 |
+| Pale orange | `#FFE0B3` (and `#FEE0B3`) | `vitamin-c` tint 300 |
+| White | `#FFFFFF` | `white` |
+| Light greys | `#EFEFEF`, `#EDEDED`, `#EEEEEE`, `#D0D0D0`, `#CFCFCF` | none |
+| Dark grey (hair, details) | `#3C3C3B`, `#3C3C3C` | none |
+| Skin and hair browns | `#BE926E`, `#966B3D`, `#916D45`, `#A67356`, `#432E1D` | none |
+| SVG energy | `#EA5B0C`, `#FFC774`, `#FFB342`, `#FFA41E`, `#FF9C08`, `#F7EAC6` | none |
+
+- Observed distribution: light greys about 30 % of pixels, orange family about 15 %, white about 4 %, remainder skin, hair and gradient intermediates.
+- A color close to a token is **not** a match. Token selection: [`../guidelines/TOKENS.md`](../guidelines/TOKENS.md).
+- Whether new illustrations may use non-token colors (greys, skin, hair) is an open decision in `BRAND_RULES.md`. Until answered, use token colors for orange, white and any available grey, and report greys, skin and hair colors as unverified against tokens.
+
+## 6. Composition and legibility
+
+- **F** One subject or one small group, centered, isolated; generous empty space around.
+- **F** 1 to 4 people; 3 to 6 secondary objects at most; one idea per illustration.
+- **F** Orange area concentrated on the people or the key object; context stays grey.
+- **V** Seated scenes around a table seen from the front; back-view figures have no face (`Forum`).
+- **F** Remains readable when small because shapes are large and simple; no fine detail is needed to read the scene.
+- No fixed canvas ratio is observed (see `CATALOG.md`). Text inside the artwork is rare, in French, and not part of the style.
+
+## 7. Not determinable from the references
+
+Head-to-body ratio, exact stroke or line widths for inner lines, gradient angles and stops, minimum size, corner radii. Do not invent them; copy them from the closest reference by viewing it.
+
+## 8. Official rules
+
+Not in this file. The list of missing official information (do/don't, AI-creation policy, color roles, naming, owner) is in [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md).
