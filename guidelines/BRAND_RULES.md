@@ -114,7 +114,8 @@ Source: Energy Pool brand charter (rules below supplied by the design team, 2026
 - **OFFICIAL decisions** (colors outside tokens, gradients, AI creation, reuse, proportions): [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) §0. Brand colors still come only from tokens.
 - **OBSERVED only:** see [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) (single source for illustration traits: fundamentals, variations, specifics) and [`../illustrations/CATALOG.md`](../illustrations/CATALOG.md) (what each file shows). Two sub-styles exist: energy/technology (SVG, objects only, orange ring) and people/workplace (PNG, characters). Do not mix them unless a reference does.
 - **OFFICIAL decisions** also cover do/don't, text, third-party logos and flags, backgrounds and framing: `STYLE_GUIDE.md` §0.
-- **TO BE PROVIDED:** illustration file naming and owner.
+- **File naming (technical convention for new files, proposed, not a charter rule):** `illustration-subject-description.png` or `.svg`: lowercase, no spaces, hyphens between words, no accents, descriptive. Existing files in `illustrations/` keep their names (originals are never renamed).
+- **TO BE PROVIDED:** illustration owner.
 
 ## Layout and spacing
 
@@ -137,7 +138,7 @@ Only the logo files are supplied. No approved poster, slide or UI example exists
 | Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, non-illustration gradients; `state` vs `state new` precedence | Figma Design System |
 | Typography | Official text case, alignment and line-length rules (if any) | Brand charter, brand team |
 | Logo | Negative logo files, authorized colored backgrounds, large vs small rule | Brand team |
-| Illustration | File naming, owner | Design team |
+| Illustration | Owner | Design team |
 | Layout | Grids, formats, poster/slide templates, placement rules | Figma Design System |
 | Examples | Approved posters, slides, illustrations in context | Design team |
 | Restrictions | Explicit visual do-not list | Brand team |
