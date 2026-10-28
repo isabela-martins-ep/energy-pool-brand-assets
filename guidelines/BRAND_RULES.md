@@ -23,13 +23,25 @@ If two OFFICIAL sources disagree and no priority is documented (for example `sta
 
 Never promote an OBSERVED item to OFFICIAL. Never infer official colors or typography from illustration screenshots.
 
-## Mandatory rules
+## Rule levels
+
+Single definition; other files point here.
+
+| Level | Content | How to apply |
+|---|---|---|
+| **A. Mandatory** | Official logos and their rules ([Logo](#logo)); Chillax for titles and Synonym for other text ([Typography](#typography)); brand colors from the tokens ([Colors](#colors)); content supplied by the user; prohibitions the charter defines | Strictly. A violation blocks delivery as approved. |
+| **B. Visual coherence** | Illustration style and construction, characters, faces, clothing, objects, color balance, detail level, subtle shading, legibility, hierarchy ([`STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md)) | As guidance with judgment: reproduce the graphic language, not the references' composition. |
+| **C. Creative freedom** | Composition and layout, framing, page format and proportions, poses and interactions, scenery and objects, content hierarchy, adaptation to the medium | The agent decides alone; no confirmation needed. |
+
+Permissions are not obligations: an illustration may have no text, no scenery or no gradient. Ask the user only when essential information is missing or a choice might break a level A rule. Where this file says `TO BE PROVIDED` for a level C item (grid, poster format), that is not a blocker: choose, label it a proposal, and never present it as an official rule. Types of QA findings: [`VISUAL_QA.md`](VISUAL_QA.md#types-of-findings).
+
+## Mandatory rules (level A and honesty)
 
 1. Use only documented tokens, fonts and components. Never invent colors, fonts, spacing values, logo variants or design rules.
 2. Reference colors, spacing and type by **token name** (with the value from the token file), not by eyeballed values.
 3. Logo: use only the official files in `brand-examples/` and never redraw, recolor, stretch, crop, repeat or generate the logo or pictogram (see [Logo](#logo)).
 4. Never modify or overwrite files in `illustrations/` or other original assets. Work on copies outside the original folders.
-5. If a rule you need is `TO BE PROVIDED`, say so in the answer and ask for it; do not fill the gap.
+5. If a level A rule or fact you need is `TO BE PROVIDED`, say so and ask; do not fill the gap. For level B and C items, decide and, if it matters, mention the choice.
 6. Label every AI-generated or AI-assisted visual as such. It is a draft until a human reviews and approves it before publication.
 7. Before delivery, run [`VISUAL_QA.md`](VISUAL_QA.md) and report the result, including anything you could not verify. Visual resemblance to Energy Pool is not proof of compliance.
 
@@ -44,7 +56,7 @@ Never promote an OBSERVED item to OFFICIAL. Never infer official colors or typog
   - Which palette families are brand colors versus data-visualization or status colors.
   - Primary/secondary roles, allowed combinations, text/background pairs and contrast requirements.
   - Dark-mode or other modes (the export has only "Default").
-  - Gradient rules (existing illustrations use gradients).
+  - Gradient rules outside illustrations (illustration gradients: `STYLE_GUIDE.md` §0).
 
 ## Typography
 
@@ -97,13 +109,15 @@ Source: Energy Pool brand charter (rules below supplied by the design team, 2026
 
 ## Illustration style
 
+- **OFFICIAL decisions** (colors outside tokens, gradients, AI creation, reuse, proportions): [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) §0. Brand colors still come only from tokens.
 - **OBSERVED only:** see [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) (single source for illustration traits: fundamentals, variations, specifics) and [`../illustrations/CATALOG.md`](../illustrations/CATALOG.md) (what each file shows). Two sub-styles exist: energy/technology (SVG, objects only, orange ring) and people/workplace (PNG, characters). Do not mix them unless a reference does.
-- **TO BE PROVIDED:** official do/don't rules, permitted character and pose guidelines, rules for text in illustrations, backgrounds and cropping, and whether new illustrations may be created by AI at all.
+- **OFFICIAL decisions** also cover do/don't, text, third-party logos and flags, backgrounds and framing: `STYLE_GUIDE.md` §0.
+- **TO BE PROVIDED:** illustration file naming and owner.
 
 ## Layout and spacing
 
 - **OFFICIAL source:** [`../spacing/Mode 1.tokens 2.json`](../spacing/Mode%201.tokens%202.json), a Figma variables export with `rem`, `em` and `spacer` scales (e.g. `spacer.spacers.1` to `6`, resolving to 4, 8, 12, 16, 24, 48 as numbers; units not stated). Use token names.
-- **TO BE PROVIDED:** grid, margins and safe areas, formats and sizes for posters, slides and social media, hierarchy and composition rules, and how illustrations are placed relative to text.
+- **No official layout rules exist** (grid, margins, safe areas, formats and sizes for posters, slides and social media, hierarchy and composition, placement of illustrations relative to text). This is level C: the agent decides and labels the result a proposal; it is not a blocker and not an official rule.
 
 ## Approved visual examples
 
@@ -112,16 +126,16 @@ Only the logo files are supplied. No approved poster, slide or UI example exists
 ## Visual restrictions
 
 - Process restrictions are the mandatory rules above.
-- **TO BE PROVIDED:** explicit visual do-not rules (forbidden colors, effects, imagery, tone, representation of people, third-party logos in visuals, use of stock or photographic imagery). The existing illustrations include third-party tool logos and flags; whether that is allowed is not documented.
+- **TO BE PROVIDED:** explicit visual do-not rules (forbidden colors, effects, imagery, tone, representation of people, third-party logos in visuals, use of stock or photographic imagery). Illustrations: see `STYLE_GUIDE.md` §0.
 
 ## Missing information register
 
 | Area | Missing | Source to supply |
 |---|---|---|
-| Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, gradients; `state` vs `state new` precedence | Figma Design System |
+| Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, non-illustration gradients; `state` vs `state new` precedence | Figma Design System |
 | Typography | Text case, alignment and line-length rules | Brand charter, brand team |
 | Logo | Negative logo files, authorized colored backgrounds, large vs small rule | Brand team |
-| Illustration | Official rules, AI-creation policy, text-in-illustration rules | Design team |
+| Illustration | File naming, owner | Design team |
 | Layout | Grids, formats, poster/slide templates, placement rules | Figma Design System |
 | Examples | Approved posters, slides, illustrations in context | Design team |
 | Restrictions | Explicit visual do-not list | Brand team |
