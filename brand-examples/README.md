@@ -13,7 +13,7 @@ Supplied by the design team. Never modify, recolor, stretch, redraw or regenerat
 
 | `Logo-small-negative.svg` (661x391 px) | Wordmark and pictogram only (same composition as Logo-small, no tagline); white text, orange elements | Negative |
 
-The negative file was supplied as `Logo-negatif.svg` and renamed on import (file content unchanged). No negative version of the large logo (with tagline) and no negative PDF/PNG are supplied yet.
+The negative file was supplied as `Logo-negatif.svg` and renamed on import (file content unchanged). There is no negative version of the large logo (with tagline), and none exists; no negative PDF/PNG is supplied yet.
 
 ## Approved examples
 
