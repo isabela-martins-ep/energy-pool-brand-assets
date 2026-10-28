@@ -16,7 +16,7 @@ The file `colors/Mode 1.tokens 3.json` holds component tokens even though it sit
 
 1. **Name the role first** (e.g. "poster background", "heading text", "valid-state message"), not a color.
 2. **Look for a semantic token for that role.** If one is exported, use it. Prefer semantic over primitive.
-3. **If no semantic token is exported**, use a primitive token only when the role is documented in `BRAND_RULES.md` or in an approved example. Otherwise the role-to-color mapping is `TO BE PROVIDED`: say so and ask. Existing in the palette is not permission to use it for a poster.
+3. **If no semantic token is exported**, choose a primitive token yourself: confirmed brand colors first (`vitamin-c` family, white, neutrals; see `BRAND_RULES.md` Colors). Other palette families only as accents, reported as a point for validation. Use the exact token hex, and never describe the choice as an official role mapping: it is `TO BE PROVIDED` officially. Ask only if the choice might break a level A rule.
 4. **Component tokens are for UI components only.** Do not use `state`, `border` or `focus-ring` colors for decoration.
 5. **State colors are not decoration.** Never use success/valid (`#3EBE90` family), danger/invalid, warning, info or link colors as decorative or brand colors in posters, illustrations or infographics. Use them only for the state they mean (validation, alerts), as the component tokens do.
 6. **`energy-assets` colors** are for the energy source or sector they name (chart, icon, background). Use them only for content about that source, for example in an infographic; do not use them as general brand colors.
@@ -41,7 +41,7 @@ If you cannot run scripts, read the JSON directly. If a reference cannot be reso
 
 - All `{...}` references in the three exports resolve (0 unresolved by `--audit`).
 - Many tokens alias **Figma variables that are not in any export**: `primary/*`, `secondary/*`, `body/*`, `body-tertiary/*`, `body-disabled/*`, `success/*`, `danger/*`, `spacer/spacer`, `transparent`. Only their resolved values are known, not the semantic definitions or the full set (for example `warning`, `info`, `link`, `light`, `dark` appear only in `focus-ring`). **TO BE PROVIDED:** the semantic color export.
-- No token states which palette colors are brand colors for communication material (posters, slides, HR visuals). **TO BE PROVIDED.**
+- No token states which palette colors are brand colors for communication material (posters, slides, HR visuals). **TO BE PROVIDED** officially; meanwhile the agent chooses as in §2, step 3.
 - Units of typography and spacing numbers are not stated in the exports.
 - `shadow` values reference `$black` (a SCSS variable), not a resolvable token.
 - `colors/Mode 1.tokens 3.json` token `state new` duplicates part of `state` with different values (for example `secondary` hover). Which set is current is **TO BE PROVIDED**.

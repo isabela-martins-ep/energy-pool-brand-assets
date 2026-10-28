@@ -18,7 +18,7 @@ An illustration may have no text, no scenery or no gradient if the subject is be
 
 - Energy Pool logo and pictogram: official files only, never redrawn (`BRAND_RULES.md` Logo).
 - Never invent slogans, data or messages attributed to Energy Pool; content supplied by the user is kept as is.
-- Third-party logos and flags: not distorted or invented; if the official file is missing, report it instead of drawing an imitation.
+- Third-party logos and flags: see `STYLE_GUIDE.md` §0.8 (official files, never invented; report a missing file).
 - Do not mix incompatible sub-styles (people/workplace and energy/technology) unless a reference does.
 
 ## Use the images
@@ -34,7 +34,7 @@ If a catalogued file fits the need, use it as is or on a copy outside `illustrat
 1. **Understand** the subject, audience, use and any supplied text. Decide the scene yourself; do not ask about aesthetic choices.
 2. **Pick references:** the 2 to 3 closest illustrations in `CATALOG.md`, same sub-style, and view them.
 3. **Extract the graphic language** (guidance, level B): how characters, faces, hair, clothing, objects, color balance, detail and shading are built (`STYLE_GUIDE.md`, F traits first; V traits as needed). Do not copy a composition, and do not turn a trait specific to one file (S) into a rule.
-4. **Create an original scene:** your own composition, poses, interactions, props, scenery and framing, adapted to the medium. Brand colors from tokens; people and object colors from the references. Without an image-generation tool, produce what the available tools allow (for example a hand-built SVG); if no tool can produce a file, say so and deliver a brief with references and color choices, not an imitation presented as a result.
+4. **Create an original scene:** consider two or three compositions and keep the strongest (one file unless options are requested); your own composition, poses, interactions, props, scenery and framing, adapted to the medium. Brand colors from tokens; people and object colors from the references. Without an image-generation tool, produce what the available tools allow (for example a hand-built SVG); if no tool can produce a file, say so and deliver a brief with references and color choices, not an imitation presented as a result.
 5. **Check the output** against at least 2 viewed references with the illustration checklist; a difference in composition, pose or scenery is a creative choice, not a defect.
 6. **Correct** style gaps and blocking issues, then re-check.
 7. **Deliver** per `SKILL.md` step 8. Mention what needs human validation (new AI creation, anything not verifiable).
