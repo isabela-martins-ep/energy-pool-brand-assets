@@ -100,6 +100,8 @@ Source: Energy Pool brand charter (rules below supplied by the design team, 2026
 - Clear space: all around the logo, equal to the height of the capital "E" of "Energy" in the logo. No typographic element may enter it.
 - Keep the original proportions and colors.
 
+**Noemys offer logos** ([`../brand-examples/third-party-logos/`](../brand-examples/third-party-logos/)): same authorized and prohibited backgrounds and same selection procedure; `logo-noemys.svg` on light, `logo-noemys-negative.svg` on dark. Never recolor or redraw. Minimum size and clear space: `TO BE PROVIDED`.
+
 **Selection procedure**
 1. Decide whether the area behind the logo is light or dark.
 2. Check that it is visually uniform (no mix of light and dark, not strongly colored, not orange).

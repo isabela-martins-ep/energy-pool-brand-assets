@@ -17,14 +17,14 @@ The negative file was supplied as `Logo-negatif.svg` and renamed on import (file
 
 ## Third-party logos
 
-Supplied by the design team, in [`third-party-logos/`](third-party-logos/). These are not Energy Pool logos: the Energy Pool logo rules do not apply to them, and their own usage rules are `TO BE PROVIDED`. Use only these files, never redrawn, recolored or distorted (see `illustrations/STYLE_GUIDE.md` §0.8).
+Supplied by the design team, in [`third-party-logos/`](third-party-logos/). Noemys is the name of an Energy Pool offer. Authorized backgrounds follow the same rules as the Energy Pool logo (light or white background: light version; plain dark or dark uniform photo: negative version; no orange, strongly colored or mixed light/dark area; procedure in [`BRAND_RULES.md`](../guidelines/BRAND_RULES.md#logo)). Use only these files, never redrawn, recolored or distorted (see `illustrations/STYLE_GUIDE.md` §0.8).
 
 | File | Content | Variant |
 |---|---|---|
 | `logo-noemys.svg` (285x59 px) | Noemys logo (SVG source: dark grey `#3C3C3C` fills, a gradient mark) | For light backgrounds |
 | `logo-noemys-negative.svg` (285x59 px) | Noemys logo (SVG source: white fills, a gradient mark) | For dark backgrounds |
 
-Noemys's relationship to Energy Pool, its minimum size, clear space and authorized backgrounds are `TO BE PROVIDED`; do not assume them from the Energy Pool rules.
+Minimum size and clear space for the Noemys logo are `TO BE PROVIDED`; do not assume the Energy Pool values.
 
 ## Approved examples
 
