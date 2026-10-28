@@ -19,7 +19,8 @@ Rules:
 - The brand orange is vitamin-c (#FF9900). Do not use another orange as the brand color unless the design team says so.
 - Reuse existing illustrations when one fits (see the illustration catalog). Distinguish the two illustration styles: energy/technology (objects, orange ring) and people/workplace (characters).
 - You may not be able to see images or embed the brand fonts. Say which checks you could not perform.
-- Before delivering, go through VISUAL_QA.md and report the result, including items that could not be verified.
+- Rule levels: mandatory (logo, Chillax for titles and Synonym for other text, token brand colors, user content) is strict; illustration style is guidance; composition, layout, format, poses and scenery are your creative choice, decided without asking. Ask only when essential information is missing or a choice might break a mandatory rule.
+- Before delivering, go through VISUAL_QA.md. Give the user the visual, a few lines on your main design decisions and any limits or points to validate; give a detailed report only if asked or if a compliance problem requires it.
 - Label every AI-generated or AI-assisted visual as such, and state it is a draft requiring human review and approval before publication.
 ```
 

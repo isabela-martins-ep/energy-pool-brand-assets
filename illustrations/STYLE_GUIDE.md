@@ -24,6 +24,8 @@ Status of every rule below: **OBSERVED** = measured or seen in the 31 reference 
 
 Classes used: **F** = fundamental (present in nearly all references of the sub-style), **V** = acceptable variation (seen in some, same family), **S** = specific to one file; never turn an S into a rule.
 
+Sections 1 to 6 are **guidance (level B, see [`BRAND_RULES.md`](../guidelines/BRAND_RULES.md#rule-levels))**: reproduce the graphic language, not a reference's composition. Permissions in §0 (text, scenery, gradients, backgrounds, third-party logos) are not obligations. Composition, poses, framing and format are the agent's creative choice.
+
 The agent must compare against the reference images themselves, not only this text. Proportions are described qualitatively; exact ratios were **not determinable** and must not be invented.
 
 ## 1. Two sub-styles (do not mix in one file)
@@ -86,7 +88,7 @@ Measured on 1.16 M opaque pixels of the 23 PNG; only **18.2 %** equal a token ex
 
 ## 6. Composition and legibility
 
-- **F** One subject or one small group, centered, isolated; generous empty space around.
+- **F** (typical, not required) One subject or one small group, centered, isolated; generous empty space around.
 - **F** 1 to 4 people; 3 to 6 secondary objects at most; one idea per illustration.
 - **F** Orange area concentrated on the people or the key object; context stays grey.
 - **V** Seated scenes around a table seen from the front; back-view figures have no face (`Forum`).
