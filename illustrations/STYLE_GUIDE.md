@@ -21,7 +21,13 @@ These nine decisions are **OFFICIAL** and apply to everything below. The rest of
 
 Status of every rule below: **OBSERVED** = measured or seen in the 31 reference files of this folder (all viewed; colors measured on the 23 PNG and read from the 8 SVG sources). It is **not** an official brand rule. Official rules and missing decisions: [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md). Per-file inventory: [`CATALOG.md`](CATALOG.md). Procedure: [`illustration-creation.md`](../.github/skills/energy-pool-visual-design/references/illustration-creation.md). Checklist: [`VISUAL_QA.md`](../guidelines/VISUAL_QA.md#illustration-checklist).
 
-Classes used: **F** = fundamental (present in nearly all references of the sub-style), **V** = acceptable variation (seen in some, same family), **S** = specific to one file; never turn an S into a rule.
+Classes used: **F** = frequently observed (present in nearly all references of the sub-style), **V** = acceptable variation (seen in some, same family), **S** = specific to one file; never turn an S into a rule. An F is a tendency, not an obligation, unless it is listed as an invariant below.
+
+**Invariants (what makes the style recognizable; level B, applied with judgment):** flat vector shapes with no outlines; simple, rounded, geometric forms; subtle gradients only (no hard shadow, texture, 3D or photo rendering); simplified faces (dot eyes, thin brows, tiny or no nose, small mouth); simple hands; light grey context with orange as the accent that guides the eye; legible when small; inclusive characters.
+
+**Frequently observed, not required:** orange tops, 1 to 4 people, a centered isolated subject, a white or transparent background, few secondary objects.
+
+**Free (creative variation):** composition, framing, number of people, clothing colors consistent with the palette, poses, scenery and secondary objects, background, format. Reproduce the graphic language, never a reference's composition.
 
 Sections 1 to 6 are **guidance (level B, see [`BRAND_RULES.md`](../guidelines/BRAND_RULES.md#rule-levels))**: reproduce the graphic language, not a reference's composition. Permissions in §0 (text, scenery, gradients, backgrounds, third-party logos) are not obligations. Composition, poses, framing and format are the agent's creative choice.
 
@@ -31,7 +37,7 @@ The agent must compare against the reference images themselves, not only this te
 
 | Sub-style | Files | Content |
 |---|---|---|
-| People / workplace | 23 PNG | Characters in orange tops, grey context objects |
+| People / workplace | 23 PNG | Characters typically in orange tops, grey context objects |
 | Energy / technology | 8 SVG | Objects only, orange ring, cloud with sync arrows |
 
 ## 2. Graphic treatment (both sub-styles)
@@ -51,7 +57,7 @@ The agent must compare against the reference images themselves, not only this te
 - **V Face:** closed eyes as short arcs (`QVT`); teeth shown in a broad smile (`EP-Women-1`); round dark glasses (`EP-Women-1`); beard in dark brown (`entretien individuel-v2`).
 - **F Hair:** one or two flat masses with a gentle gradient; strand details only as a few lighter or darker lines (bangs, ponytail, curls). Hair colors seen: dark brown, black, grey-brown, blond, light orange-blond.
 - **F Skin:** a range of light peach to dark brown, filled with a subtle gradient; the same skin tone is used for face, neck and hands. Skin tones do not match any token.
-- **F Clothing:** tops in orange tints (light to saturated), trousers light grey to white with a vertical gradient, shirts or jackets with a collar or lapel shown by a lighter line or a lighter orange shape; folds as thin darker-orange lines. Dark trousers and a white shirt exist (`EP-Women-1`, `Forum`) as **V**.
+- **F Clothing** (typical; other outfit colors consistent with the palette are allowed): tops in orange tints (light to saturated), trousers light grey to white with a vertical gradient, shirts or jackets with a collar or lapel shown by a lighter line or a lighter orange shape; folds as thin darker-orange lines. Dark trousers and a white shirt exist (`EP-Women-1`, `Forum`) as **V**.
 - **F Poses:** relaxed and active (waving, fist raised, arms crossed, hand on hip, cross-legged, holding a device or a document); body orientation toward the interaction; groups overlap slightly or sit side by side.
 - **F Diversity:** skin tones, hair, ages, glasses, a bald bearded man, a wheelchair user (`Forum`, **S**).
 - **V** Recurring characters (bearded man, blond woman in a blazer) may be reused or adapted (decision 4).
@@ -87,8 +93,8 @@ Measured on 1.16 M opaque pixels of the 23 PNG; only **18.2 %** equal a token ex
 
 ## 6. Composition and legibility
 
-- **F** (typical, not required) One subject or one small group, centered, isolated; generous empty space around.
-- **F** 1 to 4 people; 3 to 6 secondary objects at most; one idea per illustration.
+- **F** (typical, not required) One subject or one small group, often centered and isolated, with generous empty space; other compositions are fine.
+- **F** (typical, not a limit) 1 to 4 people and 3 to 6 secondary objects; keep one clear idea per illustration, and let the subject set the number of people and objects.
 - **F** Orange area concentrated on the people or the key object; context stays grey.
 - **V** Seated scenes around a table seen from the front; back-view figures have no face (`Forum`).
 - **F** Remains readable when small because shapes are large and simple; no fine detail is needed to read the scene.

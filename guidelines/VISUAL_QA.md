@@ -36,12 +36,12 @@ Details criteria #10 and #11. Lines a-i and l are level B (style gaps, not block
 |---|---|---|
 | a | One sub-style only (people/workplace or energy/technology) | `STYLE_GUIDE.md` §1 |
 | b | Faces simplified as in the references (dot eyes, thin brows, no or tiny nose, small mouth), no realistic facial rendering | §3, references |
-| c | Hair, skin, clothing and hands built in the references' language (flat masses, gentle gradient, simple hands); outfit colors balanced like the references (orange dominant) | §3, references |
+| c | Hair, skin, clothing and hands built in the references' language (flat masses, gentle gradient, simple hands); outfit colors balanced like the references (orange tops are typical, not required) | §3, references |
 | d | Proportions and shapes match the references visually (no numeric ratio is checked); rounded forms, no outlines | §2, §3, references |
 | e | Palette: brand orange and white from tokens; greys, skin, hair, shading consistent with references and listed as non-token; none used for backgrounds or titles | §5, `TOKENS.md` |
 | f | Shading: subtle gradients as in the references; no complex gradients, realistic lighting, pronounced shadows, 3D | §2 |
-| g | Detail level: objects reduced to identifiable parts; one idea; 1 to 4 people; no decorative element without function | §4, §6 |
-| h | Readable when small; clear focal point; orange and greys dominant | §6 |
+| g | Detail level: objects reduced to identifiable parts; one clear idea; people and object counts suited to the subject (1 to 4 people is typical, not a limit); no decorative element without function | §4, §6 |
+| h | Readable when small; clear focal point; orange as accent and light greys as context are typical of the references | §6 |
 | j | Do/Don't (§0.6, §0.7): flat vector, no photorealism, 3D, texture, strong shadow, metallic effect, thick black outline, realistic or exaggerated-cartoon proportions | §0 |
 | k | Background transparent or white (or minimal and useful); framing suits the use; essential elements not cropped | §0.9, §6 |
 | l | No S trait copied as a rule; no composition copied from a reference (reused characters, poses and motifs are allowed) | §1 to §6 |
