@@ -121,7 +121,7 @@ Source: Energy Pool brand charter (rules below supplied by the design team, 2026
 **OFFICIAL**, brand charter pp. 16-17 (original pages in `illustrations/`: [`Pictograms _ Font Awesome.svg`](../illustrations/Pictograms%20_%20Font%20Awesome.svg), [`Pictograms _ Custom.svg`](../illustrations/Pictograms%20_%20Custom.svg)).
 
 - **Font Awesome:** "We use the Font Awesome icon library, which offers a wide range of symbols. Only the Classic – Solid style is used across all our media. The Regular (outline) style may be reserved for limited use in web products." For brand visuals, use Font Awesome **Classic Solid** only.
-- **Custom set:** "A custom set of pictograms has been created to visually support the brand across different themes, including energy, industrial equipment, Energy Pool tools, and various complementary icons." The page shows the set; individual icon files are not supplied (`TO BE PROVIDED`). Do not redraw them as if official.
+- **Custom set:** "A custom set of pictograms has been created to visually support the brand across different themes, including energy, industrial equipment, Energy Pool tools, and various complementary icons." The page shows the set; individual icon files are not supplied (`TO BE PROVIDED`): do not treat them as available resources, and do not redraw or extract them as if official.
 - New pictograms an agent draws are proposals in the same solid style; never present them as part of the official set.
 
 ## Illustration style

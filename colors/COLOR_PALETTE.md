@@ -53,7 +53,8 @@ Grey HEX values are read from the SVG source (the page shows only the percentage
 
 - **Orange gradient:** horizontal, from Vitamin `#FF9900` to Power `#F66000`. Shown as not allowed: Windy `#FFEBCC` to Power.
 - **Grey gradient:** horizontal, between similar grey tones (example shown: 5% `#F2F2F2` to 20% `#CCCCCC`). Shown as not allowed: 5% to 60% `#666666`.
-- Use gradients sparingly; no other gradient is documented. Shading inside illustrations follows [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) §0, decision 2.
+- These rules apply to graphic media (backgrounds, bands, shapes, graphic elements). Use gradients sparingly; no other gradient is documented for media.
+- **Inside illustrations:** vertical or circular gradients are also allowed when they match the official illustrations ([`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) §0, decision 2).
 
 ## Colors outside this palette
 
