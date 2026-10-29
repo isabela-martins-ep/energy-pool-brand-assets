@@ -20,7 +20,7 @@ The file `colors/Mode 1.tokens 3.json` holds component tokens even though it sit
 4. **Component tokens are for UI components only.** Do not use `state`, `border` or `focus-ring` colors for decoration.
 5. **`energy-assets` colors** ([`colors/energy-assets.json`](../colors/energy-assets.json)) are for the energy source or sector they name (chart, icon, background). Use them only for content about that source, for example in an infographic; do not use them as general brand colors.
 6. **Typography and spacing:** take families, weights, sizes and spacers from the typography and spacing exports; the typography rules and the "units not stated" caveat in `BRAND_RULES.md` still apply.
-7. **Record each choice** as `token name -> resolved HEX` in the answer.
+7. **Record each choice** as `color or token name -> HEX` in the answer.
 
 ## 3. Resolving references
 
@@ -43,4 +43,4 @@ If you cannot run scripts, read the JSON directly. If a reference cannot be reso
 - Units of typography and spacing numbers are not stated in the exports.
 - `shadow` values reference `$black` (a SCSS variable), not a resolvable token.
 - `colors/Mode 1.tokens 3.json` token `state new` duplicates part of `state` with different values (for example `secondary` hover). Which set is current is **TO BE PROVIDED**.
-- Mode: only "Default" / "Mode 1" exports exist; dark mode is not covered.
+- Mode: only "Mode 1" exports exist; dark mode is not covered.

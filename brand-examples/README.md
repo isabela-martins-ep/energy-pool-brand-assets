@@ -10,7 +10,6 @@ Supplied by the design team. Never modify, recolor, stretch, redraw or regenerat
 |---|---|---|
 | `Logo-large.svg`, `.pdf`, `.png` (280x191 px) | Wordmark, pictogram and tagline "Smart Energy Management" | Positive |
 | `Logo-small.svg`, `.pdf`, `.png` (62x37 px) | Wordmark and pictogram only | Positive |
-
 | `Logo-small-negative.svg` (661x391 px) | Wordmark and pictogram only (same composition as Logo-small, no tagline); white text, orange elements | Negative |
 
 The negative file was supplied as `Logo-negatif.svg` and renamed on import (file content unchanged). There is no negative version of the large logo (with tagline), and none exists; no negative PDF/PNG is supplied yet.
@@ -38,7 +37,7 @@ The Noemys logo has no official minimum size and no official clear space. Keep i
 
 ## Register
 
-| File | Type | Figma / source link | Approved by | Date | What it shows (tokens, fonts, layout) |
+| File | Type | Figma / source link | Approved by | Date | What it shows (colors, fonts, layout) |
 |---|---|---|---|---|---|
 | _none yet_ | | | | | |
 

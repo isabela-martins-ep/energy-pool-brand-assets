@@ -6,7 +6,7 @@ Mandatory rules for anyone (human or AI) producing Energy Pool visuals from this
 
 | Label | Meaning |
 |---|---|
-| **OFFICIAL** | Taken from a Design System export stored in this repository (cite the file). |
+| **OFFICIAL** | Taken from a Design System export or an official file supplied by the design team and stored in this repository (cite the file). |
 | **OBSERVED** | Seen in existing assets. Describes what exists; **not** a brand rule. |
 | **TO BE PROVIDED** | Not documented. Do not guess: ask the user, or state it as missing. |
 
@@ -15,7 +15,7 @@ Mandatory rules for anyone (human or AI) producing Energy Pool visuals from this
 When sources conflict, apply in this order:
 
 1. **Explicit human instruction from Energy Pool's design team** for the current request, or an approved item in [`../brand-examples/`](../brand-examples/README.md).
-2. **OFFICIAL Figma exports** (tokens): exact HEX/values always beat colors estimated from images.
+2. **OFFICIAL resources**: the palette [`COLOR_PALETTE.md`](../colors/COLOR_PALETTE.md), the Figma token exports, the logo and font files. Exact HEX/values always beat colors estimated from images.
 3. **This file** and the medium-specific rules (e.g. the poster workflow), which complete the general rules and never contradict them.
 4. **OBSERVED** traits ([`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md), [`../illustrations/CATALOG.md`](../illustrations/CATALOG.md)): descriptive only.
 
@@ -38,11 +38,11 @@ Permissions are not obligations: an illustration may have no text, no scenery or
 ## Mandatory rules (level A and honesty)
 
 1. Use only documented tokens, fonts and components. Never invent colors, fonts, spacing values, logo variants or design rules.
-2. Reference colors, spacing and type by **token name** (with the value from the token file), not by eyeballed values.
+2. Reference colors by **palette name** with the exact HEX from `COLOR_PALETTE.md`, and spacing and type by **token name** with the value from the export; never by eyeballed values.
 3. Logo: use only the official files in `brand-examples/` and never redraw, recolor, stretch, crop, repeat or generate the logo or pictogram (see [Logo](#logo)).
 4. Never modify or overwrite files in `illustrations/` or other original assets. Work on copies outside the original folders.
 5. **Text fidelity (level A).** When the user supplies text, use exactly that text: same words, order, spelling, accents, punctuation, capitalization of names, numbers, dates and times, and language. When redesigning or adapting an existing visual, use exactly the text already on it. Never add, remove, translate, reword, shorten, correct or complete any text, and never add a tagline or slogan (a tagline inside an official logo file is part of the logo). Only layout may change (size, weight, line breaks, position, case styling consistent with the Typography convention). If the text seems wrong or incomplete, keep it as is and flag it in the delivery; if a needed text (date, place) is missing, ask. If the tool cannot render the text reliably, leave the text as live or placeholder text to add at final composition rather than approximating it.
-6. If a level A rule or fact you need is `TO BE PROVIDED`, say so and ask; do not fill the gap (exception: the color-to-role mapping, see Colors). For level B and C items, decide and, if it matters, mention the choice.
+6. If a level A rule or fact you need is `TO BE PROVIDED`, say so and ask; do not fill the gap (choosing where each palette color goes is not a gap: it is a creative choice, see Colors). For level B and C items, decide and, if it matters, mention the choice.
 7. Label every AI-generated or AI-assisted visual as such. It is a draft until a human reviews and approves it before publication.
 8. Before delivery, run [`VISUAL_QA.md`](VISUAL_QA.md) and report the result, including anything you could not verify. Visual resemblance to Energy Pool is not proof of compliance.
 
@@ -55,7 +55,7 @@ Permissions are not obligations: an illustration may have no text, no scenery or
 - **OBSERVED, SVG source colors vs palette** (exact hex comparison; not a statement of intent): only `#FF9900` (`orange`) matches. `#FFB84D`, `#FFE0B3`, `#EA5B0C`, `#F7EAC6`, `#EFEFEF`, `#EDEDED`, `#D0D0D0`, `#B2B2B2`, `#FFC774`, `#FFB342`, `#FFA41E`, `#FF9C08` are not palette colors (PNG measurement: `STYLE_GUIDE.md` §5). Existing illustrations therefore cannot be assumed to use only palette colors.
 - **TO BE PROVIDED:**
   - Allowed combinations, text/background pairs and contrast requirements.
-  - Dark-mode or other modes (the export has only "Default").
+  - Dark-mode or other modes (the exports have only "Mode 1").
   - Gradient rules outside illustrations (illustration gradients: `STYLE_GUIDE.md` §0).
 
 ## Typography
@@ -116,9 +116,8 @@ Source: Energy Pool brand charter (rules below supplied by the design team, 2026
 
 ## Illustration style
 
-- **OFFICIAL decisions** (colors outside tokens, gradients, AI creation, reuse, proportions): [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) §0. Brand colors still come only from the palette ([`COLOR_PALETTE.md`](../colors/COLOR_PALETTE.md)).
+- **OFFICIAL decisions** (colors outside the palette, gradients, AI creation, reuse, proportions, do/don't, text, third-party logos and flags, backgrounds and framing): [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) §0. Brand colors still come only from the palette ([`COLOR_PALETTE.md`](../colors/COLOR_PALETTE.md)).
 - **OBSERVED only:** see [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) (single source for illustration traits: fundamentals, variations, specifics) and [`../illustrations/CATALOG.md`](../illustrations/CATALOG.md) (what each file shows). Two sub-styles exist: energy/technology (SVG, objects only, orange ring) and people/workplace (PNG, characters). Do not mix them unless a reference does.
-- **OFFICIAL decisions** also cover do/don't, text, third-party logos and flags, backgrounds and framing: `STYLE_GUIDE.md` §0.
 - **File naming (technical convention for new files, proposed, not a charter rule):** `illustration-subject-description.png` or `.svg`: lowercase, no spaces, hyphens between words, no accents, descriptive. Existing files in `illustrations/` keep their names (originals are never renamed).
 - **Owner:** there is no official illustration owner. Do not invent one; approval of new illustrations is by the human reviewer of the delivery.
 

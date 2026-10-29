@@ -56,7 +56,7 @@ The agent must compare against the reference images themselves, not only this te
 - **F Face:** oval or round head, two dark dot eyes, thin dark brows, no or almost no nose (a tiny line at most), one small mouth in orange (smile, filled when open), small ear shapes at the sides. No eyelashes, no cheeks, no shading on the face other than a soft skin gradient.
 - **V Face:** closed eyes as short arcs (`QVT`); teeth shown in a broad smile (`EP-Women-1`); round dark glasses (`EP-Women-1`); beard in dark brown (`entretien individuel-v2`).
 - **F Hair:** one or two flat masses with a gentle gradient; strand details only as a few lighter or darker lines (bangs, ponytail, curls). Hair colors seen: dark brown, black, grey-brown, blond, light orange-blond.
-- **F Skin:** a range of light peach to dark brown, filled with a subtle gradient; the same skin tone is used for face, neck and hands. Skin tones do not match any token.
+- **F Skin:** a range of light peach to dark brown, filled with a subtle gradient; the same skin tone is used for face, neck and hands. Skin tones do not match any palette color.
 - **F Clothing** (typical; other outfit colors consistent with the palette are allowed): tops in orange tints (light to saturated), trousers light grey to white with a vertical gradient, shirts or jackets with a collar or lapel shown by a lighter line or a lighter orange shape; folds as thin darker-orange lines. Dark trousers and a white shirt exist (`EP-Women-1`, `Forum`) as **V**.
 - **F Poses:** relaxed and active (waving, fist raised, arms crossed, hand on hip, cross-legged, holding a device or a document); body orientation toward the interaction; groups overlap slightly or sit side by side.
 - **F Diversity:** skin tones, hair, ages, glasses, a bald bearded man, a wheelchair user (`Forum`, **S**).
@@ -89,7 +89,7 @@ Measured at full resolution on 49.2 M opaque pixels of the 23 PNG (2026-10-29): 
 
 - Observed distribution: light greys about 30 % of pixels, orange family about 15 %, white about 4 %, remainder skin, hair and gradient intermediates.
 - A color close to a palette color is **not** a match. Palette: [`../colors/COLOR_PALETTE.md`](../colors/COLOR_PALETTE.md).
-- Brand orange: `orange`; white: per `COLOR_PALETTE.md`. Other oranges, greys, skin, hair, secondary clothing and shading: take the values from the closest references (decision 1); list them in the report as non-token, reference-derived colors. Never use them for backgrounds, titles or other communication elements.
+- Brand orange: `orange`; white: per `COLOR_PALETTE.md`. Other oranges, greys, skin, hair, secondary clothing and shading: take the values from the closest references (decision 1); list them in the report as reference-derived colors outside the palette. Never use them for backgrounds, titles or other communication elements.
 
 ## 6. Composition and legibility
 
@@ -107,4 +107,4 @@ Head-to-body ratio, exact line widths, gradient angles and stops, minimum size, 
 
 ## 8. Official rules
 
-Beyond §0, not in this file. The remaining missing official information (none; naming convention for new files and the absence of an official owner: BRAND_RULES.md) is in [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md).
+Beyond §0, official rules are not in this file: see [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md) (including the proposed naming convention for new files).
