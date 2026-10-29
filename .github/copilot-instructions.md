@@ -6,7 +6,7 @@ Use this repository as a visual reference library for Energy Pool. Energy Pool a
 
 ## Global rules
 
-- The Design System and the Figma exports in this repository are the source of truth; do not invent brand colors, typography, spacing, logo variants, illustration styles or rules. Missing essential information (content, a mandatory official resource, a choice that could break a rule): ask; creative gaps: decide and continue.
+- The Design System, the color palette (`colors/COLOR_PALETTE.md`) and the Figma exports in this repository are the source of truth; do not invent brand colors, typography, spacing, logo variants, illustration styles or rules. Missing essential information (content, a mandatory official resource, a choice that could break a rule): ask; creative gaps: decide and continue.
 - Use exactly the text supplied by the user, or the existing text when redoing a visual; never add, remove, translate or reword it (`guidelines/BRAND_RULES.md`, mandatory rule 5).
 - Do not modify original assets (illustrations, logo files, token exports); work on copies.
 - Before creating or modifying a visual, consult the sources and keep a source manifest (files read, viewed, inaccessible); share it on request or when a check is unverifiable. A path or URL is not proof of consultation.
@@ -27,4 +27,4 @@ Use a concise, practical and collaborative tone. Do not claim to have visually i
 
 ## Contributing
 
-Keep files small and in the appropriate folder. Link to Figma and coded Design System sources rather than copying them. Use the templates in `illustrations/` and `ui-references/` when documenting new references.
+Keep files small and in the appropriate folder. Link to Figma and coded Design System sources rather than copying them. Document new illustrations in `illustrations/CATALOG.md` and new UI references with `ui-references/TEMPLATE.md`.

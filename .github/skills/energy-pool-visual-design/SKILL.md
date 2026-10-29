@@ -1,11 +1,11 @@
 ---
 name: energy-pool-visual-design
-description: Create Energy Pool visuals consistent with the existing visual identity and Design System - posters (event, internal communication, HR), illustrations, infographics, presentations and user interfaces - or adapt an existing illustration. Use when asked to create or update an Energy Pool poster, illustration, visual asset or UI, or to design with Energy Pool's brand, tokens and illustration style.
+description: Create Energy Pool visuals consistent with the existing visual identity and Design System - posters (event, internal communication, HR), illustrations, infographics and presentations - or adapt an existing illustration. Use when asked to create or update an Energy Pool poster, illustration, slide or visual asset, or to design with Energy Pool's brand, color palette and illustration style.
 ---
 
 # Energy Pool visual design
 
-Entry point for creating or modifying Energy Pool brand visuals (posters, illustrations, HR visuals, infographics, slides). The Figma exports and [`guidelines/BRAND_RULES.md`](../../../guidelines/BRAND_RULES.md) hold the rules; this file only gives the order of actions and where to read. Goal: original, brand-coherent proposals made autonomously, without the user guiding each aesthetic choice. Web UI components are out of scope: use the coded Design System.
+Entry point for creating or modifying Energy Pool brand visuals (posters, illustrations, HR visuals, infographics, slides). The official resources (color palette, Figma exports, logo and font files) and [`guidelines/BRAND_RULES.md`](../../../guidelines/BRAND_RULES.md) hold the rules; this file only gives the order of actions and where to read. Goal: original, brand-coherent proposals made autonomously, without the user guiding each aesthetic choice. Web UI components are out of scope: use the coded Design System.
 
 ## Route the request
 
@@ -16,15 +16,15 @@ Entry point for creating or modifying Energy Pool brand visuals (posters, illust
 
 ## Three levels of rules
 
-Defined once in [`BRAND_RULES.md`](../../../guidelines/BRAND_RULES.md#rule-levels): **A** mandatory (logo, fonts, token colors, user content, charter prohibitions), **B** visual coherence (illustration style in [`STYLE_GUIDE.md`](../../../illustrations/STYLE_GUIDE.md), guidance, not a template), **C** creative freedom (composition, layout, format, poses, scenery, hierarchy: decide without asking).
+Defined once in [`BRAND_RULES.md`](../../../guidelines/BRAND_RULES.md#rule-levels): **A** mandatory (logo, fonts, palette colors, user content, charter prohibitions), **B** visual coherence (illustration style in [`STYLE_GUIDE.md`](../../../illustrations/STYLE_GUIDE.md), guidance, not a template), **C** creative freedom (composition, layout, format, poses, scenery, hierarchy: decide without asking).
 
 ## Process (all requests)
 
 1. **Understand** the request and the constraints supplied (text, format, audience, assets). Act on aesthetic choices; ask, in one message, only for missing essential information or when a choice might break a level A rule.
 2. **Consult** the relevant rules and resources: `BRAND_RULES.md`, the palette [`COLOR_PALETTE.md`](../../../colors/COLOR_PALETTE.md), [`TOKENS.md`](../../../guidelines/TOKENS.md) and the token files it names, [`brand-examples/`](../../../brand-examples/README.md) (logos, approved examples), and for illustrations [`CATALOG.md`](../../../illustrations/CATALOG.md) and `STYLE_GUIDE.md`. Keep an internal source manifest (each file: read, viewed or inaccessible). A path or URL is not proof of consultation.
 3. **Select references**: the closest approved example or catalogued illustrations (same sub-style), and open the actual images. Reuse an existing file when it fits.
-4. **Define a graphic direction** coherent with Energy Pool: colors (the 8 palette colors, combined freely, orange as the main identity color), fonts, logo, illustration approach, layout idea. Keep it short. Consider two or three compositions and keep the strongest; deliver one file unless the user asks for options, and do not ask for validation between them.
-5. **Create an original proposal** with the available tools. Never assume image generation, font embedding or Figma access. Work on copies; never alter originals, logos or token exports. When modifying an existing visual, change only what was requested.
+4. **Define a graphic direction** coherent with Energy Pool: colors (the 8 palette and charter colors, combined freely in varied proportions, with derived variations and the official gradients, orange as the main identity color), fonts (or the documented backup font), pictograms (Font Awesome Classic Solid; the custom set only once its files are supplied), logo, illustration approach, layout idea. Keep it short. Consider two or three compositions and keep the strongest; deliver one file unless the user asks for options, and do not ask for validation between them.
+5. **Create an original proposal** with the available tools. Never assume image generation, font embedding or Figma access. Work on copies; never alter originals, logos, the palette or token exports. When modifying an existing visual, change only what was requested.
 6. **Verify the produced output**, not the prompt, with [`VISUAL_QA.md`](../../../guidelines/VISUAL_QA.md); mark non-applicable criteria `N/A`. Say what you could not inspect.
 7. **Correct** blocking non-compliances and style gaps; re-verify.
 8. **Deliver** the requested file, a few lines on the main design decisions, and limits or points needing human validation, labelled AI-generated / AI-assisted, draft pending approval. A draft is deliverable even when official validations are pending. A detailed report only if the user asks or a compliance problem requires it (`VISUAL_QA.md`).

@@ -17,12 +17,12 @@ Read the sources in `SKILL.md` step 2. Use approved examples from `brand-example
 
 | Item | Rule |
 |---|---|
-| Colors | The 8 palette colors of [`COLOR_PALETTE.md`](../../../../colors/COLOR_PALETTE.md) with exact HEX (role -> token -> HEX). Combine them freely and choose where each goes yourself, with orange as the main identity color (do not present your choice as an official rule). |
+| Colors | The 8 palette colors and the charter colors of [`COLOR_PALETTE.md`](../../../../colors/COLOR_PALETTE.md) with exact HEX (role -> color name -> HEX), plus derived variations reported as such. Combine them freely, in any proportions, and choose where each goes yourself, with orange as the main identity color (do not present your choice as an official rule). Gradients: only the official ones, sparingly. |
 | Typography | Chillax for titles, Synonym for other text, per `BRAND_RULES.md` Typography. Only the official weights; hierarchy, sizes, case and alignment follow the text-composition convention in `BRAND_RULES.md` Typography (no official scale). Say which font was actually rendered; an image generator does not guarantee them. |
 | Logo | Follow the selection procedure in [`BRAND_RULES.md`](../../../../guidelines/BRAND_RULES.md#logo): variant by background, size and clear space checked. Record the file, background and placed width internally. |
-| Illustration and pictograms | Catalogued files, new illustrations or pictograms, coherent with `STYLE_GUIDE.md`. Text in an illustration is allowed when it helps (same fonts rule). |
+| Illustration and pictograms | Catalogued files or new illustrations coherent with `STYLE_GUIDE.md`, placed on a white area (§0, decision 9); pictograms per [`BRAND_RULES.md`](../../../../guidelines/BRAND_RULES.md#pictograms) (Font Awesome Classic Solid; custom set to be provided, not available yet). Text in an illustration is allowed when it helps (same fonts rule). |
 | Layout | Composition, hierarchy, whitespace, framing and background are creative choices adapted to the medium. Text over clear areas, legible. |
-| Method | Compose from existing resources (exact text, logo, tokens) whenever possible. A generated image is a proposal; it is not evidence of compliance. |
+| Method | Compose from existing resources (exact text, logo, palette colors) whenever possible. A generated image is a proposal; it is not evidence of compliance. |
 
 ## 5. Create, 6. Verify, 7. Correct
 

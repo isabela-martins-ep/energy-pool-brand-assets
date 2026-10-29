@@ -7,10 +7,10 @@ Details steps 3 to 7 of [`SKILL.md`](../SKILL.md) for illustrations. Rule levels
 Official decisions (details in `STYLE_GUIDE.md` §0), all **permissions, not obligations**:
 
 - Creating new illustrations with AI.
-- Colors outside the tokens for skin, hair, grey and secondary details, when consistent with the references; brand colors still come from the palette.
-- Subtle gradients; recurring characters and motifs reused or adapted.
+- Colors outside the palette for skin, hair, grey and secondary details, when consistent with the references; brand colors still come from the palette. Orange and grey are characteristic but need not dominate; other palette colors and harmonious variations are allowed.
+- Subtle gradients, including vertical or circular ones when the references use them (the horizontal-only rule is for graphic media); recurring characters and motifs reused or adapted.
 - Text when relevant (Chillax for titles, Synonym for other text, per `BRAND_RULES.md` Typography); third-party logos and flags when the context justifies them, in their official form.
-- Varied scenery, backgrounds and framing; no numeric proportions imposed on characters.
+- Varied scenery and framing; no numeric proportions imposed on characters. The file background may be transparent or white; once placed on a medium, the illustration sits on a white area (`STYLE_GUIDE.md` §0, decision 9).
 
 An illustration may have no text, no scenery or no gradient if the subject is better served.
 
@@ -27,7 +27,7 @@ Open the reference image files and look at them. If the environment cannot displ
 
 ## Reuse first
 
-If a catalogued file fits the need, use it as is or on a copy outside `illustrations/` (cite the path; catalog usage suggestions are not approved uses). SVG: edit as text (recolor to tokens, hide or move elements, crop the viewBox); embedded base64 PNGs are not vector-editable. PNG: scale, crop or convert only.
+If a catalogued file fits the need, use it as is or on a copy outside `illustrations/` (cite the path; catalog usage suggestions are not approved uses). SVG: edit as text (recolor to palette colors, hide or move elements, crop the viewBox); embedded base64 PNGs are not vector-editable. PNG: scale, crop or convert only.
 
 ## Creating a new illustration
 

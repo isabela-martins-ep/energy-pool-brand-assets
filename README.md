@@ -15,9 +15,9 @@ Energy Pool's Design System lives in **Figma** and is implemented in **code**. T
 | Folder | Content |
 |---|---|
 | `colors/` | Official 8-color palette ([`COLOR_PALETTE.md`](colors/COLOR_PALETTE.md)), energy-source colors and component tokens |
-| `typography/` | Font families, weights, hierarchy |
+| `typography/` | Font files (Chillax, Synonym), families and weights |
 | `spacing/` | Spacing and layout guidelines (Design System values) |
-| `illustrations/` | Illustrations exported from Figma, plus style guide template |
+| `illustrations/` | Illustrations exported from Figma, catalog and style guide |
 | `ui-references/` | Examples of existing interfaces, layouts and components |
 | `guidelines/` | Brand rules, visual QA checklist, Microsoft 365 Copilot reuse guide |
 | `brand-examples/` | Official logo files; approved visual references (none supplied yet) |
@@ -27,8 +27,8 @@ Energy Pool's Design System lives in **Figma** and is implemented in **code**. T
 
 **Designers**
 - Export assets from Figma (SVG preferred, PNG for screenshots) into the matching folder.
-- Name files in lowercase kebab-case (e.g. `dashboard-overview.png`).
-- Describe each asset with the templates (`illustrations/STYLE_GUIDE.md`, `ui-references/TEMPLATE.md`) and link the Figma frame.
+- Name files in lowercase kebab-case, without spaces or accents (illustrations: `illustration-subject-description.png`, see [`BRAND_RULES.md`](guidelines/BRAND_RULES.md#illustration-style)). Never rename existing originals.
+- Describe each asset (illustrations: a row in [`illustrations/CATALOG.md`](illustrations/CATALOG.md); UI: [`ui-references/TEMPLATE.md`](ui-references/TEMPLATE.md)) and link the Figma frame.
 
 **Developers**
 - Reference tokens and components by name, with a link to the code or Figma source.
@@ -38,7 +38,7 @@ Open a pull request for any change, focused on one topic.
 
 ## Visual design skill
 
-[`.github/skills/energy-pool-visual-design/SKILL.md`](.github/skills/energy-pool-visual-design/SKILL.md) is an Agent Skill that guides AI agents when creating or adapting Energy Pool illustrations and UIs: it defines a workflow (classify, consult references, reuse assets, follow the Design System, verify, report limitations) and the constraints to respect.
+[`.github/skills/energy-pool-visual-design/SKILL.md`](.github/skills/energy-pool-visual-design/SKILL.md) is an Agent Skill that guides AI agents when creating or adapting Energy Pool brand visuals (posters, illustrations, infographics, slides; web UI components are out of scope): it defines a workflow (classify, consult references, reuse assets, follow the Design System, verify, report limitations) and the constraints to respect.
 
 - **Use:** compatible agents can discover it from `.github/skills/` when a request matches its description (e.g. "create an Energy Pool illustration"), or you can point the agent to the file.
 - **Dependencies:** it relies on the resources in this repository (`illustrations/CATALOG.md`, `illustrations/STYLE_GUIDE.md`, `.github/copilot-instructions.md`, etc.) and does not duplicate them.

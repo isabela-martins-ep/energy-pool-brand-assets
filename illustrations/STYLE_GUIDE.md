@@ -6,24 +6,24 @@
 
 These nine decisions are **OFFICIAL** and apply to everything below. The rest of the file is OBSERVED.
 
-1. **Colors.** Brand colors come from the palette ([`../colors/COLOR_PALETTE.md`](../colors/COLOR_PALETTE.md)). Colors needed to depict people and objects (skin, hair, secondary clothing, greys, shading) may be used if consistent with the existing official illustrations (§5). They are not brand colors and must not be used for backgrounds, titles or other communication elements.
-2. **Gradients.** Subtle gradients are allowed when they reproduce the treatment observed in the references (§2). Avoid complex gradients, realistic lighting, pronounced shadows and 3D effects.
+1. **Colors.** Brand colors come from the palette ([`../colors/COLOR_PALETTE.md`](../colors/COLOR_PALETTE.md)). Orange and grey are characteristic of the style but need not dominate every illustration: the other palette and charter colors and their harmonious variations (`COLOR_PALETTE.md` Variations) are allowed, in the graphic language of the official illustrations. Colors needed to depict people and objects (skin, hair, secondary clothing, greys, shading) may be used if consistent with the existing official illustrations (§5). They are not brand colors and must not be used for backgrounds, titles or other communication elements.
+2. **Gradients.** Subtle gradients are allowed when they reproduce the treatment observed in the references (§2), including vertical and circular (ring) gradients. The horizontal-only charter rule ([`COLOR_PALETTE.md` Gradients](../colors/COLOR_PALETTE.md#gradients)) applies to graphic media, not to shading inside illustrations. Avoid complex gradients, realistic lighting, pronounced shadows and 3D effects.
 3. **AI creation.** AI agents may create new Energy Pool illustrations following the references and this Skill. Each new creation needs a compliance check (`VISUAL_QA.md`) and human validation before official distribution.
 4. **Reuse.** Recurring characters, poses, objects and graphic motifs may be reused or adapted for new coherent scenes. Official logos and symbols must be placed from the source files, never redrawn, distorted or reinterpreted (`BRAND_RULES.md` Logo).
 5. **Proportions.** No fixed numeric proportions. The official illustrations are the reference for heads, bodies, limbs and faces; consistency with the existing graphic family has priority.
-6. **Do.** Flat-design vector illustrations; simple, geometric, slightly rounded shapes; stylized, expressive, inclusive characters with simplified faces; palette consistent with the official illustrations, orange and greys dominant; limited detail and readable compositions; subtle gradients only when consistent with the references.
+6. **Do.** Flat-design vector illustrations; simple, geometric, slightly rounded shapes; stylized, expressive, inclusive characters with simplified faces; colors consistent with the official illustrations, orange and greys characteristic but not necessarily dominant; limited detail and readable compositions; subtle gradients only when consistent with the references.
 7. **Don't.** Photorealism and 3D; complex textures and material effects; strong shadows, dramatic lighting, metallic effects; thick black outlines; characters with realistic proportions or exaggerated cartoon style; decorative elements with no visual or narrative function.
 8. **Text, third-party logos, flags.**
    - Text is allowed in an illustration when it is relevant (screen, poster, signage, title). Chillax for titles, Synonym for other text (`BRAND_RULES.md` Typography). Keep it short and check spelling and the rendered font; where a generator is unreliable with text, adding it as live text at final composition is a practical option, not a requirement.
    - Never invent slogans, data or messages attributed to Energy Pool.
    - Third-party logos and flags may appear when the context needs them. Use official files when available (supplied ones: [`brand-examples/third-party-logos/`](../brand-examples/third-party-logos/)); never invent, distort or alter them. If the official file is missing, report it instead of generating an imitation.
-9. **Backgrounds and framing.** Prefer transparent or white background. Simplified backgrounds are allowed when they help understand the scene; avoid realistic, busy or over-detailed settings. Adapt the framing to the use (full figure, close-up, group, full scene); keep the scene readable and do not crop essential elements by accident.
+9. **Backgrounds and framing.** Brand charter p. 19 ([`Illustrations _ Categories.pdf`](Illustrations%20_%20Categories.pdf)): illustrations are "always placed on a white background" and "should be used sparingly". Two different things: the **file** may have a transparent or white background; on the **medium** (poster, slide, page), the area around the illustration is white (a white page or a white panel), never a colored or grey block (the charter shows an illustration on a grey panel as not allowed). Simplified scenery inside the illustration is allowed when they help understand the scene; avoid realistic, busy or over-detailed settings. Adapt the framing to the use (full figure, close-up, group, full scene); keep the scene readable and do not crop essential elements by accident.
 
 Status of every rule below: **OBSERVED** = measured or seen in the 31 reference files of this folder (all viewed; colors measured on the 23 PNG and read from the 8 SVG sources). It is **not** an official brand rule. Official rules and missing decisions: [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md). Per-file inventory: [`CATALOG.md`](CATALOG.md). Procedure: [`illustration-creation.md`](../.github/skills/energy-pool-visual-design/references/illustration-creation.md). Checklist: [`VISUAL_QA.md`](../guidelines/VISUAL_QA.md#illustration-checklist).
 
 Classes used: **F** = frequently observed (present in nearly all references of the sub-style), **V** = acceptable variation (seen in some, same family), **S** = specific to one file; never turn an S into a rule. An F is a tendency, not an obligation, unless it is listed as an invariant below.
 
-**Invariants (what makes the style recognizable; level B, applied with judgment):** flat vector shapes with no outlines; simple, rounded, geometric forms; subtle gradients only (no hard shadow, texture, 3D or photo rendering); simplified faces (dot eyes, thin brows, tiny or no nose, small mouth); simple hands; light grey context with orange as the accent that guides the eye; legible when small; inclusive characters.
+**Invariants (what makes the style recognizable; level B, applied with judgment):** flat vector shapes with no outlines; simple, rounded, geometric forms; subtle gradients only (no hard shadow, texture, 3D or photo rendering); simplified faces (dot eyes, thin brows, tiny or no nose, small mouth); simple hands; a harmonious, limited color balance (orange and light greys are characteristic, not required to dominate); legible when small; inclusive characters.
 
 **Frequently observed, not required:** orange tops, 1 to 4 people, a centered isolated subject, a white or transparent background, few secondary objects.
 
@@ -56,7 +56,7 @@ The agent must compare against the reference images themselves, not only this te
 - **F Face:** oval or round head, two dark dot eyes, thin dark brows, no or almost no nose (a tiny line at most), one small mouth in orange (smile, filled when open), small ear shapes at the sides. No eyelashes, no cheeks, no shading on the face other than a soft skin gradient.
 - **V Face:** closed eyes as short arcs (`QVT`); teeth shown in a broad smile (`EP-Women-1`); round dark glasses (`EP-Women-1`); beard in dark brown (`entretien individuel-v2`).
 - **F Hair:** one or two flat masses with a gentle gradient; strand details only as a few lighter or darker lines (bangs, ponytail, curls). Hair colors seen: dark brown, black, grey-brown, blond, light orange-blond.
-- **F Skin:** a range of light peach to dark brown, filled with a subtle gradient; the same skin tone is used for face, neck and hands. Skin tones do not match any token.
+- **F Skin:** a range of light peach to dark brown, filled with a subtle gradient; the same skin tone is used for face, neck and hands. Skin tones do not match any palette color.
 - **F Clothing** (typical; other outfit colors consistent with the palette are allowed): tops in orange tints (light to saturated), trousers light grey to white with a vertical gradient, shirts or jackets with a collar or lapel shown by a lighter line or a lighter orange shape; folds as thin darker-orange lines. Dark trousers and a white shirt exist (`EP-Women-1`, `Forum`) as **V**.
 - **F Poses:** relaxed and active (waving, fist raised, arms crossed, hand on hip, cross-legged, holding a device or a document); body orientation toward the interaction; groups overlap slightly or sit side by side.
 - **F Diversity:** skin tones, hair, ages, glasses, a bald bearded man, a wheelchair user (`Forum`, **S**).
@@ -89,7 +89,7 @@ Measured at full resolution on 49.2 M opaque pixels of the 23 PNG (2026-10-29): 
 
 - Observed distribution: light greys about 30 % of pixels, orange family about 15 %, white about 4 %, remainder skin, hair and gradient intermediates.
 - A color close to a palette color is **not** a match. Palette: [`../colors/COLOR_PALETTE.md`](../colors/COLOR_PALETTE.md).
-- Brand orange: `orange`; white: per `COLOR_PALETTE.md`. Other oranges, greys, skin, hair, secondary clothing and shading: take the values from the closest references (decision 1); list them in the report as non-token, reference-derived colors. Never use them for backgrounds, titles or other communication elements.
+- Brand colors: `orange` and the other palette and charter colors, with harmonious variations (decision 1); white: per `COLOR_PALETTE.md`. Other oranges, greys, skin, hair, secondary clothing and shading: take the values from the closest references (decision 1); list them in the report as reference-derived colors outside the palette. Never use them for backgrounds, titles or other communication elements.
 
 ## 6. Composition and legibility
 
@@ -107,4 +107,4 @@ Head-to-body ratio, exact line widths, gradient angles and stops, minimum size, 
 
 ## 8. Official rules
 
-Beyond §0, not in this file. The remaining missing official information (none; naming convention for new files and the absence of an official owner: BRAND_RULES.md) is in [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md).
+Beyond §0, official rules are not in this file: see [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md) (including the proposed naming convention for new files).

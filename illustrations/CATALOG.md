@@ -45,4 +45,4 @@ Subjects are described from visual review of each file. **Suggested usage** is i
 
 ## Files that could not be fully analyzed
 
-None. All files were viewed. Open questions are in [`STYLE_GUIDE.md`](../guidelines/BRAND_RULES.md#illustration-style).
+None. All files were viewed. Open questions are in [`BRAND_RULES.md`](../guidelines/BRAND_RULES.md#illustration-style).
