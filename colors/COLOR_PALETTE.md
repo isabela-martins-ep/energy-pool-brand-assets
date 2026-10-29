@@ -30,7 +30,7 @@ Agents may derive lighter, darker or less saturated variations of these 8 colors
 
 ## Charter identity colors
 
-**OFFICIAL.** Energy Pool brand charter, p. 10 "Colors - Palette" ([`Colors _ Palette.svg`](Colors%20_%20Palette.svg), original page, do not modify). Kept alongside the 8-color palette, which it does not replace. Charter text: "Our color palette is built around vibrant orange tones, reflecting the energy, dynamism, and warmth at the core of our industry. [...] Complementary grey tones may be used alongside the orange palette to provide balance, structure, and visual clarity."
+**OFFICIAL.** Energy Pool brand charter, p. 10 "Colors - Palette" ([`Colors-Palette.svg`](Colors-Palette.svg), original page, do not modify). Kept alongside the 8-color palette, which it does not replace. Charter text: "Our color palette is built around vibrant orange tones, reflecting the energy, dynamism, and warmth at the core of our industry. [...] Complementary grey tones may be used alongside the orange palette to provide balance, structure, and visual clarity."
 
 | Group | Charter name | HEX | Same value in the 8-color palette |
 |---|---|---|---|
@@ -49,7 +49,7 @@ Grey HEX values are read from the SVG source (the page shows only the percentage
 
 ## Gradients
 
-**OFFICIAL.** Brand charter, p. 11 "Colors - Gradient" ([`Colors _ Gradient.svg`](Colors%20_%20Gradient.svg)). Charter text: "To complement our palette, we also use gradients for different media. It should be used sparingly and is always used horizontally, from the primary color "Vitamin" towards "Power". Grey tones can also be used in gradients, but only in similar shades."
+**OFFICIAL.** Brand charter, p. 11 "Colors - Gradient" ([`Colors-Gradient.svg`](Colors-Gradient.svg)). Charter text: "To complement our palette, we also use gradients for different media. It should be used sparingly and is always used horizontally, from the primary color "Vitamin" towards "Power". Grey tones can also be used in gradients, but only in similar shades."
 
 - **Orange gradient:** horizontal, from Vitamin `#FF9900` to Power `#F66000`. Shown as not allowed: Windy `#FFEBCC` to Power.
 - **Grey gradient:** horizontal, between similar grey tones (example shown: 5% `#F2F2F2` to 20% `#CCCCCC`). Shown as not allowed: 5% to 60% `#666666`.
@@ -63,4 +63,4 @@ Beyond the 8 colors, the charter colors and their variations, only these cases, 
 - **White (`#FFFFFF`):** a charter primary tone, also required by the logo rules (white backgrounds and white panels, [`BRAND_RULES.md` Logo](../guidelines/BRAND_RULES.md#logo)) and by illustration placement ([`STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) §0, decision 9).
 - **Illustrations:** colors needed to depict people and objects (skin, hair, secondary clothing, greys, shading), per [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) §0, decision 1.
 - **Energy-source data:** [`energy-assets.json`](energy-assets.json) (chart, icon and background color per energy source and sector), only for content about that source.
-- **UI components:** [`Mode 1.tokens 3.json`](Mode%201.tokens%203.json) (states, borders, focus), not for decoration.
+- **UI components:** [`Mode-1.tokens-3.json`](Mode-1.tokens-3.json) (states, borders, focus), not for decoration.

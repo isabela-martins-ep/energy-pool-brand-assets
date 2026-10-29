@@ -41,9 +41,9 @@ Upload these files from the repository. Keep them as Markdown or JSON if your to
 | [`../illustrations/CATALOG.md`](../illustrations/CATALOG.md) | What each illustration shows |
 | [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) | Official illustration decisions (§0) and observed traits (single source for illustration style; view the images) |
 | [`../colors/energy-assets.json`](../colors/energy-assets.json) | Energy-source colors for charts and infographics (small) |
-| [`../colors/Mode 1.tokens 3.json`](../colors/Mode%201.tokens%203.json) | Component tokens (states, borders, focus) |
-| [`../typography/Mode 1.tokens.json`](../typography/Mode%201.tokens.json) | Typography tokens |
-| [`../spacing/Mode 1.tokens 2.json`](../spacing/Mode%201.tokens%202.json) | Spacing tokens |
+| [`../colors/Mode-1.tokens-3.json`](../colors/Mode-1.tokens-3.json) | Component tokens (states, borders, focus) |
+| [`../typography/Mode-1.tokens.json`](../typography/Mode-1.tokens.json) | Typography tokens |
+| [`../spacing/Mode-1.tokens-2.json`](../spacing/Mode-1.tokens-2.json) | Spacing tokens |
 | [`../brand-examples/README.md`](../brand-examples/README.md) | Logo files and register of approved examples (none yet) |
 | `Logo-large.svg`/`.pdf`, `Logo-small.svg`/`.pdf` from [`../brand-examples/`](../brand-examples/) | Official logos (add them if the tool accepts these formats) |
 
