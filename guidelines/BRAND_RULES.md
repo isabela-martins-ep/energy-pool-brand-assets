@@ -41,9 +41,10 @@ Permissions are not obligations: an illustration may have no text, no scenery or
 2. Reference colors, spacing and type by **token name** (with the value from the token file), not by eyeballed values.
 3. Logo: use only the official files in `brand-examples/` and never redraw, recolor, stretch, crop, repeat or generate the logo or pictogram (see [Logo](#logo)).
 4. Never modify or overwrite files in `illustrations/` or other original assets. Work on copies outside the original folders.
-5. If a level A rule or fact you need is `TO BE PROVIDED`, say so and ask; do not fill the gap (exception: the color-to-role mapping, see Colors). For level B and C items, decide and, if it matters, mention the choice.
-6. Label every AI-generated or AI-assisted visual as such. It is a draft until a human reviews and approves it before publication.
-7. Before delivery, run [`VISUAL_QA.md`](VISUAL_QA.md) and report the result, including anything you could not verify. Visual resemblance to Energy Pool is not proof of compliance.
+5. **Text fidelity (level A).** When the user supplies text, use exactly that text: same words, order, spelling, accents, punctuation, capitalization of names, numbers, dates and times, and language. When redesigning or adapting an existing visual, use exactly the text already on it. Never add, remove, translate, reword, shorten, correct or complete any text, and never add a tagline or slogan (a tagline inside an official logo file is part of the logo). Only layout may change (size, weight, line breaks, position, case styling consistent with the Typography convention). If the text seems wrong or incomplete, keep it as is and flag it in the delivery; if a needed text (date, place) is missing, ask. If the tool cannot render the text reliably, leave the text as live or placeholder text to add at final composition rather than approximating it.
+6. If a level A rule or fact you need is `TO BE PROVIDED`, say so and ask; do not fill the gap (exception: the color-to-role mapping, see Colors). For level B and C items, decide and, if it matters, mention the choice.
+7. Label every AI-generated or AI-assisted visual as such. It is a draft until a human reviews and approves it before publication.
+8. Before delivery, run [`VISUAL_QA.md`](VISUAL_QA.md) and report the result, including anything you could not verify. Visual resemblance to Energy Pool is not proof of compliance.
 
 ## Colors
 

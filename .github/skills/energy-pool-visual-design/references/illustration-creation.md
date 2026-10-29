@@ -17,7 +17,7 @@ An illustration may have no text, no scenery or no gradient if the subject is be
 ## Rules that stay strict (level A)
 
 - Energy Pool logo and pictogram: official files only, never redrawn (`BRAND_RULES.md` Logo).
-- Never invent slogans, data or messages attributed to Energy Pool; content supplied by the user is kept as is.
+- Never invent slogans, data or messages attributed to Energy Pool; text supplied by the user, or already present on a visual being redone, is used exactly (`BRAND_RULES.md`, mandatory rule 5).
 - Third-party logos and flags: see `STYLE_GUIDE.md` §0.8 (official files, never invented; report a missing file).
 - Do not mix incompatible sub-styles (people/workplace and energy/technology) unless a reference does.
 
