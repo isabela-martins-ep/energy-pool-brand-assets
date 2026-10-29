@@ -33,6 +33,8 @@ Optional helper: [`scripts/resolve_token.py`](scripts/resolve_token.py) (read-on
 
 ## Always
 
+- Use the logo file supplied (or the one already on the visual), unaltered; otherwise the official files; never a generated or redrawn logo ([`BRAND_RULES.md`](../../../guidelines/BRAND_RULES.md#logo)).
+- Use exactly the text supplied by the user, or the text already present on a visual being redone: no added, removed, reworded or translated text ([`BRAND_RULES.md`](../../../guidelines/BRAND_RULES.md#mandatory-rules-level-a-and-honesty), rule 5).
 - Do not invent brand colors, fonts, logo variants or official rules, and do not take official values from images.
 - Do not present OBSERVED traits as official, or a result as compliant when a check was not performed. A difference from existing examples is not a non-compliance.
 - Say you looked at an image only if its content was accessible.

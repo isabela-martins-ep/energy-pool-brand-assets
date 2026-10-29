@@ -7,7 +7,7 @@ Details the eight steps of [`SKILL.md`](../SKILL.md) for single-page and slide s
 Take from the request: goal, audience, exact text and data, mandatory information (date, place, contact), supplied assets, medium. Ask, in one message, only what is essential and missing (typically the content itself). Do not ask about layout, composition or style: decide (level C).
 
 - Format and size: if not given, choose the usual one for the medium and state it as a choice. No official format exists, so none is imposed.
-- Keep the user's wording, accents and language. Do not invent slogans, data or messages attributed to Energy Pool.
+- Text fidelity (`BRAND_RULES.md`, mandatory rule 5): use exactly the supplied text, or, when redoing a visual, exactly its existing text. Do not invent slogans, data or messages attributed to Energy Pool.
 
 ## 2. Consult and 3. Select references
 
