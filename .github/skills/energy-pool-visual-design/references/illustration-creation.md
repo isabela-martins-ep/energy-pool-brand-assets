@@ -10,7 +10,7 @@ Official decisions (details in `STYLE_GUIDE.md` §0), all **permissions, not obl
 - Colors outside the palette for skin, hair, grey and secondary details, when consistent with the references; brand colors still come from the palette.
 - Subtle gradients; recurring characters and motifs reused or adapted.
 - Text when relevant (Chillax for titles, Synonym for other text, per `BRAND_RULES.md` Typography); third-party logos and flags when the context justifies them, in their official form.
-- Varied scenery, backgrounds and framing; no numeric proportions imposed on characters.
+- Varied scenery and framing; no numeric proportions imposed on characters. The file background may be transparent or white; once placed on a medium, the illustration sits on a white area (`STYLE_GUIDE.md` §0, decision 9).
 
 An illustration may have no text, no scenery or no gradient if the subject is better served.
 
