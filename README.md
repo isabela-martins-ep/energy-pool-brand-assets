@@ -14,7 +14,7 @@ Energy Pool's Design System lives in **Figma** and is implemented in **code**. T
 
 | Folder | Content |
 |---|---|
-| `colors/` | Official brand colors and references to color tokens |
+| `colors/` | Official 8-color palette ([`COLOR_PALETTE.md`](colors/COLOR_PALETTE.md)), energy-source colors and component tokens |
 | `typography/` | Font families, weights, hierarchy |
 | `spacing/` | Spacing and layout guidelines (Design System values) |
 | `illustrations/` | Illustrations exported from Figma, plus style guide template |

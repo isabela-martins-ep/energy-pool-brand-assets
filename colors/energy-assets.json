@@ -1,0 +1,179 @@
+{
+  "$description": "Energy-source and sector colors (chart, icon, background), extracted unchanged from the Figma export Default.tokens.json (energy-assets collection, mode Default) on 2026-10-29; palette references resolved to their exact HEX. Use only for content about the named source. Brand palette: COLOR_PALETTE.md.",
+  "energy-assets": {
+    "battery": {
+      "chart": "#9A4238",
+      "icon": "#B44F49",
+      "background": "#F5E7E6"
+    },
+    "biomass": {
+      "chart": "#488F31",
+      "icon": "#346329",
+      "background": "#D3ECCC"
+    },
+    "coal": {
+      "chart": "#B3A79D",
+      "icon": "#736457",
+      "background": "#E9E6E3"
+    },
+    "demand": {
+      "chart": "#FF0E05"
+    },
+    "dr-pool": {
+      "chart": "#FF7F19",
+      "icon": "#E8762E",
+      "background": "#FBE6D3"
+    },
+    "gas": {
+      "chart": "#CC5B5B",
+      "icon": "#D14D35",
+      "background": "#FAEAE5"
+    },
+    "fossil": {
+      "chart": "#A78787"
+    },
+    "geothermal": {
+      "chart": "#F4E49E",
+      "icon": "#9B802B",
+      "background": "#FBF4D7"
+    },
+    "hydro-dam": {
+      "chart": "#114B72",
+      "icon": "#2A6073",
+      "background": "#DAF4FB"
+    },
+    "hydro-river": {
+      "chart": "#7BACFF",
+      "icon": "#498BF8",
+      "background": "#F0F6FE"
+    },
+    "hydrogen": {
+      "chart": "#AABEE5",
+      "icon": "#315EBF",
+      "background": "#E7EDF8"
+    },
+    "hydro-plant": {
+      "chart": "#1C6888",
+      "icon": "#1C6888",
+      "background": "#C8E8F5"
+    },
+    "import-export": {
+      "chart": "#C4C4C4",
+      "icon": "#626262",
+      "background": "#F5F5F5"
+    },
+    "nuclear": {
+      "chart": "#F2C628",
+      "icon": "#816B23",
+      "background": "#F7E9B0"
+    },
+    "oil": {
+      "chart": "#8D6566",
+      "icon": "#8D6566",
+      "background": "#F2ECED"
+    },
+    "other-renewables": {
+      "chart": "#7BE1B2",
+      "icon": "#3EBE90",
+      "background": "#EDFDF8"
+    },
+    "other-non-renewables": {
+      "chart": "#2F2A25",
+      "icon": "#857464",
+      "background": "#F3F2F0"
+    },
+    "offshore-wind": {
+      "chart": "#6DB08A",
+      "icon": "#507E60",
+      "background": "#E8F3EE"
+    },
+    "onshore-wind": {
+      "chart": "#68D5D8",
+      "icon": "#298A8C",
+      "background": "#DFF7F7"
+    },
+    "solar": {
+      "chart": "#F09247",
+      "icon": "#E3992D",
+      "background": "#FDF2E9"
+    },
+    "storage": {
+      "chart": "#CBCED1"
+    },
+    "scenario": {
+      "reference": "#7BACFF",
+      "current": "#5FDAA0"
+    },
+    "sectors": {
+      "agriculture": {
+        "chart": "#B6DCA9",
+        "icon": "#66A84E",
+        "background": "#F2F9F1"
+      },
+      "industry": {
+        "chart": "#76BB5D",
+        "icon": "#156D45",
+        "background": "#E9F5E5"
+      },
+      "residential": {
+        "chart": "#2C4821",
+        "icon": "#497838",
+        "background": "#E6F3E2"
+      },
+      "energy-branch": {
+        "chart": "#E8762E",
+        "icon": "#E8762E",
+        "background": "#FDF2E9"
+      },
+      "tertiary": {
+        "chart": "#264A96",
+        "icon": "#264A96",
+        "background": "#EAF0FA"
+      },
+      "transport": {
+        "chart": "#005BF3",
+        "icon": "#005BF3",
+        "background": "#F0F6FE"
+      },
+      "other": {
+        "chart": "#7F9CD8",
+        "icon": "#7F9CD8",
+        "background": "#F7F9FC"
+      }
+    },
+    "system": {
+      "economy": {
+        "icon": "#CC7A00",
+        "background": "#FFF5E6"
+      },
+      "renewable": {
+        "icon": "#B388F9",
+        "background": "#F0E7FE"
+      },
+      "electricity": {
+        "icon": "#CEAB3B",
+        "background": "#FBF4D7"
+      },
+      "security": {
+        "icon": "#FF8080",
+        "background": "#FFF1F1"
+      },
+      "wind-turbine": {
+        "icon": "#289DD0",
+        "background": "#E3F4FA"
+      },
+      "transport": {
+        "icon": "#005BF3",
+        "background": "#F0F6FE"
+      },
+      "other": {
+        "icon": "#7F9CD8",
+        "background": "#F7F9FC"
+      },
+      "default": {
+        "icon": "#000000",
+        "background": "#E5E7E8"
+      }
+    }
+  }
+}

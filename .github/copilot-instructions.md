@@ -14,7 +14,7 @@ Use this repository as a visual reference library for Energy Pool. Energy Pool a
 - Label every AI-generated or AI-assisted visual as such; it is a draft until a human approves it before publication.
 - Never claim compliance when a required check is `Not verifiable`; state the real status and limitations (no image input, no Figma access, no image generation, no font embedding).
 
-Detailed rules live in `guidelines/BRAND_RULES.md`, the method in `guidelines/TOKENS.md`, the checks in `guidelines/VISUAL_QA.md`.
+Detailed rules live in `guidelines/BRAND_RULES.md`, the colors in `colors/COLOR_PALETTE.md`, the method in `guidelines/TOKENS.md`, the checks in `guidelines/VISUAL_QA.md`.
 
 ## Skill
 
