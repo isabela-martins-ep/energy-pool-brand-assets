@@ -17,7 +17,7 @@ Read the sources in `SKILL.md` step 2. Use approved examples from `brand-example
 
 | Item | Rule |
 |---|---|
-| Colors | The 8 palette colors of [`COLOR_PALETTE.md`](../../../../colors/COLOR_PALETTE.md) with exact HEX (role -> token -> HEX). Choose where each goes yourself (do not present your choice as an official rule); no state colors used decoratively. |
+| Colors | The 8 palette colors of [`COLOR_PALETTE.md`](../../../../colors/COLOR_PALETTE.md) with exact HEX (role -> token -> HEX). Combine them freely and choose where each goes yourself, with orange as the main identity color (do not present your choice as an official rule). |
 | Typography | Chillax for titles, Synonym for other text, per `BRAND_RULES.md` Typography. Only the official weights; hierarchy, sizes, case and alignment follow the text-composition convention in `BRAND_RULES.md` Typography (no official scale). Say which font was actually rendered; an image generator does not guarantee them. |
 | Logo | Follow the selection procedure in [`BRAND_RULES.md`](../../../../guidelines/BRAND_RULES.md#logo): variant by background, size and clear space checked. Record the file, background and placed width internally. |
 | Illustration and pictograms | Catalogued files, new illustrations or pictograms, coherent with `STYLE_GUIDE.md`. Text in an illustration is allowed when it helps (same fonts rule). |

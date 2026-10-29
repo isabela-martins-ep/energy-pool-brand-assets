@@ -47,12 +47,11 @@ Permissions are not obligations: an illustration may have no text, no scenery or
 
 ## Colors
 
-- **OFFICIAL source:** [`../colors/COLOR_PALETTE.md`](../colors/COLOR_PALETTE.md), the 8 colors of the Design System (`primary`, `secondary`, `success`, `danger`, `warning`, `info`, `light`, `dark`) with their HEX, and the only colors allowed outside it. Read values there, not from memory.
+- **OFFICIAL source:** [`../colors/COLOR_PALETTE.md`](../colors/COLOR_PALETTE.md), the 8-color graphic palette (`orange`, `cream`, `green`, `red`, `yellow`, `lavender`, `light-gray`, `dark`) with their HEX, and the only colors allowed outside it. Read values there, not from memory.
 - **Other color files:** [`../colors/energy-assets.json`](../colors/energy-assets.json) (per energy source, for content about that source) and [`../colors/Mode 1.tokens 3.json`](../colors/Mode%201.tokens%203.json) (component tokens: states, borders, focus, shadows; UI only). Selection method: [`TOKENS.md`](TOKENS.md).
-- **Brand orange (confirmed by the design team, 2026-10-27):** `primary` = `#FF9900`, the same value as the orange in the official logo files.
-- **Choosing colors for a medium:** the agent decides without asking where each palette color goes (backgrounds, sections, boxes, graphic elements), looking at existing references to see how colors are used, and uses the exact HEX. The choice is a creative decision, never presented as an official rule.
-- **Never decorative:** state colors (`success`, `danger`, `warning`, `info`) are for their state only. A color existing in the palette is not permission to use it on a poster.
-- **OBSERVED, SVG source colors vs palette** (exact hex comparison; not a statement of intent): only `#FF9900` (`primary`) matches. `#FFB84D`, `#FFE0B3`, `#EA5B0C`, `#F7EAC6`, `#EFEFEF`, `#EDEDED`, `#D0D0D0`, `#B2B2B2`, `#FFC774`, `#FFB342`, `#FFA41E`, `#FF9C08` are not palette colors (PNG measurement: `STYLE_GUIDE.md` §5). Existing illustrations therefore cannot be assumed to use only palette colors.
+- **Brand orange (confirmed by the design team, 2026-10-27):** `orange` = `#FF9900`, the same value as the orange in the official logo files. It is the main identity color.
+- **Choosing colors for a medium:** the 8 colors are a graphic palette, not status colors; the agent combines them freely and decides without asking where each goes (backgrounds, sections, boxes, graphic elements), looking at existing references to see how colors are used, and uses the exact HEX. The choice is a creative decision, never presented as an official rule.
+- **OBSERVED, SVG source colors vs palette** (exact hex comparison; not a statement of intent): only `#FF9900` (`orange`) matches. `#FFB84D`, `#FFE0B3`, `#EA5B0C`, `#F7EAC6`, `#EFEFEF`, `#EDEDED`, `#D0D0D0`, `#B2B2B2`, `#FFC774`, `#FFB342`, `#FFA41E`, `#FF9C08` are not palette colors (PNG measurement: `STYLE_GUIDE.md` §5). Existing illustrations therefore cannot be assumed to use only palette colors.
 - **TO BE PROVIDED:**
   - Allowed combinations, text/background pairs and contrast requirements.
   - Dark-mode or other modes (the export has only "Default").
@@ -138,7 +137,7 @@ Only the logo files are supplied. No approved poster, slide or UI example exists
 
 | Area | Missing | Source to supply |
 |---|---|---|
-| Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, non-illustration gradients; `state` vs `state new` precedence | Figma Design System |
+| Colors | Semantic color export of the UI Design System (`body`, `*-bg-subtle`, ...), contrast pairs, dark mode, non-illustration gradients; `state` vs `state new` precedence | Figma Design System |
 | Typography | Official text case, alignment and line-length rules (if any) | Brand charter, brand team |
 | Logo | Negative PDF/PNG of the small logo, official large vs small rule | Brand team |
 | Layout | Grids, formats, poster/slide templates, placement rules | Figma Design System |

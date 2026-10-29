@@ -1,23 +1,23 @@
 # Energy Pool color palette
 
-**OFFICIAL.** The 8 colors of the Energy Pool Design System (supplied by the design team, 2026-10-29). This file is the single source for brand color values; other files link here instead of copying them. Usage rules: [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md#colors).
+**OFFICIAL.** The 8 colors of the Energy Pool graphic palette (supplied by the design team, 2026-10-29). This file is the single source for brand color values; other files link here instead of copying them. Usage rules: [`../guidelines/BRAND_RULES.md`](../guidelines/BRAND_RULES.md#colors).
 
-| Token | HEX |
+| Name | HEX |
 |---|---|
-| `primary` | `#FF9900` |
-| `secondary` | `#FFEBCC` |
-| `success` | `#3EBE90` |
-| `danger` | `#CD4B25` |
-| `warning` | `#F2C628` |
-| `info` | `#F0E7FE` |
-| `light` | `#DDDDDD` |
+| `orange` | `#FF9900` |
+| `cream` | `#FFEBCC` |
+| `green` | `#3EBE90` |
+| `red` | `#CD4B25` |
+| `yellow` | `#F2C628` |
+| `lavender` | `#F0E7FE` |
+| `light-gray` | `#DDDDDD` |
 | `dark` | `#181818` |
 
 ```json
-{"primary":"#FF9900","secondary":"#FFEBCC","success":"#3EBE90","danger":"#CD4B25","warning":"#F2C628","info":"#F0E7FE","light":"#DDDDDD","dark":"#181818"}
+{"orange":"#FF9900","cream":"#FFEBCC","green":"#3EBE90","red":"#CD4B25","yellow":"#F2C628","lavender":"#F0E7FE","light-gray":"#DDDDDD","dark":"#181818"}
 ```
 
-Use these exact values. No tints, shades or other variants of these colors are defined: do not create any.
+This is a graphic palette, not a set of status colors: green, red, yellow and the others are not reserved for success, error or warning. Combine them freely to create original visuals; **orange is the main identity color**. Use these exact values. No tints, shades or other variants of these colors are defined: do not create any.
 
 ## Colors outside this palette
 

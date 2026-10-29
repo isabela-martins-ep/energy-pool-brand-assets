@@ -78,7 +78,7 @@ Measured at full resolution on 49.2 M opaque pixels of the 23 PNG (2026-10-29): 
 
 | Role | Observed values | Palette match |
 |---|---|---|
-| Brand orange | `#FF9900` | `primary` |
+| Brand orange | `#FF9900` | `orange` |
 | Mid orange | `#FFB84D` | none |
 | Pale orange | `#FFE0B3` (and `#FEE0B3`) | none |
 | White | `#FFFFFF` | none (allowed, see `COLOR_PALETTE.md`) |
@@ -89,7 +89,7 @@ Measured at full resolution on 49.2 M opaque pixels of the 23 PNG (2026-10-29): 
 
 - Observed distribution: light greys about 30 % of pixels, orange family about 15 %, white about 4 %, remainder skin, hair and gradient intermediates.
 - A color close to a palette color is **not** a match. Palette: [`../colors/COLOR_PALETTE.md`](../colors/COLOR_PALETTE.md).
-- Brand orange: `primary`; white: per `COLOR_PALETTE.md`. Other oranges, greys, skin, hair, secondary clothing and shading: take the values from the closest references (decision 1); list them in the report as non-token, reference-derived colors. Never use them for backgrounds, titles or other communication elements.
+- Brand orange: `orange`; white: per `COLOR_PALETTE.md`. Other oranges, greys, skin, hair, secondary clothing and shading: take the values from the closest references (decision 1); list them in the report as non-token, reference-derived colors. Never use them for backgrounds, titles or other communication elements.
 
 ## 6. Composition and legibility
 
