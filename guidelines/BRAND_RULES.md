@@ -103,6 +103,8 @@ Source: Energy Pool brand charter (rules below supplied by the design team, 2026
 
 **Noemys logos** (Energy Pool's Energy Management Platform) ([`../brand-examples/third-party-logos/`](../brand-examples/third-party-logos/)): same authorized and prohibited backgrounds and same selection procedure; `logo-noemys.svg` on light, `logo-noemys-negative.svg` on dark. Never recolor or redraw. No official minimum size or clear space (keep it legible and uncluttered; the Energy Pool values do not apply).
 
+**Logo supplied (level A):** when the user attaches or names a logo file, or the visual being redone already contains one, place exactly that file, unaltered; do not regenerate, redraw or approximate it, and do not replace it with a repository file unless it is not an official Energy Pool logo. With no file supplied, use the official files above. A logo generated inside an image by a generator is never acceptable: if the tool cannot place the file, reserve a clear, marked empty area (respecting clear space and minimum size) for a human to place it.
+
 **Selection procedure**
 1. Decide whether the area behind the logo is light or dark.
 2. Check that it is visually uniform (no mix of light and dark, not strongly colored, not orange).
