@@ -6,11 +6,11 @@ The **only OFFICIAL sources for color, typography and spacing values** are the 8
 
 | Tier | What it is | Where it is in this repository |
 |---|---|---|
-| **Primitive** | Raw values with no meaning attached (`rem`/`em` scales, font families) | [`spacing/Mode 1.tokens 2.json`](../spacing/Mode%201.tokens%202.json) `rem`, `em`; [`typography/Mode 1.tokens.json`](../typography/Mode%201.tokens.json) `font-variables` |
+| **Primitive** | Raw values with no meaning attached (`rem`/`em` scales, font families) | [`spacing/Mode-1.tokens-2.json`](../spacing/Mode-1.tokens-2.json) `rem`, `em`; [`typography/Mode-1.tokens.json`](../typography/Mode-1.tokens.json) `font-variables` |
 | **Semantic** | Values named for a role (`spacer`, heading/text roles, per-energy-source assets) | Colors: [`colors/COLOR_PALETTE.md`](../colors/COLOR_PALETTE.md) (the 8-color graphic palette: plain color names, freely combinable) and [`colors/energy-assets.json`](../colors/energy-assets.json) (per energy source). Also `spacer` (spacing) and role tokens such as `heading`, `display`, `text-muted` (typography). Variants such as `body*`, `*-bg-subtle` or `*-text-emphasis` are not exported; they appear only as alias names (see §4) |
-| **Component** | States, borders, focus, shadows, transitions for UI components | [`colors/Mode 1.tokens 3.json`](../colors/Mode%201.tokens%203.json): `state`, `state new`, `border`, `focus-ring`, `shadow`, `caret`, `transition`, `aspect-ratio` |
+| **Component** | States, borders, focus, shadows, transitions for UI components | [`colors/Mode-1.tokens-3.json`](../colors/Mode-1.tokens-3.json): `state`, `state new`, `border`, `focus-ring`, `shadow`, `caret`, `transition`, `aspect-ratio` |
 
-The file `colors/Mode 1.tokens 3.json` holds component tokens even though it sits in `colors/`. Do not rename it (original export).
+The file `colors/Mode-1.tokens-3.json` holds component tokens even though it sits in `colors/`. It was renamed only to remove spaces; content unchanged.
 
 ## 2. Method to choose a token
 
@@ -42,5 +42,5 @@ If you cannot run scripts, read the JSON directly. If a reference cannot be reso
 - Component and typography tokens alias **Figma variables that are not in any export**, for example `primary/primary-text-emphasis`, `secondary/secondary-bg-moderate`, `success/success-bg-subtle`, `body/*`, `spacer/spacer`, `transparent`. Only their resolved values are known; they are not extra brand colors, and these technical alias names are unrelated to the palette names.
 - Units of typography and spacing numbers are not stated in the exports.
 - `shadow` values reference `$black` (a SCSS variable), not a resolvable token.
-- `colors/Mode 1.tokens 3.json` token `state new` duplicates part of `state` with different values (for example `secondary` hover). Which set is current is **TO BE PROVIDED**.
+- `colors/Mode-1.tokens-3.json` token `state new` duplicates part of `state` with different values (for example `secondary` hover). Which set is current is **TO BE PROVIDED**.
 - Mode: only "Mode 1" exports exist; dark mode is not covered.

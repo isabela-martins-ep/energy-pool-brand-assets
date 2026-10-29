@@ -18,9 +18,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[4]
 FILES = {
     "energy-assets": ROOT / "colors" / "energy-assets.json",
-    "component": ROOT / "colors" / "Mode 1.tokens 3.json",
-    "typography": ROOT / "typography" / "Mode 1.tokens.json",
-    "spacing": ROOT / "spacing" / "Mode 1.tokens 2.json",
+    "component": ROOT / "colors" / "Mode-1.tokens-3.json",
+    "typography": ROOT / "typography" / "Mode-1.tokens.json",
+    "spacing": ROOT / "spacing" / "Mode-1.tokens-2.json",
 }
 REF = re.compile(r"^\{(.+)\}$")
 

@@ -49,7 +49,7 @@ Permissions are not obligations: an illustration may have no text, no scenery or
 ## Colors
 
 - **OFFICIAL source:** [`../colors/COLOR_PALETTE.md`](../colors/COLOR_PALETTE.md): the 8-color graphic palette (`orange`, `cream`, `green`, `red`, `yellow`, `lavender`, `light-gray`, `dark`), the charter identity colors (Vitamin, Black, White, Power, Solar, Windy, grey tones), the official gradients, the rules for derived variations and the only other colors allowed. Read values there, not from memory.
-- **Other color files:** [`../colors/energy-assets.json`](../colors/energy-assets.json) (per energy source, for content about that source) and [`../colors/Mode 1.tokens 3.json`](../colors/Mode%201.tokens%203.json) (component tokens: states, borders, focus, shadows; UI only). Selection method: [`TOKENS.md`](TOKENS.md).
+- **Other color files:** [`../colors/energy-assets.json`](../colors/energy-assets.json) (per energy source, for content about that source) and [`../colors/Mode-1.tokens-3.json`](../colors/Mode-1.tokens-3.json) (component tokens: states, borders, focus, shadows; UI only). Selection method: [`TOKENS.md`](TOKENS.md).
 - **Brand orange (confirmed by the design team, 2026-10-27):** `orange` = `#FF9900`, the same value as the orange in the official logo files. It is the main identity color; it does not have to dominate every creation.
 - **Choosing colors for a medium:** the 8 colors are a graphic palette, not status colors; the agent combines them freely (with the charter colors and derived variations), in varied proportions, and decides without asking where each goes (backgrounds, sections, boxes, graphic elements), looking at existing references to see how colors are used, and uses the exact HEX. The choice is a creative decision, never presented as an official rule.
 - **OBSERVED, SVG source colors vs palette** (exact hex comparison; not a statement of intent): only `#FF9900` (`orange`) matches. `#FFB84D`, `#FFE0B3`, `#EA5B0C`, `#F7EAC6`, `#EFEFEF`, `#EDEDED`, `#D0D0D0`, `#B2B2B2`, `#FFC774`, `#FFB342`, `#FFA41E`, `#FF9C08` are not palette colors (PNG measurement: `STYLE_GUIDE.md` §5). Existing illustrations therefore cannot be assumed to use only palette colors.
@@ -65,8 +65,8 @@ Single source for typography rules. Official source: Energy Pool brand charter, 
 - **Synonym:** subtitles and body text.
 - Both apply to web and print.
 - Available weights, both families: SemiBold, Medium, Regular, Light. No other weight, and no other family, is official for these roles.
-- **Export check:** [`../typography/Mode 1.tokens.json`](../typography/Mode%201.tokens.json) (Figma export, unmodified) is consistent: heading/display `Chillax`, body `Synonym`. It also lists `Yu Gothic` and `Alexandria` variants, numeric weights, sizes, line heights and colors, with units not stated; use those values only by token name, and do not turn them into mandatory sizes, line heights or weights for posters. No poster type scale is required or defined: do not invent one.
-- **Backup fonts (OFFICIAL, brand charter p. 14 "Typography - Backup fonts", [`Typography _ Backup fonts.svg`](../typography/Typography%20_%20Backup%20fonts.svg)):** Chillax and Synonym stay the primary fonts and are never replaced when available.
+- **Export check:** [`../typography/Mode-1.tokens.json`](../typography/Mode-1.tokens.json) (Figma export, unmodified) is consistent: heading/display `Chillax`, body `Synonym`. It also lists `Yu Gothic` and `Alexandria` variants, numeric weights, sizes, line heights and colors, with units not stated; use those values only by token name, and do not turn them into mandatory sizes, line heights or weights for posters. No poster type scale is required or defined: do not invent one.
+- **Backup fonts (OFFICIAL, brand charter p. 14 "Typography - Backup fonts", [`Typography-Backup-fonts.svg`](../typography/Typography-Backup-fonts.svg)):** Chillax and Synonym stay the primary fonts and are never replaced when available.
   - **Aptos:** "used for all documents sent to people external to Energy Pool who will not have access to the primary Chillax and Synonym fonts" (for example editable documents sent outside).
   - **Alexandria:** Arabic content. **Yu Gothic:** Japanese content. "Both applied across internal tools and client-facing platforms."
   - These font files are not stored in this repository. No other backup font exists: Noto Sans is not an Energy Pool font; do not use it or any other font as a substitute.
@@ -118,7 +118,7 @@ Source: Energy Pool brand charter (rules below supplied by the design team, 2026
 
 ## Pictograms
 
-**OFFICIAL**, brand charter pp. 16-17 (original pages in `illustrations/`: [`Pictograms _ Font Awesome.svg`](../illustrations/Pictograms%20_%20Font%20Awesome.svg), [`Pictograms _ Custom.svg`](../illustrations/Pictograms%20_%20Custom.svg)).
+**OFFICIAL**, brand charter pp. 16-17 (original pages in `illustrations/`: [`Pictograms-Font-Awesome.svg`](../illustrations/Pictograms-Font-Awesome.svg), [`Pictograms-Custom.svg`](../illustrations/Pictograms-Custom.svg)).
 
 - **Font Awesome:** "We use the Font Awesome icon library, which offers a wide range of symbols. Only the Classic – Solid style is used across all our media. The Regular (outline) style may be reserved for limited use in web products." For brand visuals, use Font Awesome **Classic Solid** only.
 - **Custom set:** "A custom set of pictograms has been created to visually support the brand across different themes, including energy, industrial equipment, Energy Pool tools, and various complementary icons." The page shows the set; individual icon files are not supplied (`TO BE PROVIDED`): do not treat them as available resources, and do not redraw or extract them as if official.
@@ -133,7 +133,7 @@ Source: Energy Pool brand charter (rules below supplied by the design team, 2026
 
 ## Layout and spacing
 
-- **OFFICIAL source:** [`../spacing/Mode 1.tokens 2.json`](../spacing/Mode%201.tokens%202.json), a Figma variables export with `rem`, `em` and `spacer` scales (e.g. `spacer.spacers.1` to `6`, resolving to 4, 8, 12, 16, 24, 48 as numbers; units not stated). Use token names.
+- **OFFICIAL source:** [`../spacing/Mode-1.tokens-2.json`](../spacing/Mode-1.tokens-2.json), a Figma variables export with `rem`, `em` and `spacer` scales (e.g. `spacer.spacers.1` to `6`, resolving to 4, 8, 12, 16, 24, 48 as numbers; units not stated). Use token names.
 - **No official layout rules exist** (grid, margins, safe areas, formats and sizes for posters, slides and social media, hierarchy and composition, placement of illustrations relative to text). This is level C: the agent decides and labels the result a proposal; it is not a blocker and not an official rule.
 
 ## Approved visual examples

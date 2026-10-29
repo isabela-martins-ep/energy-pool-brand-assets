@@ -11,7 +11,7 @@ Take from the request: goal, audience, exact text and data, mandatory informatio
 
 ## 2. Consult and 3. Select references
 
-Read the sources in `SKILL.md` step 2. Use approved examples from `brand-examples/` when they exist and follow them. Otherwise design an original layout from the brand rules; do not invent official grid or layout rules, and label the layout a proposal. For illustrations, use a catalogued file when one fits, else [`illustration-creation.md`](illustration-creation.md). Pictogram sets exist in `illustrations/` (`Pictograms _ Custom.svg`, `Pictograms _ Font Awesome.svg`) but are not catalogued: view them before use.
+Read the sources in `SKILL.md` step 2. Use approved examples from `brand-examples/` when they exist and follow them. Otherwise design an original layout from the brand rules; do not invent official grid or layout rules, and label the layout a proposal. For illustrations, use a catalogued file when one fits, else [`illustration-creation.md`](illustration-creation.md). Pictogram sets exist in `illustrations/` (`Pictograms-Custom.svg`, `Pictograms-Font-Awesome.svg`) but are not catalogued: view them before use.
 
 ## 4. Graphic direction (keep it short)
 
