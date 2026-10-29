@@ -13,8 +13,8 @@ Run on the produced output before delivering any generated or adapted visual. Ke
 | # | Criterion | What to check | Source | Automatable | Human validation | Blocking |
 |---|---|---|---|---|---|---|
 | 1 | Source manifest and consultation | Required files are listed, actually read/viewed, and inaccessible files are named; a URL/path alone is not evidence | `SKILL.md` step 2 | Partly | Reviewer confirms the list | Yes |
-| 2 | Color tokens | Each color maps to a token and its exact HEX (`resolve_token.py` or JSON); none estimated from images | `colors/*.json`, `TOKENS.md` | Yes for source/HTML/SVG; Partly for raster | Role of each color for this medium (no official mapping: agent's choice, reported) | Yes |
-| 3 | Color usage | No state colors (success, danger, warning, info, link) or component tokens used decoratively; `energy-assets` only for their source | `TOKENS.md` | Partly | Yes | Yes |
+| 2 | Color tokens | Each color maps to a palette token and its exact HEX, or to an allowed exception listed in `COLOR_PALETTE.md`; none estimated from images | `colors/COLOR_PALETTE.md`, `TOKENS.md` | Yes for source/HTML/SVG; Partly for raster | Role of each color for this medium (no official mapping: agent's choice, reported) | Yes |
+| 3 | Color usage | Palette colors combined freely with orange as the main identity color; no component tokens used decoratively; `energy-assets` only for their source | `TOKENS.md` | Partly | Yes | Yes |
 | 4 | Contrast / legibility | Text is legible on its background; contrast measured and stated (no official threshold exists) | Output file | Partly | Yes (print/projection legibility) | No |
 | 5 | Fonts | Titles in Chillax, subtitles/body in Synonym, verified on the produced file (rules: `BRAND_RULES.md` Typography). Fonts not verifiable: `Not verifiable`; a different font used: `Non-compliant` | `typography/Mode 1.tokens.json` | Partly | Yes (rendering) | Yes |
 | 6 | Weights and hierarchy | Only SemiBold, Medium, Regular or Light are used; hierarchy is clear; no size rule is imposed | `BRAND_RULES.md` Typography | Partly | Yes | No |
@@ -38,7 +38,7 @@ Details criteria #10 and #11. Lines a-i and l are level B (style gaps, not block
 | b | Faces simplified as in the references (dot eyes, thin brows, no or tiny nose, small mouth), no realistic facial rendering | §3, references |
 | c | Hair, skin, clothing and hands built in the references' language (flat masses, gentle gradient, simple hands); outfit colors balanced like the references (orange tops are typical, not required) | §3, references |
 | d | Proportions and shapes match the references visually (no numeric ratio is checked); rounded forms, no outlines | §2, §3, references |
-| e | Palette: brand orange and white from tokens; greys, skin, hair, shading consistent with references and listed as non-token; none used for backgrounds or titles | §5, `TOKENS.md` |
+| e | Palette: brand orange (`orange`) from the palette; white per `COLOR_PALETTE.md`; other oranges, greys, skin, hair, shading consistent with references and listed as non-token; none used for backgrounds or titles | §5, `COLOR_PALETTE.md` |
 | f | Shading: subtle gradients as in the references; no complex gradients, realistic lighting, pronounced shadows, 3D | §2 |
 | g | Detail level: objects reduced to identifiable parts; one clear idea; people and object counts suited to the subject (1 to 4 people is typical, not a limit); no decorative element without function | §4, §6 |
 | h | Readable when small; clear focal point; orange as accent and light greys as context are typical of the references | §6 |
@@ -54,7 +54,7 @@ Classify every finding; only the first kind blocks. Rule levels: [`BRAND_RULES.m
 
 | Type | Meaning | Action |
 |---|---|---|
-| **Blocking non-compliance** | Level A violation: wrong or altered logo, non-official font, brand color not from tokens, wrong or invented content, charter prohibition | Fix; cannot be delivered as approved |
+| **Blocking non-compliance** | Level A violation: wrong or altered logo, non-official font, brand color not from the palette, wrong or invented content, charter prohibition | Fix; cannot be delivered as approved |
 | **Style gap to correct** | Level B: illustration too far from the references, inconsistent treatment, unreadable composition | Fix before delivery |
 | **Acceptable creative choice** | Level C: different framing, pose, scenery, layout or format that respects the identity | None; never a defect |
 | **Point for human validation** | Important decision with no official rule to conclude (new AI creation, unverifiable item) | State it in the delivery |

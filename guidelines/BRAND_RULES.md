@@ -29,7 +29,7 @@ Single definition; other files point here.
 
 | Level | Content | How to apply |
 |---|---|---|
-| **A. Mandatory** | Official logos and their rules ([Logo](#logo)); Chillax for titles and Synonym for other text ([Typography](#typography)); brand colors from the tokens ([Colors](#colors)); content supplied by the user; prohibitions the charter defines | Strictly. A violation blocks delivery as approved. |
+| **A. Mandatory** | Official logos and their rules ([Logo](#logo)); Chillax for titles and Synonym for other text ([Typography](#typography)); brand colors from the palette ([Colors](#colors)); content supplied by the user; prohibitions the charter defines | Strictly. A violation blocks delivery as approved. |
 | **B. Visual coherence** | Illustration style and construction, characters, faces, clothing, objects, color balance, detail level, subtle shading, legibility, hierarchy ([`STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md)) | As guidance with judgment: reproduce the graphic language, not the references' composition. |
 | **C. Creative freedom** | Composition and layout, framing, page format and proportions, poses and interactions, scenery and objects, content hierarchy, adaptation to the medium | The agent decides alone; no confirmation needed. |
 
@@ -48,15 +48,13 @@ Permissions are not obligations: an illustration may have no text, no scenery or
 
 ## Colors
 
-- **OFFICIAL source:** [`../colors/Default.tokens.json`](../colors/Default.tokens.json), a Figma variables export (mode "Default"). It holds `palette` (31 color families, most with `shades` 100-900 and `tints` 100-900, each with a `hex`) and `energy-assets` (chart/icon/background tokens per energy source and sector, referencing the palette). Confirm it is the current published version.
-- **Component tokens:** [`../colors/Mode 1.tokens 3.json`](../colors/Mode%201.tokens%203.json) (states, borders, focus, shadows; UI only). Tiers, selection method and resolution: [`TOKENS.md`](TOKENS.md). Read values from the files, not from memory.
-- **Brand orange (confirmed by the design team, 2026-10-27):** `palette.vitamin-c` = `#FF9900`, the same value as the orange in the official logo files. `palette.orange-popsicle` (`#FF7F19`) is in the palette but is not designated as the brand orange; do not use it as such unless the design team says so.
-- **Choosing colors for a medium:** with no semantic token for a role, the agent decides without asking (backgrounds, sections, boxes, graphic elements), looking at existing references to see how colors are used, and may choose confirmed brand colors itself: `vitamin-c` and its shades and tints, plus white and neutral palette tokens, using the exact token hex. Other palette families may be used as accents only from the token files, and the choice is reported as a point for validation; it is never presented as an official rule or palette. The role-to-color mapping stays undocumented (below) and is a creative choice, not a fact about the charter.
-- **Never decorative:** state colors (success/valid, danger/invalid, warning, info, link) are for their UI state only. A color existing in the palette is not permission to use it on a poster.
-- **OBSERVED, SVG source colors vs tokens** (exact hex comparison; not a statement of intent): (PNG measurement: only 18.2 % of opaque pixels equal a token; details in `STYLE_GUIDE.md` §5) `#FFB84D` = `vitamin-c.tints.700`, `#FFE0B3` = `vitamin-c.tints.300`, `#FF9900` = `vitamin-c` (brand orange). No token matches `#EA5B0C`, `#F7EAC6`, `#EFEFEF`, `#EDEDED`, `#D0D0D0`, `#B2B2B2`, `#FFC774`, `#FFB342`, `#FFA41E`, `#FF9C08`. Existing illustrations therefore cannot be assumed to use only tokens.
+- **OFFICIAL source:** [`../colors/COLOR_PALETTE.md`](../colors/COLOR_PALETTE.md), the 8-color graphic palette (`orange`, `cream`, `green`, `red`, `yellow`, `lavender`, `light-gray`, `dark`) with their HEX, and the only colors allowed outside it. Read values there, not from memory.
+- **Other color files:** [`../colors/energy-assets.json`](../colors/energy-assets.json) (per energy source, for content about that source) and [`../colors/Mode 1.tokens 3.json`](../colors/Mode%201.tokens%203.json) (component tokens: states, borders, focus, shadows; UI only). Selection method: [`TOKENS.md`](TOKENS.md).
+- **Brand orange (confirmed by the design team, 2026-10-27):** `orange` = `#FF9900`, the same value as the orange in the official logo files. It is the main identity color.
+- **Choosing colors for a medium:** the 8 colors are a graphic palette, not status colors; the agent combines them freely and decides without asking where each goes (backgrounds, sections, boxes, graphic elements), looking at existing references to see how colors are used, and uses the exact HEX. The choice is a creative decision, never presented as an official rule.
+- **OBSERVED, SVG source colors vs palette** (exact hex comparison; not a statement of intent): only `#FF9900` (`orange`) matches. `#FFB84D`, `#FFE0B3`, `#EA5B0C`, `#F7EAC6`, `#EFEFEF`, `#EDEDED`, `#D0D0D0`, `#B2B2B2`, `#FFC774`, `#FFB342`, `#FFA41E`, `#FF9C08` are not palette colors (PNG measurement: `STYLE_GUIDE.md` §5). Existing illustrations therefore cannot be assumed to use only palette colors.
 - **TO BE PROVIDED:**
-  - Which palette families are brand colors versus data-visualization or status colors.
-  - Official primary/secondary roles, allowed combinations, text/background pairs and contrast requirements.
+  - Allowed combinations, text/background pairs and contrast requirements.
   - Dark-mode or other modes (the export has only "Default").
   - Gradient rules outside illustrations (illustration gradients: `STYLE_GUIDE.md` §0).
 
@@ -118,7 +116,7 @@ Source: Energy Pool brand charter (rules below supplied by the design team, 2026
 
 ## Illustration style
 
-- **OFFICIAL decisions** (colors outside tokens, gradients, AI creation, reuse, proportions): [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) §0. Brand colors still come only from tokens.
+- **OFFICIAL decisions** (colors outside tokens, gradients, AI creation, reuse, proportions): [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) §0. Brand colors still come only from the palette ([`COLOR_PALETTE.md`](../colors/COLOR_PALETTE.md)).
 - **OBSERVED only:** see [`../illustrations/STYLE_GUIDE.md`](../illustrations/STYLE_GUIDE.md) (single source for illustration traits: fundamentals, variations, specifics) and [`../illustrations/CATALOG.md`](../illustrations/CATALOG.md) (what each file shows). Two sub-styles exist: energy/technology (SVG, objects only, orange ring) and people/workplace (PNG, characters). Do not mix them unless a reference does.
 - **OFFICIAL decisions** also cover do/don't, text, third-party logos and flags, backgrounds and framing: `STYLE_GUIDE.md` §0.
 - **File naming (technical convention for new files, proposed, not a charter rule):** `illustration-subject-description.png` or `.svg`: lowercase, no spaces, hyphens between words, no accents, descriptive. Existing files in `illustrations/` keep their names (originals are never renamed).
@@ -142,7 +140,7 @@ Only the logo files are supplied. No approved poster, slide or UI example exists
 
 | Area | Missing | Source to supply |
 |---|---|---|
-| Colors | Semantic color export (`primary`, `secondary`, `body`, ...), brand vs data-viz families, roles for communication material, contrast pairs, dark mode, non-illustration gradients; `state` vs `state new` precedence | Figma Design System |
+| Colors | Semantic color export of the UI Design System (`body`, `*-bg-subtle`, ...), contrast pairs, dark mode, non-illustration gradients; `state` vs `state new` precedence | Figma Design System |
 | Typography | Official text case, alignment and line-length rules (if any) | Brand charter, brand team |
 | Logo | Negative PDF/PNG of the small logo, official large vs small rule | Brand team |
 | Layout | Grids, formats, poster/slide templates, placement rules | Figma Design System |

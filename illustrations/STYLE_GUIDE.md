@@ -6,7 +6,7 @@
 
 These nine decisions are **OFFICIAL** and apply to everything below. The rest of the file is OBSERVED.
 
-1. **Colors.** Brand colors come from the tokens. Colors needed to depict people and objects (skin, hair, secondary clothing, greys, shading) may be used if consistent with the existing official illustrations (§5). They are not brand colors and must not be used for backgrounds, titles or other communication elements.
+1. **Colors.** Brand colors come from the palette ([`../colors/COLOR_PALETTE.md`](../colors/COLOR_PALETTE.md)). Colors needed to depict people and objects (skin, hair, secondary clothing, greys, shading) may be used if consistent with the existing official illustrations (§5). They are not brand colors and must not be used for backgrounds, titles or other communication elements.
 2. **Gradients.** Subtle gradients are allowed when they reproduce the treatment observed in the references (§2). Avoid complex gradients, realistic lighting, pronounced shadows and 3D effects.
 3. **AI creation.** AI agents may create new Energy Pool illustrations following the references and this Skill. Each new creation needs a compliance check (`VISUAL_QA.md`) and human validation before official distribution.
 4. **Reuse.** Recurring characters, poses, objects and graphic motifs may be reused or adapted for new coherent scenes. Official logos and symbols must be placed from the source files, never redrawn, distorted or reinterpreted (`BRAND_RULES.md` Logo).
@@ -72,24 +72,24 @@ The agent must compare against the reference images themselves, not only this te
 - **S** Third-party logos (`Compétences`, `Formation`), flags (`Equipe internationale`), product names in text (`Empowill`, `SIRH`).
 - The Energy Pool pictogram appears on mugs, laptops, screens as existing artwork (**V**). In new illustrations, place it from the official files per `BRAND_RULES.md` Logo; never redraw it (decision 4).
 
-## 5. Colors (measured; compare with tokens)
+## 5. Colors (measured; compare with the palette)
 
-Measured on 1.16 M opaque pixels of the 23 PNG; only **18.2 %** equal a token exactly.
+Measured at full resolution on 49.2 M opaque pixels of the 23 PNG (2026-10-29): only **2.2 %** equal a palette color exactly (`#FF9900` 2.0 %, `#DDDDDD` 0.2 %).
 
-| Role | Observed values | Token match |
+| Role | Observed values | Palette match |
 |---|---|---|
-| Brand orange | `#FF9900` | `vitamin-c` |
-| Mid orange | `#FFB84D` | `vitamin-c` tint 700 |
-| Pale orange | `#FFE0B3` (and `#FEE0B3`) | `vitamin-c` tint 300 |
-| White | `#FFFFFF` | `white` |
+| Brand orange | `#FF9900` | `orange` |
+| Mid orange | `#FFB84D` | none |
+| Pale orange | `#FFE0B3` (and `#FEE0B3`) | none |
+| White | `#FFFFFF` | none (allowed, see `COLOR_PALETTE.md`) |
 | Light greys | `#EFEFEF`, `#EDEDED`, `#EEEEEE`, `#D0D0D0`, `#CFCFCF` | none |
 | Dark grey (hair, details) | `#3C3C3B`, `#3C3C3C` | none |
 | Skin and hair browns | `#BE926E`, `#966B3D`, `#916D45`, `#A67356`, `#432E1D` | none |
 | SVG energy | `#EA5B0C`, `#FFC774`, `#FFB342`, `#FFA41E`, `#FF9C08`, `#F7EAC6` | none |
 
 - Observed distribution: light greys about 30 % of pixels, orange family about 15 %, white about 4 %, remainder skin, hair and gradient intermediates.
-- A color close to a token is **not** a match. Token selection: [`../guidelines/TOKENS.md`](../guidelines/TOKENS.md).
-- Orange and white: tokens. Greys, skin, hair, secondary clothing and shading: take the values from the closest references (decision 1); list them in the report as non-token, reference-derived colors. Never use them for backgrounds, titles or other communication elements.
+- A color close to a palette color is **not** a match. Palette: [`../colors/COLOR_PALETTE.md`](../colors/COLOR_PALETTE.md).
+- Brand orange: `orange`; white: per `COLOR_PALETTE.md`. Other oranges, greys, skin, hair, secondary clothing and shading: take the values from the closest references (decision 1); list them in the report as non-token, reference-derived colors. Never use them for backgrounds, titles or other communication elements.
 
 ## 6. Composition and legibility
 

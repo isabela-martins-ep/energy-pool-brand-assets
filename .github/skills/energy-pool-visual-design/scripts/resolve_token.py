@@ -4,10 +4,11 @@
 Read-only helper (standard library only). It never edits the exports.
 
 Usage:
-  resolve_token.py palette.orange-popsicle.orange-popsicle   # resolve one token
+  resolve_token.py energy-assets.solar.chart                 # resolve one token
   resolve_token.py --search orange                           # find tokens by name
   resolve_token.py --audit                                   # list unresolved references
 Run from anywhere; paths are computed from this file's location.
+The 8 brand colors are listed in colors/COLOR_PALETTE.md (no lookup needed).
 """
 import json
 import re
@@ -16,7 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[4]
 FILES = {
-    "primitive": ROOT / "colors" / "Default.tokens.json",
+    "energy-assets": ROOT / "colors" / "energy-assets.json",
     "component": ROOT / "colors" / "Mode 1.tokens 3.json",
     "typography": ROOT / "typography" / "Mode 1.tokens.json",
     "spacing": ROOT / "spacing" / "Mode 1.tokens 2.json",
@@ -34,8 +35,12 @@ def load():
                 tokens[".".join(trail)] = (source, node)
                 return
             for key, child in node.items():
-                if not key.startswith("$") and isinstance(child, dict):
+                if key.startswith("$"):
+                    continue
+                if isinstance(child, dict):
                     walk(child, trail + [key])
+                elif isinstance(child, str):
+                    tokens[".".join(trail + [key])] = (source, {"$value": child})
 
         walk(data, [])
     return tokens
